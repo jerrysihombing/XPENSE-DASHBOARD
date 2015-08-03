@@ -1,0 +1,3883 @@
+2|2015|101|Gas|.03|9518400
+2|2015|101|Water|.05|13695960
+2|2015|101|Package|.2|56024900
+2|2015|101|Electric|1.41|391243805
+2|2015|101|Telephone|.26|71142238
+2|2015|101|Office Supplies|1.42|394266946.37
+2|2015|101|Cost of Shrinkage|.92|254046548.12
+2|2015|101|Employee Salaries|3.83|1061390000
+2|2015|101|Officers Salaries|22.35|6198625067
+2|2015|101|Credit Card Charge|0|34000
+2|2015|101|Gasoline & Parking|.52|143299427
+2|2015|101|Employee Allowances|1.36|376592000
+2|2015|101|Building Maintenance|.01|1487500
+2|2015|101|Employee Overtime Premium|.1|26525464
+2|2015|101|Office Equipment Maintenance|.17|47263350
+2|2015|101|Provision for Inventory Lost|3.67|1019315288.57
+2|2015|102|Gas|0|-96255
+2|2015|102|Oil|.05|6092000
+2|2015|102|Water|.01|864488
+2|2015|102|Package|0|105000
+2|2015|102|Electric|2.29|281156376.4
+2|2015|102|Telephone|.03|4245109.1
+2|2015|102|Store Supplies|.11|13641772.01
+2|2015|102|Office Supplies|.03|3966350
+2|2015|102|Cost of Shrinkage|1.23|150753760.3
+2|2015|102|Employee Salaries|4.33|531225000
+2|2015|102|Officers Salaries|1.82|223575810
+2|2015|102|Credit Card Charge|.44|54364884
+2|2015|102|Gasoline & Parking|0|589000
+2|2015|102|Employee Allowances|1.66|204202000
+2|2015|102|Building Maintenance|.09|11027000
+2|2015|102|Employee Overtime Premium|.21|25545696
+2|2015|102|Officers Overtime premium|0|300000
+2|2015|102|Store Equipment Maintenance|.05|6662500
+2|2015|102|Office Equipment Maintenance|0|394902
+2|2015|102|Provision for Inventory Lost|.57|70142157.79
+2|2015|103|Gas|.04|1625000
+2|2015|103|Water|.01|376470
+2|2015|103|Package|0|12500
+2|2015|103|Electric|3.48|141937631
+2|2015|103|Telephone|.04|1482486
+2|2015|103|Store Supplies|.11|4351200
+2|2015|103|Office Supplies|.04|1517500
+2|2015|103|Cost of Shrinkage|.8|32590768.21
+2|2015|103|Employee Salaries|2.61|106455000
+2|2015|103|Officers Salaries|2.09|85167799
+2|2015|103|Credit Card Charge|.24|9850119.61
+2|2015|103|Gasoline & Parking|.03|1065600
+2|2015|103|Employee Allowances|1.25|50963000
+2|2015|103|Building Maintenance|.01|443000
+2|2015|103|Employee Overtime Premium|.07|2803421
+2|2015|103|Officers Overtime premium|0|75000
+2|2015|103|Store Equipment Maintenance|0|0
+2|2015|103|Office Equipment Maintenance|0|130000
+2|2015|103|Provision for Inventory Lost|.99|40295547.84
+2|2015|104|Gas|.04|4975100
+2|2015|104|Oil|.03|3192500
+2|2015|104|Water|.16|20246680
+2|2015|104|Package|0|421000
+2|2015|104|Electric|1.97|245666093
+2|2015|104|Telephone|.11|14350632
+2|2015|104|Store Supplies|.05|6296767.75
+2|2015|104|Office Supplies|.03|4371500
+2|2015|104|Cost of Shrinkage|.66|82680485.1
+2|2015|104|Employee Salaries|2.63|328010000
+2|2015|104|Officers Salaries|1.47|183362712
+2|2015|104|Credit Card Charge|.14|17923327
+2|2015|104|Gasoline & Parking|0|252200
+2|2015|104|Employee Allowances|1.12|140167000
+2|2015|104|Building Maintenance|.14|17865883
+2|2015|104|Employee Overtime Premium|.17|21062564
+2|2015|104|Officers Overtime premium|.01|975000
+2|2015|104|Store Equipment Maintenance|.09|11120000
+2|2015|104|Office Equipment Maintenance|.01|1270877
+2|2015|104|Provision for Inventory Lost|.14|17806498.62
+2|2015|106|Gas|.18|10403200
+2|2015|106|Water|.02|877500
+2|2015|106|Package|0|5500
+2|2015|106|Electric|1.97|112918406
+2|2015|106|Telephone|.07|3771428
+2|2015|106|Store Supplies|.36|20801706.83
+2|2015|106|Office Supplies|.08|4681500
+2|2015|106|Cost of Shrinkage|4.36|250402492.4
+2|2015|106|Employee Salaries|2.59|148762500
+2|2015|106|Officers Salaries|1.32|75898200
+2|2015|106|Credit Card Charge|.75|43160829
+2|2015|106|Gasoline & Parking|.01|515300
+2|2015|106|Employee Allowances|.91|52218000
+2|2015|106|Building Maintenance|.11|6394200
+2|2015|106|Employee Overtime Premium|.1|5844540
+2|2015|106|Officers Overtime premium|.01|450000
+2|2015|106|Store Equipment Maintenance|.03|1892660
+2|2015|106|Office Equipment Maintenance|0|250000
+2|2015|106|Provision for Inventory Lost|.83|47592701.35
+2|2015|107|Gas|1.12|6488300
+2|2015|107|Water|.01|67500
+2|2015|107|Electric|1.59|9203436
+2|2015|107|Telephone|.05|273205
+2|2015|107|Store Supplies|1.47|8466359
+2|2015|107|Office Supplies|.01|37500
+2|2015|107|Cost of Shrinkage|2.52|14577329.79
+2|2015|107|Employee Salaries|7.78|44935000
+2|2015|107|Credit Card Charge|.06|363838
+2|2015|107|Gasoline & Parking|0|12000
+2|2015|107|Employee Allowances|2.68|15500000
+2|2015|107|Employee Overtime Premium|.5|2881839
+2|2015|107|Store Equipment Maintenance|.05|275000
+2|2015|107|Provision for Inventory Lost|-.17|-990731.01
+2|2015|108|Gas|.05|2751000
+2|2015|108|Water|.02|1260000
+2|2015|108|Package|0|27500
+2|2015|108|Electric|.91|49046249.86
+2|2015|108|Telephone|.01|389080
+2|2015|108|Store Supplies|.19|10158002.67
+2|2015|108|Office Supplies|.07|3586710
+2|2015|108|Cost of Shrinkage|1.27|68872059.93
+2|2015|108|Employee Salaries|2.09|113030000
+2|2015|108|Officers Salaries|.94|50766087
+2|2015|108|Credit Card Charge|.43|23454280.06
+2|2015|108|Gasoline & Parking|0|102200
+2|2015|108|Employee Allowances|.73|39732000
+2|2015|108|Building Maintenance|-.11|-6000000
+2|2015|108|Employee Overtime Premium|-.17|-9406580
+2|2015|108|Officers Overtime premium|.01|300000
+2|2015|108|Store Equipment Maintenance|.03|1400000
+2|2015|108|Provision for Inventory Lost|.7|38120365.59
+2|2015|109|Water|.02|133000
+2|2015|109|Electric|.83|4879767
+2|2015|109|Telephone|.11|649635
+2|2015|109|Store Supplies|.16|962500
+2|2015|109|Office Supplies|.05|308000
+2|2015|109|Cost of Shrinkage|.37|2181898.11
+2|2015|109|Employee Salaries|4|23435000
+2|2015|109|Officers Salaries|2.22|13010800
+2|2015|109|Credit Card Charge|.1|611741.98
+2|2015|109|Gasoline & Parking|.01|71000
+2|2015|109|Employee Allowances|1.47|8625000
+2|2015|109|Building Maintenance|.02|96000
+2|2015|109|Employee Overtime Premium|.22|1267037
+2|2015|109|Store Equipment Maintenance|.39|2261043
+2|2015|109|Provision for Inventory Lost|.38|2228239.14
+2|2015|110|Water|.02|380000
+2|2015|110|Electric|1.86|39900792
+2|2015|110|Telephone|.08|1726902
+2|2015|110|Store Supplies|.17|3703426
+2|2015|110|Office Supplies|.07|1461650
+2|2015|110|Cost of Shrinkage|.72|15406004.81
+2|2015|110|Employee Salaries|2.78|59740000
+2|2015|110|Officers Salaries|.62|13251700
+2|2015|110|Credit Card Charge|.19|4157913.95
+2|2015|110|Gasoline & Parking|.01|203000
+2|2015|110|Employee Allowances|1.13|24278000
+2|2015|110|Building Maintenance|.02|475500
+2|2015|110|Employee Overtime Premium|.14|2910557
+2|2015|110|Officers Overtime premium|0|75000
+2|2015|110|Store Equipment Maintenance|.09|1980000
+2|2015|110|Provision for Inventory Lost|.12|2620822.47
+2|2015|111|Gas|.13|3358776
+2|2015|111|Water|.02|512107
+2|2015|111|Package|0|7000
+2|2015|111|Electric|2.55|67630322
+2|2015|111|Telephone|.13|3382783
+2|2015|111|Store Supplies|.16|4352904
+2|2015|111|Office Supplies|.05|1326250
+2|2015|111|Cost of Shrinkage|1.07|28391201.71
+2|2015|111|Employee Salaries|3.66|97005000
+2|2015|111|Officers Salaries|1.09|28852800
+2|2015|111|Credit Card Charge|.16|4286231.48
+2|2015|111|Gasoline & Parking|.01|244700
+2|2015|111|Employee Allowances|1.27|33791000
+2|2015|111|Employee Overtime Premium|.23|6102427
+2|2015|111|Officers Overtime premium|0|75000
+2|2015|125|Gas|1.43|9270000
+2|2015|229|Gas|.17|858000
+2|2015|229|Oil|.03|132000
+2|2015|229|Water|.01|51000
+2|2015|229|Electric|2.44|12485718
+2|2015|229|Telephone|.14|739015
+2|2015|229|Store Supplies|.12|609525
+2|2015|229|Office Supplies|.01|43161
+2|2015|229|Cost of Shrinkage|.99|5040126.14
+2|2015|229|Employee Salaries|4.34|22200000
+2|2015|229|Officers Salaries|1.59|8150000
+2|2015|229|Credit Card Charge|.06|317263
+2|2015|229|Gasoline & Parking|0|16000
+2|2015|229|Employee Allowances|0|0
+2|2015|229|Building Maintenance|.12|610000
+2|2015|229|Store Equipment Maintenance|.04|218000
+2|2015|229|Provision for Inventory Lost|.42|2127406.51
+2|2015|230|Oil|.07|1296700
+2|2015|230|Water|0|64500
+2|2015|230|Electric|1.19|21220044
+2|2015|230|Telephone|.04|733178
+2|2015|230|Store Supplies|-.03|-564212
+2|2015|230|Office Supplies|.05|958000
+2|2015|230|Cost of Shrinkage|.42|7432562.94
+2|2015|230|Employee Salaries|1.45|25955000
+2|2015|230|Officers Salaries|1.56|27925336
+2|2015|230|Credit Card Charge|.03|522026.73
+2|2015|230|Gasoline & Parking|0|75200
+2|2015|230|Employee Allowances|.5|8857000
+2|2015|230|Employee Overtime Premium|.1|1840867
+2|2015|230|Officers Overtime premium|0|75000
+2|2015|230|Store Equipment Maintenance|0|50000
+2|2015|230|Provision for Inventory Lost|-.02|-332794.29
+2|2015|231|Water|.02|40000
+2|2015|231|Electric|2.4|6386361
+2|2015|231|Telephone|.13|351882
+2|2015|231|Store Supplies|.19|513525
+2|2015|231|Office Supplies|.03|77200
+2|2015|231|Cost of Shrinkage|.73|1950074.86
+2|2015|231|Employee Salaries|2.7|7170000
+2|2015|231|Officers Salaries|2.33|6194000
+2|2015|231|Credit Card Charge|.1|271300
+2|2015|231|Gasoline & Parking|.03|90000
+2|2015|231|Store Equipment Maintenance|.17|460826
+2|2015|231|Provision for Inventory Lost|-.18|-483857.87
+2|2015|235|Water|.03|82500
+2|2015|235|Electric|2.63|6668406
+2|2015|235|Telephone|.13|335492
+2|2015|235|Store Supplies|.18|461166
+2|2015|235|Office Supplies|.03|81300
+2|2015|235|Cost of Shrinkage|.83|2092835.01
+2|2015|235|Employee Salaries|5.6|14175000
+2|2015|235|Officers Salaries|5.66|14336540
+2|2015|235|Credit Card Charge|.16|407335
+2|2015|235|Gasoline & Parking|.02|38000
+2|2015|235|Building Maintenance|0|0
+2|2015|235|Store Equipment Maintenance|.2|510000
+2|2015|235|Provision for Inventory Lost|.25|628892.39
+2|2015|236|Gas|.05|273500
+2|2015|236|Water|.07|351000
+2|2015|236|Electric|2.45|13004848
+2|2015|236|Telephone|.05|281965
+2|2015|236|Store Supplies|.2|1047775
+2|2015|236|Office Supplies|.11|587000
+2|2015|236|Cost of Shrinkage|.27|1425682.35
+2|2015|236|Employee Salaries|3.08|16375000
+2|2015|236|Officers Salaries|3.35|17781345
+2|2015|236|Credit Card Charge|.04|206625
+2|2015|236|Gasoline & Parking|.03|166500
+2|2015|236|Building Maintenance|.02|83000
+2|2015|236|Provision for Inventory Lost|.12|624995.81
+2|2015|237|Water|.32|366000
+2|2015|237|Electric|10.87|12414921
+2|2015|237|Telephone|.82|941423
+2|2015|237|Store Supplies|.03|38250
+2|2015|237|Office Supplies|.06|70000
+2|2015|237|Cost of Shrinkage|.09|103947.57
+2|2015|237|Employee Salaries|6.25|7140000
+2|2015|237|Officers Salaries|3.5|4000000
+2|2015|237|Employee Allowances|2.01|2300000
+2|2015|237|Employee Overtime Premium|.41|469536
+2|2015|237|Store Equipment Maintenance|.65|737846.15
+2|2015|238|Gas|.23|2696000
+2|2015|238|Water|.09|1068000
+2|2015|238|Electric|2.55|30100398
+2|2015|238|Telephone|.09|1038870
+2|2015|238|Store Supplies|.37|4379200
+2|2015|238|Office Supplies|.04|524750
+2|2015|238|Cost of Shrinkage|.5|5940836.71
+2|2015|238|Employee Salaries|4.05|47790000
+2|2015|238|Officers Salaries|1.52|17900000
+2|2015|238|Credit Card Charge|.17|2006983
+2|2015|238|Gasoline & Parking|.04|482800
+2|2015|238|Employee Allowances|.07|850000
+2|2015|238|Building Maintenance|.09|1020000
+2|2015|238|Store Equipment Maintenance|.21|2525000
+2|2015|238|Provision for Inventory Lost|.26|3056965.53
+2|2015|241|Gas|.06|268000
+2|2015|241|Water|.04|172250
+2|2015|241|Electric|2.37|10321301
+2|2015|241|Telephone|.11|489477
+2|2015|241|Store Supplies|.27|1185711
+2|2015|241|Cost of Shrinkage|.68|2979411.18
+2|2015|241|Employee Salaries|4.9|21320000
+2|2015|241|Officers Salaries|2.6|11300000
+2|2015|241|Credit Card Charge|.15|643446
+2|2015|241|Employee Allowances|0|0
+2|2015|241|Building Maintenance|.31|1354800
+2|2015|241|Store Equipment Maintenance|.23|1000000
+2|2015|241|Provision for Inventory Lost|.45|1955279.44
+2|2015|243|Gas|.09|1370000
+2|2015|243|Water|0|0
+2|2015|243|Electric|2.22|35258262
+2|2015|243|Telephone|.05|786818
+2|2015|243|Store Supplies|.19|3037027.5
+2|2015|243|Office Supplies|.06|1008000
+2|2015|243|Cost of Shrinkage|2.03|32343579.51
+2|2015|243|Employee Salaries|4.06|64570000
+2|2015|243|Officers Salaries|1.76|27992049
+2|2015|243|Credit Card Charge|.38|6086520.23
+2|2015|243|Gasoline & Parking|.01|204800
+2|2015|243|Employee Allowances|1.35|21470000
+2|2015|243|Building Maintenance|-.9|-14356000
+2|2015|243|Employee Overtime Premium|.1|1633838
+2|2015|243|Store Equipment Maintenance|.01|80000
+2|2015|243|Provision for Inventory Lost|.21|3395259.12
+2|2015|247|Gas|.1|734100
+2|2015|247|Water|.01|65000
+2|2015|247|Electric|1.28|9057890
+2|2015|247|Telephone|.15|1025851
+2|2015|247|Store Supplies|.09|611500
+2|2015|247|Office Supplies|.19|1321342.86
+2|2015|247|Cost of Shrinkage|.3|2104507.84
+2|2015|247|Employee Salaries|4.99|35230000
+2|2015|247|Officers Salaries|1.7|11985000
+2|2015|247|Credit Card Charge|.2|1402713
+2|2015|247|Gasoline & Parking|.14|975700
+2|2015|247|Building Maintenance|.09|620000
+2|2015|247|Store Equipment Maintenance|.18|1266000
+2|2015|247|Provision for Inventory Lost|.99|6956960.38
+2|2015|248|Gas|.07|280000
+2|2015|248|Water|.02|67500
+2|2015|248|Electric|2.6|9947206
+2|2015|248|Telephone|.15|570546
+2|2015|248|Store Supplies|.08|296900
+2|2015|248|Office Supplies|.05|176100
+2|2015|248|Cost of Shrinkage|.41|1582642.05
+2|2015|248|Employee Salaries|4.89|18660000
+2|2015|248|Officers Salaries|1.92|7340198
+2|2015|248|Credit Card Charge|.04|140103
+2|2015|248|Gasoline & Parking|.01|20000
+2|2015|248|Building Maintenance|.02|83000
+2|2015|248|Employee Overtime Premium|-.22|-842742
+2|2015|248|Provision for Inventory Lost|.11|421244.11
+2|2015|401|Water|8.66|9517800
+2|2015|401|Electric|86.21|94747369
+2|2015|401|Telephone|4.81|5292084
+2|2015|401|Store Supplies|.75|822500
+2|2015|401|Office Supplies|23.36|25679762
+2|2015|401|Cost of Shrinkage|-.47|-519872.83
+2|2015|401|Employee Salaries|5.33|5858226
+2|2015|401|Officers Salaries|550.77|605347431
+2|2015|401|Credit Card Charge|0|0
+2|2015|401|Gasoline & Parking|22.92|25185996
+2|2015|401|Employee Allowances|.09|100000
+2|2015|401|Officers Allowances|36.83|40477500
+2|2015|401|Building Maintenance|9.96|10946100
+2|2015|401|Employee Overtime Premium|.35|384884
+2|2015|401|Officers Overtime premium|.35|389885
+2|2015|401|Store Equipment Maintenance|.29|320000
+2|2015|401|Office Equipment Maintenance|18.03|19812854
+2|2015|401|Provision for Inventory Lost|23.52|25846977.25
+2|2015|403|Gas|.08|365454.55
+2|2015|403|Water|0|18500
+2|2015|403|Electric|2.74|12003969.76
+2|2015|403|Telephone|.05|227045
+2|2015|403|Store Supplies|.14|592098
+2|2015|403|Cost of Shrinkage|.59|2593554.3
+2|2015|403|Employee Salaries|3.27|14333871
+2|2015|403|Officers Salaries|.71|3133200
+2|2015|403|Employee Allowances|.08|350000
+2|2015|403|Officers Allowances|.02|105000
+2|2015|403|Store Equipment Maintenance|.15|640000
+2|2015|403|Provision for Inventory Lost|.41|1797054.93
+2|2015|404|Gas|.13|402000
+2|2015|404|Water|0|14500
+2|2015|404|Electric|2.24|7001233
+2|2015|404|Telephone|.03|90370
+2|2015|404|Store Supplies|.24|736735
+2|2015|404|Cost of Shrinkage|.98|3054621.3
+2|2015|404|Employee Salaries|3.92|12270000
+2|2015|404|Officers Salaries|1.78|5575900
+2|2015|404|Employee Allowances|.13|400000
+2|2015|404|Officers Allowances|.03|105000
+2|2015|404|Building Maintenance|.09|279500
+2|2015|404|Store Equipment Maintenance|.11|332100
+2|2015|404|Provision for Inventory Lost|.75|2342826.74
+2|2015|408|Electric|2.53|3900828
+2|2015|408|Telephone|.06|85860
+2|2015|408|Store Supplies|.34|528739
+2|2015|408|Cost of Shrinkage|.27|411473.96
+2|2015|408|Employee Salaries|3.98|6135000
+2|2015|408|Officers Salaries|3.59|5531900
+2|2015|408|Employee Allowances|.13|200000
+2|2015|408|Officers Allowances|.15|227500
+2|2015|408|Building Maintenance|.16|241000
+2|2015|408|Store Equipment Maintenance|.06|100000
+2|2015|408|Provision for Inventory Lost|.24|362928.32
+2|2015|411|Water|.02|42300
+2|2015|411|Electric|1.57|3686718
+2|2015|411|Telephone|.12|278060
+2|2015|411|Store Supplies|.13|314767
+2|2015|411|Cost of Shrinkage|.06|143101.14
+2|2015|411|Employee Salaries|5.14|12050000
+2|2015|411|Officers Salaries|1.41|3301800
+2|2015|411|Employee Allowances|.13|300000
+2|2015|411|Officers Allowances|.06|140000
+2|2015|411|Building Maintenance|.1|232500
+2|2015|411|Store Equipment Maintenance|.06|150000
+2|2015|411|Provision for Inventory Lost|.12|277679.59
+2|2015|413|Water|.02|28600
+2|2015|413|Electric|2.41|4600000
+2|2015|413|Telephone|.08|152960
+2|2015|413|Store Supplies|.27|521602
+2|2015|413|Cost of Shrinkage|1.38|2635336.47
+2|2015|413|Employee Salaries|3.68|7005000
+2|2015|413|Officers Salaries|2.94|5607900
+2|2015|413|Employee Allowances|.1|200000
+2|2015|413|Officers Allowances|.1|192500
+2|2015|413|Store Equipment Maintenance|.08|150000
+2|2015|413|Provision for Inventory Lost|-.2|-373732.43
+2|2015|414|Water|.08|84800
+2|2015|414|Electric|2.42|2438725
+2|2015|414|Telephone|.02|22500
+2|2015|414|Store Supplies|.32|327964
+2|2015|414|Cost of Shrinkage|.39|391142.56
+2|2015|414|Employee Salaries|8.3|8373871
+2|2015|414|Officers Salaries|2.96|2985800
+2|2015|414|Employee Allowances|.3|300000
+2|2015|414|Officers Allowances|.12|122500
+2|2015|414|Building Maintenance|.05|54500
+2|2015|414|Store Equipment Maintenance|.68|688000
+2|2015|414|Provision for Inventory Lost|2.23|2249205.65
+2|2015|415|Water|.13|120300
+2|2015|415|Electric|4.1|3845370
+2|2015|415|Telephone|.11|102085
+2|2015|415|Store Supplies|.29|271694
+2|2015|415|Cost of Shrinkage|.58|542311.14
+2|2015|415|Employee Salaries|2.29|2150000
+2|2015|415|Officers Salaries|6.16|5775900
+2|2015|415|Officers Allowances|.17|157500
+2|2015|415|Building Maintenance|.14|130000
+2|2015|415|Store Equipment Maintenance|.36|335000
+2|2015|415|Provision for Inventory Lost|.48|449300.68
+2|2015|416|Water|.03|49200
+2|2015|416|Electric|2.64|3729601
+2|2015|416|Telephone|.2|281910
+2|2015|416|Store Supplies|.29|413211
+2|2015|416|Cost of Shrinkage|.1|141041.57
+2|2015|416|Employee Salaries|5.08|7177742
+2|2015|416|Officers Salaries|2.21|3128600
+2|2015|416|Employee Allowances|.07|100000
+2|2015|416|Officers Allowances|.11|157500
+2|2015|416|Building Maintenance|.15|210500
+2|2015|416|Employee Overtime Premium|.11|156879
+2|2015|416|Store Equipment Maintenance|.07|100000
+2|2015|416|Provision for Inventory Lost|2.04|2885507.49
+2|2015|417|Water|.01|31500
+2|2015|417|Electric|1.11|3206228
+2|2015|417|Telephone|.08|228805
+2|2015|417|Store Supplies|.14|395553
+2|2015|417|Cost of Shrinkage|1.41|4063915.57
+2|2015|417|Employee Salaries|2.43|7003871
+2|2015|417|Officers Salaries|2.1|6051000
+2|2015|417|Employee Allowances|.1|300000
+2|2015|417|Officers Allowances|.07|210000
+2|2015|417|Store Equipment Maintenance|.02|50000
+2|2015|417|Provision for Inventory Lost|.4|1164996.77
+2|2015|418|Water|.01|9000
+2|2015|418|Electric|2.62|3716870
+2|2015|418|Telephone|.06|85860
+2|2015|418|Store Supplies|.45|637454
+2|2015|418|Cost of Shrinkage|.73|1037250.08
+2|2015|418|Employee Salaries|3.59|5097500
+2|2015|418|Officers Salaries|1.94|2760500
+2|2015|418|Employee Allowances|.07|100000
+2|2015|418|Officers Allowances|.02|35000
+2|2015|418|Building Maintenance|.02|33000
+2|2015|418|Employee Overtime Premium|.22|313757
+2|2015|418|Store Equipment Maintenance|.11|150000
+2|2015|418|Provision for Inventory Lost|1.65|2344529.3
+2|2015|419|Water|0|20500
+2|2015|419|Electric|1.64|9192277
+2|2015|419|Telephone|.02|129860
+2|2015|419|Store Supplies|.13|744142
+2|2015|419|Cost of Shrinkage|.1|557243.21
+2|2015|419|Employee Salaries|2.23|12484032
+2|2015|419|Officers Salaries|.61|3402500
+2|2015|419|Employee Allowances|.07|400000
+2|2015|419|Building Maintenance|.02|95000
+2|2015|419|Store Equipment Maintenance|.09|500000
+2|2015|419|Provision for Inventory Lost|0|-24338.16
+2|2015|420|Water|.01|29000
+2|2015|420|Electric|2|3923030
+2|2015|420|Telephone|.03|58360
+2|2015|420|Store Supplies|.18|358750
+2|2015|420|Cost of Shrinkage|.1|195840.26
+2|2015|420|Employee Salaries|2.47|4859655
+2|2015|420|Officers Salaries|2.9|5703200
+2|2015|420|Employee Allowances|.13|250000
+2|2015|420|Building Maintenance|0|6000
+2|2015|420|Store Equipment Maintenance|.07|133500
+2|2015|420|Provision for Inventory Lost|5.01|9849592.03
+2|2015|421|Water|.07|174300
+2|2015|421|Electric|2.67|6319350
+2|2015|421|Telephone|.07|154610
+2|2015|421|Store Supplies|.19|441580
+2|2015|421|Cost of Shrinkage|.89|2104732.27
+2|2015|421|Employee Salaries|5.16|12225000
+2|2015|421|Officers Salaries|1.32|3133200
+2|2015|421|Inventory Variance|-.01|-30542
+2|2015|421|Employee Allowances|.04|100000
+2|2015|421|Building Maintenance|.17|400000
+2|2015|421|Store Equipment Maintenance|.77|1814000
+2|2015|421|Provision for Inventory Lost|.35|826902.97
+2|2015|422|Water|.03|79300
+2|2015|422|Electric|.07|166700
+2|2015|422|Telephone|.03|77500
+2|2015|422|Store Supplies|.2|448015
+2|2015|422|Cost of Shrinkage|.9|2045224.23
+2|2015|422|Employee Salaries|2.7|6135000
+2|2015|422|Officers Salaries|2.52|5727000
+2|2015|422|Employee Allowances|.09|200000
+2|2015|422|Officers Allowances|.08|175000
+2|2015|422|Building Maintenance|.31|700000
+2|2015|422|Store Equipment Maintenance|.07|170000
+2|2015|423|Water|.12|232780
+2|2015|423|Electric|1.93|3661410
+2|2015|423|Telephone|.05|85860
+2|2015|423|Store Supplies|.13|242300
+2|2015|423|Cost of Shrinkage|.3|571763.96
+2|2015|423|Employee Salaries|6.13|11623900
+2|2015|423|Officers Salaries|1.65|3133200
+2|2015|423|Gasoline & Parking|.03|52500
+2|2015|423|Employee Allowances|.11|200000
+2|2015|423|Building Maintenance|.02|40000
+2|2015|423|Store Equipment Maintenance|.03|50000
+2|2015|423|Provision for Inventory Lost|.19|365079.05
+2|2015|424|Electric|5.82|4422611
+2|2015|424|Telephone|.09|66610
+2|2015|424|Store Supplies|.45|340150
+2|2015|424|Cost of Shrinkage|.8|606314.09
+2|2015|424|Employee Salaries|6.21|4720000
+2|2015|424|Officers Salaries|8.21|6242500
+2|2015|424|Employee Allowances|.26|200000
+2|2015|424|Officers Allowances|.35|262500
+2|2015|424|Building Maintenance|.24|180000
+2|2015|424|Store Equipment Maintenance|.2|150000
+2|2015|424|Provision for Inventory Lost|.68|513796.38
+2|2015|425|Water|.07|110600
+2|2015|425|Electric|3.02|4679560
+2|2015|425|Telephone|.06|92499
+2|2015|425|Store Supplies|.22|334389
+2|2015|425|Cost of Shrinkage|.23|363694.1
+2|2015|425|Employee Salaries|1.52|2360000
+2|2015|425|Officers Salaries|3.73|5793800
+2|2015|425|Officers Allowances|.15|227500
+2|2015|425|Building Maintenance|.04|65000
+2|2015|425|Store Equipment Maintenance|.1|150000
+2|2015|426|Water|.01|19000
+2|2015|426|Electric|1.75|2703501
+2|2015|426|Telephone|.06|96310
+2|2015|426|Store Supplies|.18|280055
+2|2015|426|Cost of Shrinkage|.09|140624.31
+2|2015|426|Employee Salaries|4.13|6390000
+2|2015|426|Officers Salaries|3.85|5959500
+2|2015|426|Employee Allowances|.13|200000
+2|2015|426|Employee Overtime Premium|.09|135939
+2|2015|426|Store Equipment Maintenance|.06|100000
+2|2015|426|Provision for Inventory Lost|.13|203288.55
+2|2015|427|Water|.17|278500
+2|2015|427|Electric|2.55|4065803
+2|2015|427|Telephone|.16|252290
+2|2015|427|Store Supplies|.35|554368
+2|2015|427|Cost of Shrinkage|.19|301767.32
+2|2015|427|Employee Salaries|5.29|8430000
+2|2015|427|Officers Salaries|1.96|3128600
+2|2015|427|Employee Allowances|.19|300000
+2|2015|427|Officers Allowances|.09|140000
+2|2015|427|Store Equipment Maintenance|.09|150000
+2|2015|427|Provision for Inventory Lost|.99|1581492.96
+2|2015|428|Water|.09|48000
+2|2015|428|Electric|6.26|3212406
+2|2015|428|Telephone|.11|58360
+2|2015|428|Store Supplies|.38|192913
+2|2015|428|Cost of Shrinkage|.61|312936.5
+2|2015|428|Employee Salaries|8.45|4340000
+2|2015|428|Officers Salaries|5.15|2641400
+2|2015|428|Officers Allowances|.2|105000
+2|2015|428|Building Maintenance|.04|20000
+2|2015|428|Store Equipment Maintenance|.19|100000
+2|2015|429|Gas|.21|730909.1
+2|2015|429|Water|.01|28500
+2|2015|429|Electric|1.97|7002957
+2|2015|429|Telephone|.05|172595
+2|2015|429|Store Supplies|.17|615074
+2|2015|429|Cost of Shrinkage|.43|1519808.63
+2|2015|429|Employee Salaries|2.72|9690000
+2|2015|429|Officers Salaries|1.64|5830000
+2|2015|429|Employee Allowances|.01|50000
+2|2015|429|Officers Allowances|.03|105000
+2|2015|429|Building Maintenance|.02|67000
+2|2015|429|Store Equipment Maintenance|.04|150000
+2|2015|429|Provision for Inventory Lost|7.63|27158985.2
+2|2015|430|Water|.08|108200
+2|2015|430|Electric|2.05|2754314
+2|2015|430|Telephone|.05|64135
+2|2015|430|Store Supplies|.36|478660
+2|2015|430|Cost of Shrinkage|.2|262321.42
+2|2015|430|Employee Salaries|3.76|5046129
+2|2015|430|Officers Salaries|2.06|2760500
+2|2015|430|Employee Allowances|.07|100000
+2|2015|430|Officers Allowances|.14|192500
+2|2015|430|Building Maintenance|.02|23000
+2|2015|430|Store Equipment Maintenance|.11|150000
+2|2015|430|Provision for Inventory Lost|.95|1278757.01
+2|2015|431|Water|.05|81700
+2|2015|431|Electric|1.6|2537049
+2|2015|431|Telephone|.09|138660
+2|2015|431|Store Supplies|.32|509639
+2|2015|431|Cost of Shrinkage|.22|352748.19
+2|2015|431|Employee Salaries|4.62|7313387
+2|2015|431|Officers Salaries|2|3157200
+2|2015|431|Employee Allowances|.21|325000
+2|2015|431|Officers Allowances|.06|87500
+2|2015|431|Building Maintenance|.06|100000
+2|2015|431|Store Equipment Maintenance|.12|190000
+2|2015|431|Provision for Inventory Lost|.35|558479.58
+2|2015|432|Gas|.09|282500
+2|2015|432|Water|.01|46500
+2|2015|432|Electric|2.61|8084278
+2|2015|432|Telephone|.04|115835
+2|2015|432|Store Supplies|.14|441419
+2|2015|432|Cost of Shrinkage|1.37|4255630.35
+2|2015|432|Employee Salaries|5.41|16770000
+2|2015|432|Officers Salaries|1.12|3478600
+2|2015|432|Gasoline & Parking|0|1500
+2|2015|432|Employee Allowances|.16|500000
+2|2015|432|Officers Allowances|.04|122500
+2|2015|432|Building Maintenance|.1|320000
+2|2015|432|Store Equipment Maintenance|.61|1880000
+2|2015|432|Provision for Inventory Lost|-.22|-697476.68
+2|2015|433|Water|.01|23600
+2|2015|433|Electric|1.87|3711744
+2|2015|433|Telephone|.08|158735
+2|2015|433|Store Supplies|.15|294905
+2|2015|433|Cost of Shrinkage|.42|832991.38
+2|2015|433|Employee Salaries|3.19|6320000
+2|2015|433|Officers Salaries|1.58|3133200
+2|2015|433|Employee Allowances|.05|100000
+2|2015|433|Officers Allowances|.05|105000
+2|2015|433|Building Maintenance|.01|14000
+2|2015|433|Store Equipment Maintenance|.05|100000
+2|2015|434|Water|.02|33300
+2|2015|434|Electric|2.08|3282408
+2|2015|434|Telephone|.08|131785
+2|2015|434|Store Supplies|.18|278239
+2|2015|434|Cost of Shrinkage|.31|488890.68
+2|2015|434|Employee Salaries|4.65|7330000
+2|2015|434|Officers Salaries|2.02|3180900
+2|2015|434|Employee Allowances|.06|100000
+2|2015|434|Officers Allowances|.07|105000
+2|2015|434|Store Equipment Maintenance|.13|200000
+2|2015|434|Provision for Inventory Lost|.33|512113.62
+2|2015|435|Water|.14|164500
+2|2015|435|Electric|3.3|3807332
+2|2015|435|Telephone|.07|75410
+2|2015|435|Store Supplies|.11|126011
+2|2015|435|Cost of Shrinkage|.13|151475.81
+2|2015|435|Employee Salaries|5.31|6135000
+2|2015|435|Officers Salaries|5.08|5865200
+2|2015|435|Officers Allowances|.18|210000
+2|2015|435|Building Maintenance|.11|130000
+2|2015|435|Store Equipment Maintenance|.16|180000
+2|2015|435|Provision for Inventory Lost|16.99|19627803.58
+2|2015|436|Water|.1|94600
+2|2015|436|Electric|3.23|3179288
+2|2015|436|Telephone|.09|88060
+2|2015|436|Store Supplies|.13|124400
+2|2015|436|Cost of Shrinkage|.44|434111.32
+2|2015|436|Employee Salaries|4.79|4720000
+2|2015|436|Officers Salaries|5.76|5679400
+2|2015|436|Employee Allowances|.1|100000
+2|2015|436|Officers Allowances|.21|210000
+2|2015|436|Store Equipment Maintenance|.19|190000
+2|2015|436|Provision for Inventory Lost|1.57|1543427.13
+2|2015|437|Gas|.23|365454.55
+2|2015|437|Water|.04|67900
+2|2015|437|Electric|4.61|7250000
+2|2015|437|Telephone|.08|120510
+2|2015|437|Store Supplies|.46|722645
+2|2015|437|Cost of Shrinkage|1.76|2767589.08
+2|2015|437|Employee Salaries|5.21|8180000
+2|2015|437|Officers Salaries|3.57|5603300
+2|2015|437|Employee Allowances|.13|200000
+2|2015|437|Officers Allowances|.16|245000
+2|2015|437|Building Maintenance|1.2|1879428.39
+2|2015|437|Store Equipment Maintenance|.17|262900
+2|2015|437|Provision for Inventory Lost|.34|534943.97
+2|2015|438|Water|.01|25800
+2|2015|438|Electric|2.33|7654220
+2|2015|438|Telephone|.04|145810
+2|2015|438|Store Supplies|.13|412485
+2|2015|438|Cost of Shrinkage|.18|592861.56
+2|2015|438|Employee Salaries|2.82|9288871
+2|2015|438|Officers Salaries|1.78|5837800
+2|2015|438|Employee Allowances|.06|200000
+2|2015|438|Officers Allowances|.07|227500
+2|2015|438|Employee Overtime Premium|.14|470637
+2|2015|438|Store Equipment Maintenance|.06|200000
+2|2015|438|Provision for Inventory Lost|.95|3135478.07
+2|2015|439|Water|.11|149000
+2|2015|439|Electric|1.38|1917774
+2|2015|439|Telephone|.06|84485
+2|2015|439|Store Supplies|.2|274602
+2|2015|439|Cost of Shrinkage|.13|178036.97
+2|2015|439|Employee Salaries|4|5573000
+2|2015|439|Officers Salaries|1.96|2736600
+2|2015|111|Store Equipment Maintenance|.06|1577500
+2|2015|111|Provision for Inventory Lost|-.06|-1573687.72
+2|2015|112|Electric|3.35|2748200
+2|2015|112|Store Supplies|.01|6000
+2|2015|112|Cost of Shrinkage|3.39|2773622.87
+2|2015|112|Employee Salaries|5.54|4535000
+2|2015|112|Gasoline & Parking|.15|119100
+2|2015|112|Employee Allowances|1.97|1614000
+2|2015|112|Employee Overtime Premium|.33|274277
+2|2015|112|Provision for Inventory Lost|-.02|-12831.34
+2|2015|114|Cost of Shrinkage|1.07|1230614.15
+2|2015|114|Employee Salaries|3.15|3630000
+2|2015|114|Officers Salaries|2.95|3400000
+2|2015|114|Credit Card Charge|0|1188
+2|2015|114|Gasoline & Parking|.03|30000
+2|2015|114|Employee Allowances|1.07|1230000
+2|2015|114|Employee Overtime Premium|.09|100000
+2|2015|114|Store Equipment Maintenance|.18|210000
+2|2015|116|Gas|.08|2086000
+2|2015|116|Oil|.1|2850000
+2|2015|116|Package|0|19000
+2|2015|116|Electric|3.03|83704247
+2|2015|116|Telephone|.11|3036610
+2|2015|116|Store Supplies|.26|7157300.92
+2|2015|116|Office Supplies|.05|1308000
+2|2015|116|Cost of Shrinkage|.68|18867523.98
+2|2015|116|Employee Salaries|2.66|73472100
+2|2015|116|Officers Salaries|2.07|57006318
+2|2015|116|Credit Card Charge|.01|201462
+2|2015|116|Gasoline & Parking|0|40000
+2|2015|116|Employee Allowances|.93|25779000
+2|2015|116|Building Maintenance|.12|3230000
+2|2015|116|Employee Overtime Premium|.15|4084444
+2|2015|116|Officers Overtime premium|.02|577500
+2|2015|116|Store Equipment Maintenance|.38|10539500
+2|2015|116|Office Equipment Maintenance|.05|1399000
+2|2015|116|Provision for Inventory Lost|.58|16131046.72
+2|2015|117|Gas|.05|1196000
+2|2015|117|Oil|.17|3800000
+2|2015|117|Water|0|59000
+2|2015|117|Electric|2.93|66807318
+2|2015|117|Telephone|.04|816083
+2|2015|117|Store Supplies|.07|1613425
+2|2015|117|Office Supplies|.02|486000
+2|2015|117|Cost of Shrinkage|.68|15387496.98
+2|2015|117|Employee Salaries|2.5|56919000
+2|2015|117|Officers Salaries|2.06|46958201
+2|2015|117|Credit Card Charge|.02|413632.91
+2|2015|117|Gasoline & Parking|.01|150000
+2|2015|117|Employee Allowances|.9|20450000
+2|2015|117|Employee Overtime Premium|.12|2667063
+2|2015|117|Store Equipment Maintenance|.1|2210000
+2|2015|117|Provision for Inventory Lost|-.06|-1412134.78
+2|2015|118|Gas|.16|4154253
+2|2015|118|Water|.03|832000.2
+2|2015|118|Electric|4.27|113057372
+2|2015|118|Telephone|.08|2018126
+2|2015|118|Store Supplies|.42|11126734.91
+2|2015|118|Office Supplies|.09|2274500
+2|2015|118|Cost of Shrinkage|.87|22927489.91
+2|2015|118|Employee Salaries|4.11|108805000
+2|2015|118|Officers Salaries|3.58|94786846
+2|2015|118|Credit Card Charge|.06|1461341.65
+2|2015|118|Gasoline & Parking|.01|163000
+2|2015|118|Employee Allowances|1.29|34020000
+2|2015|118|Building Maintenance|.04|1076000.2
+2|2015|118|Employee Overtime Premium|.13|3403400
+2|2015|118|Officers Overtime premium|0|90000
+2|2015|118|Provision for Inventory Lost|.49|12945143.59
+2|2015|119|Gas|.03|1190400
+2|2015|119|Water|.03|1283000
+2|2015|119|Electric|3.83|150786626
+2|2015|119|Telephone|.09|3376999
+2|2015|119|Store Supplies|.18|7253510.81
+2|2015|119|Office Supplies|.11|4208400
+2|2015|119|Cost of Shrinkage|.78|30910608.49
+2|2015|119|Employee Salaries|3.12|122985000
+2|2015|119|Officers Salaries|2.84|111689336
+2|2015|119|Credit Card Charge|.13|5075354.5
+2|2015|119|Gasoline & Parking|0|100000
+2|2015|119|Employee Allowances|.99|38820000
+2|2015|119|Building Maintenance|.07|2831500
+2|2015|119|Employee Overtime Premium|.07|2828441
+2|2015|119|Officers Overtime premium|.01|270000
+2|2015|119|Store Equipment Maintenance|.42|16671500
+2|2015|119|Provision for Inventory Lost|.33|12810537.72
+2|2015|120|Gas|.06|2392000
+2|2015|120|Water|.01|293000
+2|2015|120|Package|0|57500
+2|2015|120|Electric|3.53|140117186
+2|2015|120|Telephone|.04|1633394
+2|2015|120|Store Supplies|.27|10681209.4
+2|2015|120|Office Supplies|.09|3653851
+2|2015|120|Cost of Shrinkage|.49|19326805.87
+2|2015|120|Employee Salaries|2.14|84970000
+2|2015|120|Officers Salaries|1.97|78104200
+2|2015|120|Credit Card Charge|.07|2853105
+2|2015|120|Gasoline & Parking|0|172000
+2|2015|120|Employee Allowances|.65|25950000
+2|2015|120|Building Maintenance|.08|3119501
+2|2015|120|Employee Overtime Premium|.06|2360551
+2|2015|120|Officers Overtime premium|0|150000
+2|2015|120|Office Equipment Maintenance|0|175000
+2|2015|120|Provision for Inventory Lost|.55|21915369.39
+2|2015|121|Water|.03|777970
+2|2015|121|Package|0|11000
+2|2015|121|Electric|.93|27469914.8
+2|2015|121|Telephone|.04|1141007.7
+2|2015|121|Store Supplies|.16|4670948
+2|2015|121|Office Supplies|.04|1125750
+2|2015|121|Cost of Shrinkage|.4|11792968.86
+2|2015|121|Employee Salaries|3.78|111565000
+2|2015|121|Officers Salaries|1.91|56303292
+2|2015|121|Credit Card Charge|.07|2185487
+2|2015|121|Gasoline & Parking|0|110400
+2|2015|121|Employee Allowances|1.45|42598000
+2|2015|121|Employee Overtime Premium|.13|3747941
+2|2015|121|Store Equipment Maintenance|.14|4210000
+2|2015|121|Office Equipment Maintenance|0|98469
+2|2015|121|Provision for Inventory Lost|.04|1270423.36
+2|2015|122|Gas|.05|8110000
+2|2015|122|Oil|0|-321667
+2|2015|122|Water|.02|2439000
+2|2015|122|Package|0|25100
+2|2015|122|Electric|1.47|230580738
+2|2015|122|Telephone|.04|6911810
+2|2015|122|Store Supplies|.12|19077495
+2|2015|122|Office Supplies|.06|9421150
+2|2015|122|Cost of Shrinkage|.45|71178670.11
+2|2015|122|Employee Salaries|2.71|424400000
+2|2015|122|Officers Salaries|1.28|199723604
+2|2015|122|Credit Card Charge|.32|50743370
+2|2015|122|Gasoline & Parking|.01|894000
+2|2015|122|Employee Allowances|.99|155618000
+2|2015|122|Building Maintenance|.06|9489693
+2|2015|122|Employee Overtime Premium|.12|18561906
+2|2015|122|Officers Overtime premium|.01|825000
+2|2015|122|Store Equipment Maintenance|.13|19698052
+2|2015|122|Office Equipment Maintenance|0|199436
+2|2015|122|Provision for Inventory Lost|.07|11431807.43
+2|2015|123|Gas|.03|4096000
+2|2015|123|Water|.01|1476200
+2|2015|123|Package|0|127500
+2|2015|123|Electric|1.07|132277442
+2|2015|123|Telephone|.06|7256248
+2|2015|123|Store Supplies|.24|29960681
+2|2015|123|Office Supplies|.04|4907300
+2|2015|123|Cost of Shrinkage|.66|81962425.67
+2|2015|123|Employee Salaries|2.33|288445000
+2|2015|123|Officers Salaries|1.43|177593391
+2|2015|123|Credit Card Charge|.16|20350914.42
+2|2015|123|Gasoline & Parking|0|150000
+2|2015|123|Employee Allowances|.79|97762000
+2|2015|123|Building Maintenance|.03|3783450
+2|2015|123|Employee Overtime Premium|.11|13159407
+2|2015|123|Officers Overtime premium|0|375000
+2|2015|123|Store Equipment Maintenance|.04|5473386.33
+2|2015|123|Office Equipment Maintenance|0|161568
+2|2015|123|Provision for Inventory Lost|.32|39663011.48
+2|2015|124|Gas|.01|150000
+2|2015|124|Oil|.12|3174200
+2|2015|124|Water|0|63250
+2|2015|124|Electric|3.56|92493429
+2|2015|124|Telephone|.06|1669749
+2|2015|124|Store Supplies|.94|24419821
+2|2015|124|Office Supplies|.05|1316000
+2|2015|124|Cost of Shrinkage|.43|11092749.08
+2|2015|124|Employee Salaries|3.46|89774200
+2|2015|124|Officers Salaries|3.03|78801371
+2|2015|124|Credit Card Charge|.08|2099873.81
+2|2015|124|Gasoline & Parking|.11|2860000
+2|2015|124|Employee Allowances|1.13|29276000
+2|2015|124|Building Maintenance|.1|2695000
+2|2015|124|Employee Overtime Premium|.13|3408123
+2|2015|124|Store Equipment Maintenance|.02|450000
+2|2015|124|Provision for Inventory Lost|.5|12987184.06
+2|2015|125|Water|.09|595000
+2|2015|125|Electric|9.59|62288043
+2|2015|125|Telephone|.38|2486540
+2|2015|125|Store Supplies|.42|2701900
+2|2015|125|Office Supplies|.08|520400
+2|2015|125|Cost of Shrinkage|1.85|11997276.86
+2|2015|125|Employee Salaries|15.1|98110000
+2|2015|125|Officers Salaries|6.57|42710563
+2|2015|125|Gasoline & Parking|.01|78000
+2|2015|125|Employee Allowances|5.86|38096000
+2|2015|125|Building Maintenance|1.29|8392000
+2|2015|125|Employee Overtime Premium|2.17|14106468
+2|2015|125|Office Equipment Maintenance|.14|930000
+2|2015|125|Provision for Inventory Lost|-2.07|-13455397.97
+2|2015|126|Package|.11|75000
+2|2015|126|Telephone|1.84|1257847
+2|2015|126|Store Supplies|1.27|869000
+2|2015|126|Office Supplies|3.07|2100000
+2|2015|126|Employee Salaries|11.38|7775000
+2|2015|126|Gasoline & Parking|6.53|4463500
+2|2015|126|Employee Allowances|4.69|3205000
+2|2015|126|Building Maintenance|2.05|1400000
+2|2015|126|Employee Overtime Premium|.22|147890
+2|2015|127|Gas|2.56|8703000
+2|2015|127|Water|.07|253000
+2|2015|127|Electric|6.35|21582007
+2|2015|127|Telephone|.46|1562062
+2|2015|127|Office Supplies|.22|761847.76
+2|2015|127|Cost of Shrinkage|.16|540207.58
+2|2015|127|Employee Salaries|16.48|55985000
+2|2015|127|Officers Salaries|12.71|43161770
+2|2015|127|Gasoline & Parking|10.21|34672891
+2|2015|127|Employee Allowances|6.93|23540000
+2|2015|127|Building Maintenance|.14|471000
+2|2015|127|Employee Overtime Premium|1.02|3467307
+2|2015|127|Office Equipment Maintenance|2.01|6834784.85
+2|2015|127|Provision for Inventory Lost|.05|169433.3
+2|2015|129|Gas|.49|1608000
+2|2015|129|Water|.07|215292.5
+2|2015|129|Electric|9.55|31496660.2
+2|2015|129|Telephone|.12|406999.68
+2|2015|129|Store Supplies|.54|1788983.09
+2|2015|129|Office Supplies|.03|109000
+2|2015|129|Cost of Shrinkage|1.98|6511494.51
+2|2015|129|Employee Salaries|13.26|43724800
+2|2015|129|Officers Salaries|3.95|13009833
+2|2015|129|Credit Card Charge|.01|46085
+2|2015|129|Gasoline & Parking|.04|116000
+2|2015|129|Employee Allowances|4.76|15705000
+2|2015|129|Building Maintenance|.07|245666.67
+2|2015|129|Employee Overtime Premium|.7|2313064
+2|2015|129|Officers Overtime premium|.01|45000
+2|2015|129|Store Equipment Maintenance|.02|75000
+2|2015|129|Provision for Inventory Lost|-.07|-218263.98
+2|2015|130|Gas|.04|1882500
+2|2015|130|Water|.01|262200
+2|2015|130|Package|0|-94000
+2|2015|130|Electric|2.39|121743397
+2|2015|130|Telephone|.12|6308484
+2|2015|130|Store Supplies|.1|5023800
+2|2015|130|Office Supplies|.1|4861600
+2|2015|130|Cost of Shrinkage|.77|39372581.25
+2|2015|130|Employee Salaries|2.27|115845000
+2|2015|130|Officers Salaries|1.37|69797082
+2|2015|130|Credit Card Charge|.19|9506547.05
+2|2015|130|Gasoline & Parking|.01|312700
+2|2015|130|Employee Allowances|.79|40022000
+2|2015|130|Building Maintenance|.06|3182500
+2|2015|130|Employee Overtime Premium|.07|3737455
+2|2015|130|Store Equipment Maintenance|.02|1000000
+2|2015|130|Office Equipment Maintenance|.03|1611639
+2|2015|130|Provision for Inventory Lost|-.06|-3113526.03
+2|2015|131|Gas|.1|3997000
+2|2015|131|Water|.03|1328500
+2|2015|131|Electric|1.21|50038481
+2|2015|131|Telephone|.09|3750904
+2|2015|131|Store Supplies|.14|5675171.67
+2|2015|131|Office Supplies|.06|2282500
+2|2015|131|Cost of Shrinkage|.93|38441692.55
+2|2015|131|Employee Salaries|2.56|105830000
+2|2015|131|Officers Salaries|1.25|51633263
+2|2015|131|Credit Card Charge|.37|15170922
+2|2015|131|Gasoline & Parking|.01|311200
+2|2015|131|Employee Allowances|.86|35670000
+2|2015|131|Building Maintenance|.11|4598500
+2|2015|131|Employee Overtime Premium|.04|1584081
+2|2015|131|Officers Overtime premium|.01|300000
+2|2015|131|Store Equipment Maintenance|.21|8812500
+2|2015|131|Provision for Inventory Lost|.14|5984986.6
+2|2015|132|Gas|.1|2295541
+2|2015|132|Water|.23|5203000
+2|2015|132|Electric|5.26|119827769
+2|2015|132|Telephone|.06|1402846
+2|2015|132|Store Supplies|.48|10957800
+2|2015|132|Office Supplies|.01|264000
+2|2015|132|Cost of Shrinkage|1.36|30927221.96
+2|2015|132|Employee Salaries|5.24|119245000
+2|2015|132|Officers Salaries|3.32|75597100
+2|2015|132|Credit Card Charge|.09|2158863
+2|2015|132|Gasoline & Parking|.01|177000
+2|2015|132|Employee Allowances|1.85|42062000
+2|2015|132|Building Maintenance|.02|479000
+2|2015|132|Employee Overtime Premium|.22|5059467
+2|2015|132|Provision for Inventory Lost|.89|20347451.58
+2|2015|133|Gas|.1|5142500
+2|2015|133|Water|.01|398000
+2|2015|133|Electric|1.71|87441036
+2|2015|133|Telephone|.03|1540715
+2|2015|133|Store Supplies|.2|10302698
+2|2015|133|Office Supplies|.05|2773050
+2|2015|133|Cost of Shrinkage|.95|48530676.36
+2|2015|133|Employee Salaries|1.82|93140000
+2|2015|133|Officers Salaries|1.73|88292544
+2|2015|133|Credit Card Charge|.22|11160133.14
+2|2015|133|Gasoline & Parking|0|178000
+2|2015|133|Employee Allowances|.61|30945000
+2|2015|133|Building Maintenance|.01|580000
+2|2015|133|Employee Overtime Premium|.09|4350016
+2|2015|133|Officers Overtime premium|0|75000
+2|2015|133|Office Equipment Maintenance|0|126880
+2|2015|133|Provision for Inventory Lost|-.18|-8974656.52
+2|2015|134|Water|.29|884300
+2|2015|134|Electric|8.97|27335330.88
+2|2015|134|Telephone|.18|548243
+2|2015|134|Store Supplies|.07|215000
+2|2015|134|Office Supplies|.02|75000
+2|2015|134|Cost of Shrinkage|1.54|4705518.32
+2|2015|134|Employee Salaries|6.5|19785000
+2|2015|134|Officers Salaries|1.15|3500000
+2|2015|134|Credit Card Charge|.01|34062.05
+2|2015|134|Gasoline & Parking|.06|182500
+2|2015|134|Employee Allowances|2.2|6715000
+2|2015|134|Building Maintenance|.54|1650000
+2|2015|134|Employee Overtime Premium|-1.56|-4742717
+2|2015|134|Store Equipment Maintenance|.74|2255000
+2|2015|134|Provision for Inventory Lost|.21|649273.94
+2|2015|136|Gas|.05|1142000
+2|2015|136|Water|.02|380000
+2|2015|136|Package|0|5500
+2|2015|136|Electric|1.7|41939193
+2|2015|136|Telephone|.04|1055495
+2|2015|136|Store Supplies|.16|3950547
+2|2015|136|Office Supplies|.03|788250
+2|2015|136|Cost of Shrinkage|1.3|32083966.92
+2|2015|136|Employee Salaries|3.98|98410000
+2|2015|136|Officers Salaries|2.3|56739522
+2|2015|136|Credit Card Charge|.08|1985006
+2|2015|136|Gasoline & Parking|0|75000
+2|2015|136|Employee Allowances|1.31|32415000
+2|2015|136|Building Maintenance|.13|3157119.16
+2|2015|136|Employee Overtime Premium|.17|4090614
+2|2015|136|Store Equipment Maintenance|.39|9619583.33
+2|2015|136|Provision for Inventory Lost|-.25|-6222309.54
+2|2015|137|Gas|.05|5264850
+2|2015|137|Water|.02|1814500
+2|2015|137|Package|0|82500
+2|2015|137|Electric|1.7|177097308
+2|2015|137|Telephone|.07|6928507
+2|2015|137|Store Supplies|.18|18201342
+2|2015|137|Office Supplies|.03|3194500
+2|2015|137|Cost of Shrinkage|.85|88663299.24
+2|2015|137|Employee Salaries|2.63|273830000
+2|2015|137|Officers Salaries|1.37|142639352
+2|2015|137|Credit Card Charge|.1|10812289.22
+2|2015|137|Gasoline & Parking|0|397600
+2|2015|137|Employee Allowances|.87|90905000
+2|2015|137|Building Maintenance|.1|10260250
+2|2015|137|Employee Overtime Premium|-.41|-42571496
+2|2015|137|Officers Overtime premium|0|450000
+2|2015|137|Store Equipment Maintenance|.12|12298100
+2|2015|137|Office Equipment Maintenance|.03|3270000
+2|2015|137|Provision for Inventory Lost|.28|29570424.42
+2|2015|138|Gas|.05|1348000
+2|2015|138|Water|.04|1096000
+2|2015|138|Package|.01|360000
+2|2015|138|Electric|1.07|28601895
+2|2015|138|Telephone|.05|1302597
+2|2015|138|Store Supplies|.07|1801656
+2|2015|138|Office Supplies|.02|660804
+2|2015|138|Cost of Shrinkage|.72|19162986.37
+2|2015|138|Employee Salaries|2.79|74710000
+2|2015|138|Officers Salaries|2.05|54960008
+2|2015|138|Credit Card Charge|.06|1574498.06
+2|2015|138|Employee Allowances|.97|26044000
+2|2015|138|Building Maintenance|.47|12708500
+2|2015|138|Employee Overtime Premium|.26|7071994
+2|2015|138|Store Equipment Maintenance|.17|4612000
+2|2015|138|Provision for Inventory Lost|-.05|-1231313.12
+2|2015|140|Package|.01|20000
+2|2015|140|Telephone|.51|800000
+2|2015|140|Office Supplies|.26|410100
+2|2015|140|Gasoline & Parking|1.21|1888600
+2|2015|140|Building Maintenance|10.27|16066600
+2|2015|140|Officers Overtime premium|.12|185000
+2|2015|140|Office Equipment Maintenance|12.45|19485416
+2|2015|142|Gas|.04|2312000
+2|2015|142|Oil|0|28000
+2|2015|142|Water|.19|10780000
+2|2015|142|Electric|1.62|94616245
+2|2015|142|Telephone|.07|3863004
+2|2015|142|Store Supplies|.2|11901610
+2|2015|142|Office Supplies|.07|4338220
+2|2015|142|Cost of Shrinkage|.47|27115039.83
+2|2015|142|Employee Salaries|5.15|299900000
+2|2015|142|Officers Salaries|1.96|114237404
+2|2015|142|Credit Card Charge|.09|5430109.89
+2|2015|142|Employee Allowances|1.87|108875000
+2|2015|142|Building Maintenance|0|0
+2|2015|142|Employee Overtime Premium|.27|15703788
+2|2015|142|Store Equipment Maintenance|.45|26255658.34
+2|2015|142|Provision for Inventory Lost|1.51|87900100.64
+2|2015|143|Gas|.09|25065655
+2|2015|143|Oil|.02|5043333
+2|2015|143|Water|.07|19332795
+2|2015|143|Package|0|630000
+2|2015|143|Electric|1.9|509962375
+2|2015|143|Telephone|.04|10351203
+2|2015|143|Store Supplies|.16|43561581
+2|2015|143|Office Supplies|.03|7598578
+2|2015|143|Cost of Shrinkage|.18|48805840.8
+2|2015|143|Employee Salaries|3.35|898232293
+2|2015|143|Officers Salaries|1.47|395126938
+2|2015|143|Credit Card Charge|.26|69232766
+2|2015|143|Gasoline & Parking|.01|2624000
+2|2015|143|Employee Allowances|1.27|341317429
+2|2015|143|Building Maintenance|.23|61979644
+2|2015|143|Employee Overtime Premium|.1|27008117
+2|2015|143|Officers Overtime premium|0|1050000
+2|2015|143|Store Equipment Maintenance|.01|2364000
+2|2015|143|Office Equipment Maintenance|0|461610
+2|2015|143|Provision for Inventory Lost|-.04|-11092192.74
+2|2015|144|Gas|1.27|5358000
+2|2015|144|Oil|.12|525000
+2|2015|144|Water|.13|539300
+2|2015|144|Electric|4.08|17159906
+2|2015|144|Telephone|.64|2713067
+2|2015|144|Office Supplies|.82|3466580
+2|2015|144|Cost of Shrinkage|.55|2317218.13
+2|2015|144|Employee Salaries|9.64|40565000
+2|2015|144|Officers Salaries|8.83|37163868
+2|2015|144|Gasoline & Parking|1.34|5647787
+2|2015|144|Employee Allowances|2.92|12280000
+2|2015|144|Building Maintenance|.4|1690000
+2|2015|144|Employee Overtime Premium|-.25|-1038178
+2|2015|144|Office Equipment Maintenance|.25|1050000
+2|2015|144|Provision for Inventory Lost|.37|1555143.59
+2|2015|145|Gas|.08|9400000
+2|2015|145|Water|.06|6603880
+2|2015|145|Package|0|-33500
+2|2015|145|Electric|1.51|180882563
+2|2015|145|Telephone|.05|6250199
+2|2015|145|Store Supplies|.25|30221019.5
+2|2015|145|Office Supplies|.05|6277700
+2|2015|145|Cost of Shrinkage|.75|89797928.13
+2|2015|145|Employee Salaries|2.8|336121300
+2|2015|145|Officers Salaries|1.28|153473236
+2|2015|145|Credit Card Charge|.08|9285069
+2|2015|145|Gasoline & Parking|0|452500
+2|2015|145|Employee Allowances|1.05|125552000
+2|2015|145|Building Maintenance|.05|5871178.5
+2|2015|145|Employee Overtime Premium|.15|17894249
+2|2015|145|Officers Overtime premium|0|75000
+2|2015|145|Store Equipment Maintenance|.02|1960000
+2|2015|145|Office Equipment Maintenance|0|456100
+2|2015|145|Provision for Inventory Lost|.26|31706440.98
+2|2015|146|Water|.01|775000
+2|2015|146|Electric|.96|57411331
+2|2015|146|Telephone|.06|3768436
+2|2015|146|Store Supplies|.11|6685675
+2|2015|146|Office Supplies|.05|3239000
+2|2015|146|Cost of Shrinkage|.44|26492189.43
+2|2015|146|Employee Salaries|2.31|138250000
+2|2015|146|Officers Salaries|1.02|61057580
+2|2015|146|Credit Card Charge|.45|26911965
+2|2015|146|Gasoline & Parking|.02|1044000
+2|2015|146|Employee Allowances|.82|49073000
+2|2015|146|Building Maintenance|.31|18527600
+2|2015|146|Employee Overtime Premium|.13|7657652
+2|2015|146|Officers Overtime premium|.01|450000
+2|2015|146|Store Equipment Maintenance|.14|8260900
+2|2015|146|Office Equipment Maintenance|.01|446000
+2|2015|146|Provision for Inventory Lost|.14|8664065.37
+2|2015|147|Gas|-.03|-2554909
+2|2015|147|Water|.03|2007000
+2|2015|147|Package|0|8000
+2|2015|147|Electric|1.72|134174159
+2|2015|147|Telephone|.02|1594711
+2|2015|147|Store Supplies|.23|17668797
+2|2015|147|Office Supplies|.04|3249000
+2|2015|147|Cost of Shrinkage|.33|25956786.43
+2|2015|147|Employee Salaries|3.78|294445000
+2|2015|147|Officers Salaries|1.32|102958710
+2|2015|147|Credit Card Charge|.06|4871514
+2|2015|147|Gasoline & Parking|0|222900
+2|2015|147|Employee Allowances|1.4|109019000
+2|2015|147|Building Maintenance|.02|1753500
+2|2015|147|Employee Overtime Premium|.16|12407027
+2|2015|147|Officers Overtime premium|0|225000
+2|2015|147|Store Equipment Maintenance|.04|2767500
+2|2015|147|Provision for Inventory Lost|.36|28277991.97
+2|2015|148|Water|.08|2123396
+2|2015|148|Electric|1.68|44494109
+2|2015|148|Telephone|.21|5637498
+2|2015|148|Store Supplies|.07|1847230
+2|2015|148|Office Supplies|.02|513700
+2|2015|148|Cost of Shrinkage|.09|2418787.84
+2|2015|148|Employee Salaries|3.2|84715000
+2|2015|148|Officers Salaries|1.97|52239100
+2|2015|148|Credit Card Charge|.28|7509285.99
+2|2015|148|Employee Allowances|1.15|30514000
+2|2015|148|Building Maintenance|2.35|62053120
+2|2015|148|Employee Overtime Premium|.23|6055043
+2|2015|148|Store Equipment Maintenance|.2|5390000
+2|2015|148|Provision for Inventory Lost|.58|15335951.16
+2|2015|149|Gas|.07|8484000
+2|2015|149|Water|.09|12232700
+2|2015|149|Electric|1.06|137481100
+2|2015|149|Telephone|.02|3236692
+2|2015|149|Store Supplies|.09|11174185
+2|2015|149|Office Supplies|.06|7786640
+2|2015|149|Cost of Shrinkage|.35|45313320.56
+2|2015|149|Employee Salaries|3.42|443175000
+2|2015|149|Officers Salaries|1.25|161852264
+2|2015|149|Credit Card Charge|.35|45383316.15
+2|2015|149|Employee Allowances|1.21|157029000
+2|2015|149|Building Maintenance|-4.04|-524300750
+2|2015|149|Employee Overtime Premium|.15|19778628
+2|2015|149|Officers Overtime premium|0|75000
+2|2015|149|Store Equipment Maintenance|.01|1800000
+2|2015|149|Provision for Inventory Lost|.72|92937398.51
+2|2015|151|Gas|0|140000
+2|2015|151|Oil|.05|2420000
+2|2015|151|Water|.02|957800
+2|2015|151|Package|0|22000
+2|2015|151|Electric|1.02|48057826
+2|2015|151|Telephone|.03|1206794
+2|2015|151|Store Supplies|.25|11810513.06
+2|2015|151|Office Supplies|.11|5049177
+2|2015|151|Cost of Shrinkage|.27|12926364.68
+2|2015|151|Employee Salaries|2.86|135075000
+2|2015|151|Officers Salaries|1.45|68672583
+2|2015|151|Credit Card Charge|.07|3102909
+2|2015|151|Gasoline & Parking|.01|402300
+2|2015|151|Employee Allowances|1.1|52067100
+2|2015|151|Building Maintenance|.04|1879980
+2|2015|151|Employee Overtime Premium|.18|8291766
+2|2015|151|Store Equipment Maintenance|.21|10079916.67
+2|2015|151|Provision for Inventory Lost|-.17|-8257819.46
+2|2015|152|Gas|.09|8935000
+2|2015|152|Oil|.02|2180250
+2|2015|152|Water|.03|2882800
+2|2015|152|Electric|1|104827172
+2|2015|152|Telephone|.06|6575250
+2|2015|152|Store Supplies|.12|12326577
+2|2015|152|Office Supplies|.04|4602600
+2|2015|152|Cost of Shrinkage|.57|59078601.15
+2|2015|152|Employee Salaries|2.85|297985000
+2|2015|152|Officers Salaries|1.1|114704943
+2|2015|152|Credit Card Charge|.13|13334174.6
+2|2015|152|Gasoline & Parking|.01|1373000
+2|2015|152|Employee Allowances|.97|101560000
+2|2015|152|Building Maintenance|.27|27969400
+2|2015|152|Employee Overtime Premium|.06|6138607
+2|2015|152|Store Equipment Maintenance|.01|872000
+2|2015|152|Office Equipment Maintenance|.01|686323
+2|2015|152|Provision for Inventory Lost|.32|33473375.13
+2|2015|153|Gas|.06|3972000
+2|2015|153|Water|.01|596500
+2|2015|153|Package|.02|1322500
+2|2015|153|Electric|1.49|100246782
+2|2015|153|Telephone|.04|2430913
+2|2015|153|Store Supplies|.15|10150698
+2|2015|153|Office Supplies|0|268600
+2|2015|153|Cost of Shrinkage|.29|19493903.02
+2|2015|153|Employee Salaries|1.98|133575000
+2|2015|153|Officers Salaries|1.23|82870176
+2|2015|153|Credit Card Charge|.13|8626885.83
+2|2015|153|Gasoline & Parking|0|327000
+2|2015|153|Employee Allowances|.75|50536000
+2|2015|153|Building Maintenance|.03|2201000
+2|2015|153|Employee Overtime Premium|.08|5130728
+2|2015|153|Officers Overtime premium|0|150000
+2|2015|153|Store Equipment Maintenance|.06|4089440
+2|2015|153|Provision for Inventory Lost|.3|20016750.16
+2|2015|154|Electric|2.42|11541060
+2|2015|154|Telephone|.06|295410
+2|2015|154|Store Supplies|1.19|5660725
+2|2015|154|Office Supplies|.07|318872
+2|2015|154|Cost of Shrinkage|1.4|6677398.18
+2|2015|154|Employee Salaries|3.86|18392857
+2|2015|154|Officers Salaries|2.95|14050000
+2|2015|154|Employee Allowances|1.25|5963571
+2|2015|154|Employee Overtime Premium|.08|388703
+2|2015|154|Officers Overtime premium|.05|225000
+2|2015|154|Store Equipment Maintenance|.05|250000
+2|2015|154|Provision for Inventory Lost|.02|111247.33
+2|2015|156|Gas|0|150000
+2|2015|156|Water|.03|1480500
+2|2015|156|Package|0|27000
+2|2015|156|Electric|1.15|54345830
+2|2015|156|Telephone|.04|1894224
+2|2015|156|Store Supplies|.06|2937712
+2|2015|156|Office Supplies|.01|479000
+2|2015|156|Cost of Shrinkage|.26|12355916.11
+2|2015|156|Employee Salaries|2.05|97460000
+2|2015|156|Officers Salaries|1.38|65340376
+2|2015|156|Credit Card Charge|.14|6558824
+2|2015|156|Gasoline & Parking|.01|452000
+2|2015|156|Employee Allowances|.93|44085000
+2|2015|156|Building Maintenance|.01|307000
+2|2015|156|Employee Overtime Premium|.1|4567509
+2|2015|156|Officers Overtime premium|0|180000
+2|2015|156|Store Equipment Maintenance|.13|6052000
+2|2015|156|Provision for Inventory Lost|.15|7115593.25
+2|2015|157|Gas|.06|2523328.8
+2|2015|157|Oil|.01|572400
+2|2015|157|Water|.02|745000
+2|2015|157|Electric|1.76|71253387.94
+2|2015|157|Telephone|.07|3010532
+2|2015|157|Store Supplies|.34|13900338
+2|2015|157|Office Supplies|.09|3659000
+2|2015|157|Cost of Shrinkage|.4|16131350.03
+2|2015|157|Employee Salaries|4.13|167768700
+2|2015|157|Officers Salaries|2.09|84957774
+2|2015|157|Credit Card Charge|.29|11578639.98
+2|2015|157|Gasoline & Parking|.02|625500
+2|2015|157|Employee Allowances|1.47|59841000
+2|2015|157|Building Maintenance|.55|22357133
+2|2015|157|Employee Overtime Premium|.17|6942052
+2|2015|157|Officers Overtime premium|.03|1275000
+2|2015|157|Store Equipment Maintenance|.29|11893676.03
+2|2015|157|Provision for Inventory Lost|.36|14420940.25
+2|2015|158|Water|.04|33000
+2|2015|158|Electric|13.86|12798574
+2|2015|158|Telephone|.43|400660
+2|2015|158|Provision for Inventory Lost|55.27|51019740.95
+2|2015|159|Gas|.02|1960000
+2|2015|159|Water|0|134600
+2|2015|159|Package|0|127000
+2|2015|159|Electric|1.28|138801674
+2|2015|159|Telephone|.09|10078775
+2|2015|159|Store Supplies|.04|3864717.55
+2|2015|159|Office Supplies|.04|3805753
+2|2015|159|Cost of Shrinkage|.48|51861101.74
+2|2015|159|Employee Salaries|1.53|165920000
+2|2015|159|Officers Salaries|1.5|163047349
+2|2015|159|Credit Card Charge|.11|11450118
+2|2015|159|Gasoline & Parking|0|4000
+2|2015|159|Employee Allowances|.61|66640000
+2|2015|159|Building Maintenance|.11|12046000
+2|2015|159|Employee Overtime Premium|.12|13157476.68
+2|2015|159|Officers Overtime premium|.01|600000
+2|2015|159|Store Equipment Maintenance|.1|11336141
+2|2015|159|Office Equipment Maintenance|.01|603643
+2|2015|159|Provision for Inventory Lost|1.36|147208312.31
+2|2015|160|Water|.21|650639
+2|2015|160|Package|.7|2139065
+2|2015|160|Electric|2.16|6588280
+2|2015|160|Telephone|2.14|6532193
+2|2015|160|Office Supplies|.31|933000
+2|2015|160|Employee Salaries|17.62|53720000
+2|2015|160|Officers Salaries|43.34|132116075
+2|2015|160|Gasoline & Parking|.58|1779000
+2|2015|160|Employee Allowances|6.63|20216000
+2|2015|160|Building Maintenance|1.97|6014350
+2|2015|160|Employee Overtime Premium|-1.49|-4536804
+2|2015|160|Office Equipment Maintenance|.01|25000
+2|2015|161|Gas|.07|7011900
+2|2015|161|Oil|.1|10250750
+2|2015|161|Water|.02|2285860
+2|2015|161|Package|0|58500
+2|2015|161|Electric|2.74|276740457
+2|2015|161|Telephone|.03|3204768
+2|2015|161|Store Supplies|.08|8553350
+2|2015|161|Office Supplies|.05|4593300
+2|2015|161|Cost of Shrinkage|.32|32491204.63
+2|2015|161|Employee Salaries|1.85|186550900
+2|2015|161|Officers Salaries|1.2|121439950
+2|2015|161|Credit Card Charge|.28|27798553.2
+2|2015|161|Gasoline & Parking|0|500900
+2|2015|161|Employee Allowances|.79|80034000
+2|2015|161|Building Maintenance|.1|10098500
+2|2015|161|Employee Overtime Premium|.06|6344592
+2|2015|161|Officers Overtime premium|0|180000
+2|2015|161|Store Equipment Maintenance|.06|6031900
+2|2015|161|Office Equipment Maintenance|0|260000
+2|2015|161|Provision for Inventory Lost|.02|2190896.31
+2|2015|162|Gas|.03|2332000
+2|2015|162|Oil|.02|1361066.67
+2|2015|162|Water|.01|1259000
+2|2015|162|Package|0|44000
+2|2015|162|Electric|1.19|105240348
+2|2015|162|Telephone|.05|4107212
+2|2015|162|Store Supplies|.19|17103600.5
+2|2015|162|Office Supplies|.05|4325922
+2|2015|162|Cost of Shrinkage|.47|41947068.93
+2|2015|162|Employee Salaries|3.29|290920000
+2|2015|162|Officers Salaries|1.33|117737744
+2|2015|162|Credit Card Charge|.38|33473969
+2|2015|162|Gasoline & Parking|.02|1351600
+2|2015|162|Employee Allowances|1.18|104547265
+2|2015|162|Building Maintenance|.23|19875316.83
+2|2015|162|Employee Overtime Premium|.04|3918976
+2|2015|162|Officers Overtime premium|0|75000
+2|2015|162|Store Equipment Maintenance|.1|8837000
+2|2015|162|Office Equipment Maintenance|.01|638074
+2|2015|162|Provision for Inventory Lost|.15|13049006.85
+2|2015|163|Gas|.04|1384000
+2|2015|163|Water|.05|1552200
+2|2015|163|Package|0|6000
+2|2015|163|Electric|2.86|90484304
+2|2015|163|Telephone|.03|931607
+2|2015|163|Store Supplies|.42|13358438
+2|2015|163|Office Supplies|.05|1603200
+2|2015|163|Cost of Shrinkage|1.45|45776325.71
+2|2015|163|Employee Salaries|3.21|101420000
+2|2015|163|Officers Salaries|1.98|62568675
+2|2015|163|Credit Card Charge|.3|9628787.79
+2|2015|163|Gasoline & Parking|.02|616000
+2|2015|163|Employee Allowances|.87|27371000
+2|2015|163|Building Maintenance|.13|4018018
+2|2015|163|Employee Overtime Premium|.22|6839236
+2|2015|163|Officers Overtime premium|.01|260000
+2|2015|163|Store Equipment Maintenance|.19|6135000
+2|2015|163|Provision for Inventory Lost|.92|29163204.98
+2|2015|165|Gas|.02|1013500
+2|2015|165|Water|0|12000
+2|2015|165|Electric|1.14|61059217
+2|2015|165|Telephone|.04|2321834
+2|2015|165|Store Supplies|.14|7347945.41
+2|2015|165|Office Supplies|.03|1706760
+2|2015|165|Cost of Shrinkage|.38|20163405.77
+2|2015|165|Employee Salaries|2.25|120135000
+2|2015|165|Officers Salaries|1.08|57560696
+2|2015|165|Credit Card Charge|.22|11597229.01
+2|2015|165|Gasoline & Parking|0|134665
+2|2015|165|Employee Allowances|.77|41205000
+2|2015|165|Building Maintenance|.04|1928500
+2|2015|165|Employee Overtime Premium|.05|2790011
+2|2015|165|Officers Overtime premium|0|75000
+2|2015|165|Store Equipment Maintenance|.11|5985000
+2|2015|165|Office Equipment Maintenance|.01|392000
+2|2015|165|Provision for Inventory Lost|.1|5524725.42
+2|2015|166|Gas|.09|12370280
+2|2015|166|Water|.15|21990625
+2|2015|166|Package|0|45000
+2|2015|166|Electric|1.78|254797119
+2|2015|166|Telephone|.08|11130753
+2|2015|166|Store Supplies|.23|32154914.63
+2|2015|166|Office Supplies|.03|4730000
+2|2015|166|Cost of Shrinkage|.88|125648998.63
+2|2015|166|Employee Salaries|3.11|443660000
+2|2015|166|Officers Salaries|1.12|159607002
+2|2015|166|Credit Card Charge|.44|62863958.96
+2|2015|166|Employee Allowances|1.02|145611000
+2|2015|166|Building Maintenance|.19|26944333.33
+2|2015|166|Employee Overtime Premium|.2|28700489
+2|2015|166|Officers Overtime premium|0|300000
+2|2015|166|Store Equipment Maintenance|.36|51652704.55
+2|2015|166|Provision for Inventory Lost|.37|53406395.66
+2|2015|167|Gas|.22|1970000
+2|2015|167|Water|.14|1290200
+2|2015|167|Electric|5.9|52786298
+2|2015|167|Telephone|.12|1056267
+2|2015|167|Store Supplies|.72|6469929
+2|2015|167|Office Supplies|.03|297424
+2|2015|167|Cost of Shrinkage|3.36|30061667.05
+2|2015|167|Employee Salaries|7.17|64095000
+2|2015|167|Officers Salaries|2.19|19569300
+2|2015|167|Credit Card Charge|.06|569422.15
+2|2015|167|Gasoline & Parking|.01|85000
+2|2015|167|Employee Allowances|2.4|21480000
+2|2015|167|Building Maintenance|0|35000
+2|2015|167|Employee Overtime Premium|-.14|-1250706
+2|2015|167|Officers Overtime premium|.01|75000
+2|2015|167|Office Equipment Maintenance|.02|200000
+2|2015|167|Provision for Inventory Lost|1.75|15687068.28
+2|2015|168|Water|.01|439000
+2|2015|168|Electric|.75|36261909
+2|2015|168|Telephone|.04|1877299
+2|2015|168|Store Supplies|.09|4479988
+2|2015|168|Office Supplies|.04|1949300
+2|2015|168|Cost of Shrinkage|.77|36895781.27
+2|2015|168|Employee Salaries|2.57|123510000
+2|2015|168|Officers Salaries|1.32|63200933
+2|2015|168|Credit Card Charge|.28|13577635.19
+2|2015|168|Gasoline & Parking|.01|340800
+2|2015|168|Employee Allowances|.94|45139000
+2|2015|168|Building Maintenance|.03|1275250
+2|2015|168|Employee Overtime Premium|.12|5612686
+2|2015|168|Store Equipment Maintenance|.13|6167500
+2|2015|168|Office Equipment Maintenance|.01|370360
+2|2015|168|Provision for Inventory Lost|.13|6040738.57
+2|2015|169|Gas|0|139000
+2|2015|169|Water|.02|731000
+2|2015|169|Electric|1.18|42716542
+2|2015|169|Telephone|.06|2038576
+2|2015|169|Store Supplies|.1|3699358.36
+2|2015|169|Office Supplies|.04|1389500
+2|2015|169|Cost of Shrinkage|.68|24704417.1
+2|2015|169|Employee Salaries|2.77|100525000
+2|2015|169|Officers Salaries|1.36|49505660
+2|2015|169|Credit Card Charge|.26|9539937
+2|2015|169|Gasoline & Parking|.01|188000
+2|2015|169|Employee Allowances|.99|36034000
+2|2015|169|Building Maintenance|.02|791000
+2|2015|169|Employee Overtime Premium|.02|689994
+2|2015|169|Officers Overtime premium|0|75000
+2|2015|169|Store Equipment Maintenance|.08|2901900
+2|2015|169|Provision for Inventory Lost|.44|15846798.74
+2|2015|170|Gas|.01|140000
+2|2015|170|Water|.01|272500
+2|2015|170|Electric|1.14|23220584
+2|2015|170|Telephone|.06|1240902
+2|2015|170|Store Supplies|.17|3477271
+2|2015|170|Office Supplies|.05|1020250
+2|2015|170|Cost of Shrinkage|.79|16045888.72
+2|2015|170|Employee Salaries|2.51|51105000
+2|2015|170|Officers Salaries|1.26|25533301
+2|2015|170|Credit Card Charge|.31|6310904.41
+2|2015|170|Gasoline & Parking|.01|125000
+2|2015|170|Employee Allowances|.93|18897000
+2|2015|170|Building Maintenance|.03|671500
+2|2015|170|Employee Overtime Premium|.05|1080556
+2|2015|170|Officers Overtime premium|0|75000
+2|2015|170|Store Equipment Maintenance|.24|4822033
+2|2015|170|Office Equipment Maintenance|.01|235200
+2|2015|170|Provision for Inventory Lost|-.32|-6494895.27
+2|2015|171|Gas|.05|16864675
+2|2015|171|Water|0|-1496866
+2|2015|171|Package|0|775500
+2|2015|171|Electric|1.36|464850569.2
+2|2015|171|Telephone|.02|7378705.8
+2|2015|171|Store Supplies|.55|189733577
+2|2015|171|Office Supplies|.04|13155950
+2|2015|171|Cost of Shrinkage|1.16|398754200.47
+2|2015|171|Employee Salaries|1.65|564785000
+2|2015|171|Officers Salaries|.98|336032533
+2|2015|171|Credit Card Charge|.71|244772058.03
+2|2015|171|Gasoline & Parking|0|1379000
+2|2015|171|Employee Allowances|.56|192990000
+2|2015|171|Building Maintenance|.2|67957500
+2|2015|171|Employee Overtime Premium|.17|56957719
+2|2015|171|Officers Overtime premium|.01|2250000
+2|2015|171|Store Equipment Maintenance|.06|22239490.5
+2|2015|171|Office Equipment Maintenance|0|670689
+2|2015|171|Provision for Inventory Lost|.3|101543807.16
+2|2015|172|Gas|-.02|-1796000
+2|2015|172|Water|.01|1218770
+2|2015|172|Package|0|77000
+2|2015|172|Electric|1.6|149706614
+2|2015|172|Telephone|.03|2879022
+2|2015|172|Store Supplies|.11|10423275
+2|2015|172|Office Supplies|.06|5786104
+2|2015|172|Cost of Shrinkage|.46|43239113.03
+2|2015|172|Employee Salaries|3.23|303325000
+2|2015|172|Officers Salaries|1.21|113647094
+2|2015|172|Credit Card Charge|.15|14221062
+2|2015|172|Gasoline & Parking|.02|1978666
+2|2015|172|Employee Allowances|1.12|104808000
+2|2015|172|Building Maintenance|.08|7379400
+2|2015|172|Employee Overtime Premium|.26|24064463
+2|2015|172|Officers Overtime premium|0|75000
+2|2015|172|Store Equipment Maintenance|.15|14086000
+2|2015|172|Office Equipment Maintenance|0|215000
+2|2015|172|Provision for Inventory Lost|0|189356.01
+2|2015|173|Gas|0|147500
+2|2015|173|Water|0|20000
+2|2015|173|Electric|.97|33313565
+2|2015|173|Telephone|.05|1832089
+2|2015|173|Store Supplies|.15|5108122.08
+2|2015|173|Office Supplies|.06|2021393.75
+2|2015|173|Cost of Shrinkage|.83|28450403.14
+2|2015|173|Employee Salaries|2.83|96895000
+2|2015|173|Officers Salaries|1.16|39567700
+2|2015|173|Credit Card Charge|.31|10741629.4
+2|2015|173|Gasoline & Parking|0|153500
+2|2015|173|Employee Allowances|.98|33655000
+2|2015|173|Building Maintenance|.04|1400387.5
+2|2015|173|Employee Overtime Premium|-.07|-2268185
+2|2015|173|Officers Overtime premium|0|75000
+2|2015|173|Store Equipment Maintenance|.33|11295000
+2|2015|173|Office Equipment Maintenance|.01|408333
+2|2015|173|Provision for Inventory Lost|-.18|-6102476.85
+2|2015|174|Gas|.12|5318000
+2|2015|174|Water|.04|1666500
+2|2015|174|Package|0|100500
+2|2015|174|Electric|2.51|113412007
+2|2015|174|Telephone|.07|3362361
+2|2015|174|Store Supplies|.05|2231000
+2|2015|174|Office Supplies|.05|2305149
+2|2015|174|Cost of Shrinkage|1|45038414.3
+2|2015|174|Employee Salaries|3.62|163630000
+2|2015|174|Officers Salaries|1.72|77643284
+2|2015|174|Credit Card Charge|.07|3136418.14
+2|2015|174|Gasoline & Parking|0|0
+2|2015|174|Employee Allowances|1.2|54385146
+2|2015|174|Building Maintenance|.04|2014000
+2|2015|174|Employee Overtime Premium|.02|1088275
+2|2015|174|Officers Overtime premium|0|150000
+2|2015|174|Store Equipment Maintenance|.1|4460000
+2|2015|174|Office Equipment Maintenance|.01|650000
+2|2015|174|Provision for Inventory Lost|.24|10688994.69
+2|2015|175|Electric|23.18|12322001
+2|2015|175|Telephone|.78|415004
+2|2015|176|Gas|.07|5436600
+2|2015|176|Oil|0|-1600
+2|2015|176|Water|0|44000
+2|2015|176|Package|.01|620800
+2|2015|176|Electric|1.82|137471194
+2|2015|176|Telephone|.05|4133906
+2|2015|176|Store Supplies|.11|8532563.66
+2|2015|176|Office Supplies|.04|3319900
+2|2015|176|Cost of Shrinkage|.61|46187665.1
+2|2015|176|Employee Salaries|2.07|155876500
+2|2015|176|Officers Salaries|1.49|112350304
+2|2015|176|Credit Card Charge|.08|6090957
+2|2015|176|Gasoline & Parking|.01|406600
+2|2015|176|Employee Allowances|.78|58750000
+2|2015|176|Building Maintenance|.06|4213500
+2|2015|176|Employee Overtime Premium|.1|7649811
+2|2015|176|Officers Overtime premium|.01|525000
+2|2015|176|Store Equipment Maintenance|.02|1559500
+2|2015|176|Office Equipment Maintenance|0|103505
+2|2015|176|Provision for Inventory Lost|-.02|-1628625.61
+2|2015|178|Gas|.03|1851000
+2|2015|178|Water|.02|988400
+2|2015|178|Electric|1.05|68976497
+2|2015|178|Telephone|.04|2614755
+2|2015|178|Store Supplies|.2|13480891
+2|2015|178|Office Supplies|.04|2451093.75
+2|2015|178|Cost of Shrinkage|.44|28657176.04
+2|2015|178|Employee Salaries|2.84|187070000
+2|2015|178|Officers Salaries|1.49|97885334
+2|2015|178|Credit Card Charge|.13|8699301.02
+2|2015|178|Gasoline & Parking|.01|875200
+2|2015|178|Employee Allowances|1.08|71079000
+2|2015|178|Building Maintenance|.16|10348550
+2|2015|178|Employee Overtime Premium|.15|9580466
+2|2015|178|Store Equipment Maintenance|0|276000
+2|2015|178|Provision for Inventory Lost|0|262860.17
+2|2015|179|Gas|0|231300
+2|2015|179|Water|.02|1162400
+2|2015|179|Package|0|68000
+2|2015|179|Electric|1.26|89058294
+2|2015|179|Telephone|.03|2082393
+2|2015|179|Store Supplies|.13|9316268.78
+2|2015|179|Office Supplies|.04|3164000
+2|2015|179|Cost of Shrinkage|.35|24536894.94
+2|2015|179|Employee Salaries|3.22|227627900
+2|2015|179|Officers Salaries|1.33|94140194
+2|2015|179|Credit Card Charge|.06|4246220
+2|2015|179|Gasoline & Parking|.01|420600
+2|2015|179|Employee Allowances|1.14|80513000
+2|2015|179|Building Maintenance|.01|1059000
+2|2015|179|Employee Overtime Premium|.06|4500075
+2|2015|179|Officers Overtime premium|0|75000
+2|2015|179|Store Equipment Maintenance|.06|4366600
+2|2015|179|Office Equipment Maintenance|.03|1785000
+2|2015|179|Provision for Inventory Lost|1.36|95842532.7
+2|2015|180|Oil|.24|498000
+2|2015|180|Electric|3.02|6185924
+2|2015|180|Telephone|.2|412045
+2|2015|180|Store Supplies|.13|256700
+2|2015|180|Office Supplies|.03|70000
+2|2015|180|Cost of Shrinkage|.33|683863.15
+2|2015|180|Employee Salaries|7.04|14415000
+2|2015|180|Officers Salaries|4.7|9615000
+2|2015|180|Credit Card Charge|.09|193936.16
+2|2015|180|Gasoline & Parking|0|10000
+2|2015|180|Store Equipment Maintenance|.34|697000
+2|2015|180|Provision for Inventory Lost|4.04|8280977.52
+2|2015|181|Water|.04|906250
+2|2015|181|Package|0|42000
+2|2015|181|Electric|.69|15828394
+2|2015|181|Telephone|.22|4928301
+2|2015|181|Store Supplies|.16|3553464.59
+2|2015|181|Office Supplies|.05|1245000
+2|2015|181|Cost of Shrinkage|.25|5815369.54
+2|2015|181|Employee Salaries|2.72|62405000
+2|2015|181|Officers Salaries|2.01|46184382
+2|2015|181|Credit Card Charge|.06|1389530
+2|2015|181|Gasoline & Parking|0|76000
+2|2015|181|Employee Allowances|.97|22220000
+2|2015|181|Building Maintenance|0|60000
+2|2015|181|Employee Overtime Premium|.08|1942207
+2|2015|181|Store Equipment Maintenance|.01|192500
+2|2015|181|Provision for Inventory Lost|.21|4830432.07
+2|2015|182|Gas|.13|7040000
+2|2015|182|Oil|.11|6166666.66
+2|2015|182|Water|.01|396000
+2|2015|182|Package|0|130000
+2|2015|182|Electric|2.28|125763115
+2|2015|182|Telephone|.04|2193485
+2|2015|182|Store Supplies|.12|6810896.19
+2|2015|182|Office Supplies|-.04|-2250100
+2|2015|182|Cost of Shrinkage|.95|52624445.65
+2|2015|182|Employee Salaries|2.33|128610000
+2|2015|182|Officers Salaries|2.08|114629962
+2|2015|182|Credit Card Charge|.08|4222075.07
+2|2015|182|Gasoline & Parking|0|2000
+2|2015|182|Employee Allowances|.81|44724000
+2|2015|182|Building Maintenance|.02|1274900
+2|2015|182|Employee Overtime Premium|.11|5968342
+2|2015|182|Officers Overtime premium|.01|330000
+2|2015|182|Store Equipment Maintenance|.01|420686
+2|2015|182|Office Equipment Maintenance|.02|1040496.6
+2|2015|182|Provision for Inventory Lost|.42|22922788.94
+2|2015|183|Gas|.04|4059907.5
+2|2015|183|Water|.04|4389450
+2|2015|183|Package|0|193310
+2|2015|183|Electric|3.76|388623779.94
+2|2015|183|Telephone|.03|3349922
+2|2015|183|Store Supplies|.04|4172000
+2|2015|183|Office Supplies|.03|2596800
+2|2015|183|Cost of Shrinkage|.48|49805638.9
+2|2015|183|Employee Salaries|3.09|319620000
+2|2015|183|Officers Salaries|1.48|153043243
+2|2015|183|Credit Card Charge|.39|39871789.13
+2|2015|183|Gasoline & Parking|.06|6219000
+2|2015|183|Employee Allowances|1.09|112826000
+2|2015|183|Building Maintenance|1.23|126750514
+2|2015|183|Employee Overtime Premium|.19|19554523.63
+2|2015|183|Officers Overtime premium|.01|825000
+2|2015|183|Store Equipment Maintenance|0|396800
+2|2015|183|Office Equipment Maintenance|0|215028
+2|2015|183|Provision for Inventory Lost|.17|17090961.3
+2|2015|184|Water|.01|307500
+2|2015|184|Electric|.64|15376279
+2|2015|184|Telephone|.05|1139692
+2|2015|184|Store Supplies|.1|2510393
+2|2015|184|Office Supplies|.07|1736637
+2|2015|184|Cost of Shrinkage|.24|5824803.77
+2|2015|184|Employee Salaries|2.34|56390000
+2|2015|184|Officers Salaries|1.77|42568060
+2|2015|184|Credit Card Charge|.07|1573815
+2|2015|184|Gasoline & Parking|.02|484500
+2|2015|184|Employee Allowances|.82|19689000
+2|2015|184|Building Maintenance|.03|714000
+2|2015|184|Employee Overtime Premium|.08|1940499
+2|2015|184|Officers Overtime premium|0|75000
+2|2015|184|Store Equipment Maintenance|.07|1655500
+2|2015|184|Provision for Inventory Lost|1.47|35261795.91
+2|2015|185|Gas|.03|1110000
+2|2015|185|Oil|.02|775600
+2|2015|185|Water|.01|420000
+2|2015|185|Package|0|22000
+2|2015|185|Electric|1.16|46588880
+2|2015|185|Telephone|.03|1158299
+2|2015|185|Store Supplies|.07|2791300
+2|2015|185|Office Supplies|.04|1601500
+2|2015|185|Cost of Shrinkage|1.92|76924224.43
+2|2015|185|Employee Salaries|2.47|98605000
+2|2015|185|Officers Salaries|1.38|55164655
+2|2015|185|Credit Card Charge|.29|11701680
+2|2015|189|Water|0|0
+2|2015|185|Gasoline & Parking|0|108900
+2|2015|185|Employee Allowances|.84|33505000
+2|2015|185|Building Maintenance|.09|3575000
+2|2015|185|Employee Overtime Premium|0|89136
+2|2015|185|Officers Overtime premium|0|75000
+2|2015|185|Store Equipment Maintenance|.11|4246165
+2|2015|185|Office Equipment Maintenance|.01|342864
+2|2015|185|Provision for Inventory Lost|-.03|-1261964.38
+2|2015|186|Gas|.02|1164000
+2|2015|186|Oil|.05|2554000
+2|2015|186|Water|.04|2226200
+2|2015|186|Package|0|-2000
+2|2015|186|Electric|1.58|83521142
+2|2015|186|Telephone|.09|4692992
+2|2015|186|Store Supplies|.27|14067510
+2|2015|186|Office Supplies|.12|6201547
+2|2015|186|Cost of Shrinkage|.63|33318704.95
+2|2015|186|Employee Salaries|1.5|79545000
+2|2015|186|Officers Salaries|1.34|71043800
+2|2015|186|Credit Card Charge|.07|3939766
+2|2015|186|Gasoline & Parking|0|169200
+2|2015|186|Employee Allowances|.53|28090000
+2|2015|186|Building Maintenance|.08|4462000
+2|2015|186|Employee Overtime Premium|.2|10669729
+2|2015|186|Officers Overtime premium|.03|1810000
+2|2015|186|Store Equipment Maintenance|.16|8488000
+2|2015|187|Gas|.01|150000
+2|2015|187|Oil|.16|2554000
+2|2015|187|Water|.01|235000
+2|2015|187|Electric|4.51|73171854
+2|2015|187|Telephone|.31|4989573
+2|2015|187|Store Supplies|.23|3701043
+2|2015|187|Office Supplies|.09|1537600
+2|2015|187|Cost of Shrinkage|.72|11741356.15
+2|2015|187|Employee Salaries|2.89|46930000
+2|2015|187|Officers Salaries|4.06|65913968
+2|2015|187|Credit Card Charge|.07|1185085.39
+2|2015|187|Gasoline & Parking|0|81000
+2|2015|187|Employee Allowances|1.04|16845000
+2|2015|187|Building Maintenance|.34|5485166.66
+2|2015|187|Employee Overtime Premium|.14|2291621
+2|2015|187|Officers Overtime premium|0|75000
+2|2015|187|Store Equipment Maintenance|.14|2269000
+2|2015|187|Provision for Inventory Lost|1.96|31715954.1
+2|2015|188|Gas|.05|1830000
+2|2015|188|Water|0|135000
+2|2015|188|Package|0|30000
+2|2015|188|Electric|2.06|75487216
+2|2015|188|Telephone|.04|1596729
+2|2015|188|Store Supplies|.1|3721000
+2|2015|188|Office Supplies|0|25950
+2|2015|188|Cost of Shrinkage|.38|13913553.45
+2|2015|188|Employee Salaries|2.12|77910000
+2|2015|188|Officers Salaries|1.24|45544447
+2|2015|188|Credit Card Charge|.08|2915400.97
+2|2015|188|Gasoline & Parking|.01|477400
+2|2015|188|Employee Allowances|.86|31615000
+2|2015|188|Building Maintenance|.13|4639000
+2|2015|188|Employee Overtime Premium|.1|3571662
+2|2015|188|Store Equipment Maintenance|.28|10262133.33
+2|2015|188|Office Equipment Maintenance|.02|870000
+2|2015|188|Provision for Inventory Lost|.31|11302311.3
+2|2015|189|Electric|1.71|4061672
+2|2015|189|Telephone|.88|2081425
+2|2015|189|Store Supplies|0|0
+2|2015|189|Office Supplies|6.32|14993500
+2|2015|189|Employee Salaries|57.62|136666800
+2|2015|189|Officers Salaries|11.74|27850000
+2|2015|189|Gasoline & Parking|.18|420000
+2|2015|189|Building Maintenance|.35|830000
+2|2015|190|Water|.05|697400
+2|2015|190|Package|0|7000
+2|2015|190|Electric|1.89|26739553
+2|2015|190|Telephone|.29|4104473
+2|2015|190|Store Supplies|.07|976830
+2|2015|190|Office Supplies|.09|1210000
+2|2015|190|Cost of Shrinkage|.88|12355629.57
+2|2015|190|Employee Salaries|2.28|32125000
+2|2015|190|Officers Salaries|3.52|49624631
+2|2015|190|Credit Card Charge|.08|1197188.32
+2|2015|190|Employee Allowances|1.14|16126000
+2|2015|190|Employee Overtime Premium|.08|1068239
+2|2015|190|Store Equipment Maintenance|.16|2258666.66
+2|2015|190|Provision for Inventory Lost|.27|3808390.65
+2|2015|191|Gas|.13|18634000
+2|2015|191|Oil|.07|10100000
+2|2015|191|Water|.02|3218500
+2|2015|191|Package|0|170470
+2|2015|191|Electric|1.16|162656350
+2|2015|191|Telephone|.02|2951433
+2|2015|191|Store Supplies|.24|34170015.07
+2|2015|191|Office Supplies|.04|5509004
+2|2015|191|Cost of Shrinkage|.39|54884263.33
+2|2015|191|Employee Salaries|2.62|366900000
+2|2015|191|Officers Salaries|1.24|174247483
+2|2015|191|Credit Card Charge|.2|27446398
+2|2015|191|Gasoline & Parking|.01|1695800
+2|2015|191|Employee Allowances|.99|138058000
+2|2015|191|Building Maintenance|.27|37162148.08
+2|2015|191|Employee Overtime Premium|.13|18642272
+2|2015|191|Officers Overtime premium|0|225000
+2|2015|191|Store Equipment Maintenance|0|500000
+2|2015|191|Office Equipment Maintenance|0|200000.01
+2|2015|191|Provision for Inventory Lost|.04|5908735.26
+2|2015|193|Gas|-1.02|-6692614
+2|2015|193|Water|.2|1310292.5
+2|2015|193|Electric|.98|6431966.2
+2|2015|193|Telephone|-.13|-878469.32
+2|2015|193|Store Supplies|.78|5122345.17
+2|2015|193|Office Supplies|.05|321635.38
+2|2015|193|Cost of Shrinkage|3.4|22311571.21
+2|2015|193|Employee Salaries|7.55|49550200
+2|2015|193|Officers Salaries|.52|3400000
+2|2015|193|Credit Card Charge|.07|451989
+2|2015|193|Gasoline & Parking|.02|149000
+2|2015|193|Employee Allowances|2.82|18534461
+2|2015|193|Building Maintenance|.09|583333.33
+2|2015|193|Employee Overtime Premium|.52|3419292
+2|2015|193|Store Equipment Maintenance|0|0
+2|2015|193|Provision for Inventory Lost|3.06|20088224.29
+2|2015|196|Water|2.95|743179
+2|2015|196|Electric|1.99|500000
+2|2015|196|Telephone|2.82|709341
+2|2015|196|Office Supplies|8.39|2109100
+2|2015|196|Employee Salaries|8.29|2085000
+2|2015|196|Gasoline & Parking|3.38|850000
+2|2015|196|Employee Allowances|3.3|830000
+2|2015|196|Employee Overtime Premium|0|0
+2|2015|198|Gas|7.18|216287400
+2|2015|198|Water|.31|9321340
+2|2015|198|Electric|1.89|56779103
+2|2015|198|Telephone|.06|1708490
+2|2015|198|Office Supplies|.25|7505199.42
+2|2015|198|Cost of Shrinkage|.87|26316129.15
+2|2015|198|Employee Salaries|17.36|522918825
+2|2015|198|Officers Salaries|5.25|158029016
+2|2015|198|Gasoline & Parking|1.17|35111776
+2|2015|198|Employee Allowances|5.43|163480000
+2|2015|198|Building Maintenance|.21|6438400
+2|2015|198|Employee Overtime Premium|1.43|42991898
+2|2015|198|Store Equipment Maintenance|.09|2758200
+2|2015|198|Provision for Inventory Lost|-.85|-25575796.22
+2|2015|201|Water|0|0
+2|2015|201|Office Supplies|.48|4060584
+2|2015|201|Employee Salaries|8.31|70077000
+2|2015|201|Officers Salaries|75.23|634289854
+2|2015|201|Employee Allowances|.09|770000
+2|2015|201|Building Maintenance|1.1|9269500
+2|2015|201|Office Equipment Maintenance|.47|3951800
+2|2015|202|Gas|.06|1273000
+2|2015|202|Water|.02|434000
+2|2015|202|Electric|1.46|32867378
+2|2015|202|Telephone|.06|1272793
+2|2015|202|Store Supplies|.28|6186316.08
+2|2015|202|Office Supplies|.03|617000
+2|2015|202|Cost of Shrinkage|1|22427952.05
+2|2015|202|Employee Salaries|2.41|54100000
+2|2015|202|Officers Salaries|1.66|37408936
+2|2015|202|Credit Card Charge|.4|9015865.27
+2|2015|202|Gasoline & Parking|.01|251700
+2|2015|202|Employee Allowances|.85|19100000
+2|2015|202|Employee Overtime Premium|-.1|-2325405
+2|2015|202|Store Equipment Maintenance|.63|14275600
+2|2015|203|Gas|.02|700000
+2|2015|203|Water|.02|889250
+2|2015|203|Electric|1.09|39232579
+2|2015|203|Telephone|.03|1195105
+2|2015|203|Store Supplies|.09|3247007
+2|2015|203|Office Supplies|.03|1202750
+2|2015|203|Cost of Shrinkage|.61|21911658.96
+2|2015|203|Employee Salaries|2.68|96630000
+2|2015|203|Officers Salaries|1.71|61469625
+2|2015|203|Credit Card Charge|.1|3469649.82
+2|2015|203|Gasoline & Parking|.01|226100
+2|2015|487|Water|0|0
+2|2015|203|Employee Allowances|.95|34372000
+2|2015|203|Building Maintenance|0|64000
+2|2015|203|Employee Overtime Premium|.12|4460483
+2|2015|203|Officers Overtime premium|0|150000
+2|2015|203|Store Equipment Maintenance|.32|11651300
+2|2015|203|Office Equipment Maintenance|.01|250000
+2|2015|203|Provision for Inventory Lost|-.04|-1511788.33
+2|2015|204|Water|.01|310900
+2|2015|204|Package|0|5750
+2|2015|204|Electric|.88|37212201
+2|2015|204|Telephone|.05|2161965
+2|2015|204|Store Supplies|.04|1796500
+2|2015|204|Office Supplies|.02|994100
+2|2015|204|Cost of Shrinkage|.37|15645429.93
+2|2015|204|Employee Salaries|1.89|79575000
+2|2015|204|Officers Salaries|1.5|63273187
+2|2015|204|Credit Card Charge|.07|2770508.27
+2|2015|204|Gasoline & Parking|.02|735800
+2|2015|204|Employee Allowances|.68|28439000
+2|2015|204|Building Maintenance|.01|597500
+2|2015|204|Employee Overtime Premium|.14|5725986
+2|2015|204|Officers Overtime premium|.01|600000
+2|2015|204|Store Equipment Maintenance|.26|10809333.33
+2|2015|204|Office Equipment Maintenance|0|20000
+2|2015|204|Provision for Inventory Lost|.61|25768692.41
+2|2015|205|Gas|.06|6189000
+2|2015|205|Oil|.03|3388000
+2|2015|205|Water|.01|658000
+2|2015|205|Electric|1.36|140367178
+2|2015|205|Telephone|.04|3686919
+2|2015|205|Store Supplies|.12|12328842.15
+2|2015|205|Office Supplies|.06|6404447
+2|2015|205|Cost of Shrinkage|.54|55877457.02
+2|2015|205|Employee Salaries|2.27|235136300
+2|2015|205|Officers Salaries|1.46|151062065
+2|2015|205|Credit Card Charge|.25|25456062.18
+2|2015|205|Gasoline & Parking|.01|767000
+2|2015|205|Employee Allowances|.83|86226000
+2|2015|205|Building Maintenance|.02|1938300
+2|2015|205|Employee Overtime Premium|.05|5172126
+2|2015|205|Store Equipment Maintenance|.2|20409691
+2|2015|205|Office Equipment Maintenance|.01|700000
+2|2015|205|Provision for Inventory Lost|.35|36443360.26
+2|2015|206|Gas|.03|704000
+2|2015|206|Water|.02|544000
+2|2015|206|Electric|1.78|39954812
+2|2015|206|Telephone|.06|1386227
+2|2015|206|Store Supplies|.18|4002486
+2|2015|206|Office Supplies|.08|1862000
+2|2015|206|Cost of Shrinkage|.53|11821902.09
+2|2015|206|Employee Salaries|3.35|75430000
+2|2015|206|Officers Salaries|1.72|38749478
+2|2015|206|Credit Card Charge|.33|7537934
+2|2015|206|Gasoline & Parking|0|66000
+2|2015|206|Employee Allowances|1.24|27867000
+2|2015|206|Building Maintenance|.04|1000809
+2|2015|206|Employee Overtime Premium|.06|1260162
+2|2015|206|Store Equipment Maintenance|.12|2615560
+2|2015|206|Provision for Inventory Lost|-.07|-1545177.14
+2|2015|207|Gas|.07|3290000
+2|2015|207|Water|.03|1415000
+2|2015|207|Electric|2.07|103352828
+2|2015|207|Telephone|.03|1358321
+2|2015|207|Store Supplies|.11|5635667
+2|2015|207|Office Supplies|.04|1758000
+2|2015|207|Cost of Shrinkage|.56|27888760.13
+2|2015|207|Employee Salaries|3.78|188500000
+2|2015|207|Officers Salaries|1.44|71778453
+2|2015|207|Credit Card Charge|.16|7877396.34
+2|2015|207|Gasoline & Parking|.01|391000
+2|2015|207|Employee Allowances|1.24|61590000
+2|2015|207|Building Maintenance|.24|12197941.65
+2|2015|207|Employee Overtime Premium|-.05|-2305390
+2|2015|207|Officers Overtime premium|.02|1060000
+2|2015|207|Store Equipment Maintenance|.04|2187765.07
+2|2015|207|Office Equipment Maintenance|0|157361
+2|2015|207|Provision for Inventory Lost|.32|16170490.56
+2|2015|208|Oil|1.25|45450000
+2|2015|208|Water|.08|3007000
+2|2015|208|Electric|3.42|124526088
+2|2015|208|Telephone|.07|2434240
+2|2015|208|Store Supplies|.17|6182168
+2|2015|208|Office Supplies|.07|2609476.75
+2|2015|208|Cost of Shrinkage|.4|14458337.49
+2|2015|208|Employee Salaries|4.75|172569200
+2|2015|208|Officers Salaries|2.12|77227266
+2|2015|208|Credit Card Charge|.22|7836877
+2|2015|208|Gasoline & Parking|.01|359600
+2|2015|208|Employee Allowances|1.8|65592000
+2|2015|208|Building Maintenance|.01|250400
+2|2015|208|Employee Overtime Premium|.03|909824
+2|2015|208|Officers Overtime premium|0|75000
+2|2015|208|Store Equipment Maintenance|.13|4839500
+2|2015|208|Office Equipment Maintenance|0|97801
+2|2015|208|Provision for Inventory Lost|0|-75052.5
+2|2015|209|Gas|.16|571000
+2|2015|209|Water|.01|36400
+2|2015|209|Electric|3.39|12151846
+2|2015|209|Telephone|.11|392743
+2|2015|209|Store Supplies|.33|1180500
+2|2015|209|Office Supplies|.03|121600
+2|2015|209|Cost of Shrinkage|1.4|5030905.24
+2|2015|209|Employee Salaries|5.27|18890000
+2|2015|209|Officers Salaries|1.75|6265276
+2|2015|209|Credit Card Charge|.09|332748.61
+2|2015|209|Gasoline & Parking|.02|63000
+2|2015|209|Building Maintenance|.67|2397300
+2|2015|209|Employee Overtime Premium|.07|253466
+2|2015|209|Provision for Inventory Lost|7.92|28384661.78
+2|2015|210|Water|.01|40000
+2|2015|210|Electric|2.22|7399764
+2|2015|210|Telephone|.12|405310
+2|2015|210|Store Supplies|.2|665794
+2|2015|210|Office Supplies|.06|205000
+2|2015|210|Cost of Shrinkage|1.62|5399999.51
+2|2015|210|Employee Salaries|5.74|19130000
+2|2015|210|Credit Card Charge|.07|229639
+2|2015|210|Gasoline & Parking|.04|135000
+2|2015|210|Building Maintenance|0|0
+2|2015|210|Store Equipment Maintenance|.35|1175000
+2|2015|211|Gas|.14|11535505
+2|2015|211|Water|.04|2981300
+2|2015|211|Package|.01|680800
+2|2015|211|Electric|2.17|176626598
+2|2015|211|Telephone|.02|1807410
+2|2015|211|Store Supplies|.12|9581502.13
+2|2015|211|Office Supplies|0|258000
+2|2015|211|Cost of Shrinkage|.21|16840749.37
+2|2015|211|Employee Salaries|2.1|171380000
+2|2015|211|Officers Salaries|1.27|103949464
+2|2015|211|Credit Card Charge|.1|7853214.06
+2|2015|211|Gasoline & Parking|0|390000
+2|2015|211|Employee Allowances|.75|61454000
+2|2015|211|Building Maintenance|.06|5280000
+2|2015|211|Employee Overtime Premium|.07|6076329
+2|2015|211|Store Equipment Maintenance|.05|3936694
+2|2015|211|Provision for Inventory Lost|.44|36063340.82
+2|2015|212|Gas|.06|290000
+2|2015|212|Water|.01|49000
+2|2015|212|Electric|.22|1034559
+2|2015|212|Telephone|.08|358363
+2|2015|212|Store Supplies|.15|699583
+2|2015|212|Office Supplies|.02|90833
+2|2015|212|Cost of Shrinkage|1.4|6486633.95
+2|2015|212|Employee Salaries|5.11|23610000
+2|2015|212|Officers Salaries|2.71|12545200
+2|2015|212|Credit Card Charge|.07|337822.84
+2|2015|212|Employee Allowances|0|0
+2|2015|212|Building Maintenance|.06|300000
+2|2015|212|Employee Overtime Premium|.07|315000
+2|2015|212|Provision for Inventory Lost|.91|4220418.59
+2|2015|213|Gas|.11|540000
+2|2015|213|Oil|.01|67000
+2|2015|213|Electric|2.5|12456964
+2|2015|213|Telephone|.07|335057
+2|2015|213|Store Supplies|.34|1673000
+2|2015|213|Office Supplies|.04|211500
+2|2015|213|Cost of Shrinkage|.9|4466733.82
+2|2015|213|Employee Salaries|2.87|14320000
+2|2015|213|Officers Salaries|2.93|14601708
+2|2015|213|Credit Card Charge|.01|74588
+2|2015|213|Gasoline & Parking|.01|25500
+2|2015|213|Building Maintenance|.13|637500
+2|2015|213|Store Equipment Maintenance|.18|921652
+2|2015|213|Provision for Inventory Lost|-.03|-145105.56
+2|2015|214|Oil|.02|50000
+2|2015|214|Water|.11|278000
+2|2015|214|Electric|2.19|5767743
+2|2015|214|Telephone|.13|346000
+2|2015|214|Store Supplies|1.14|3002676.38
+2|2015|214|Office Supplies|.43|1121520
+2|2015|214|Cost of Shrinkage|1.77|4666633.36
+2|2015|214|Employee Salaries|3.88|10225000
+2|2015|214|Officers Salaries|2.28|6009700
+2|2015|214|Credit Card Charge|.07|193295
+2|2015|214|Gasoline & Parking|0|6700
+2|2015|214|Building Maintenance|.11|300000
+2|2015|214|Office Equipment Maintenance|0|0
+2|2015|214|Provision for Inventory Lost|5.24|13805163.61
+2|2015|215|Gas|.15|690000
+2|2015|215|Water|.01|36000
+2|2015|215|Electric|.49|2178916
+2|2015|215|Telephone|.1|433986
+2|2015|215|Store Supplies|.3|1323300
+2|2015|215|Cost of Shrinkage|.14|631006.22
+2|2015|215|Employee Salaries|4.11|18425000
+2|2015|215|Officers Salaries|3.66|16396886
+2|2015|215|Credit Card Charge|.06|286618
+2|2015|215|Gasoline & Parking|.02|98000
+2|2015|215|Building Maintenance|.12|516800
+2|2015|215|Store Equipment Maintenance|.1|450000
+2|2015|215|Provision for Inventory Lost|-.01|-38363.23
+2|2015|216|Gas|.23|1330000
+2|2015|216|Water|.01|65000
+2|2015|216|Electric|3.37|19601189
+2|2015|216|Telephone|.08|477614
+2|2015|216|Store Supplies|.24|1390300
+2|2015|216|Office Supplies|.05|311969
+2|2015|216|Cost of Shrinkage|1.72|9968740.89
+2|2015|216|Employee Salaries|3.35|19440000
+2|2015|216|Officers Salaries|2.54|14777061
+2|2015|216|Credit Card Charge|.04|250384
+2|2015|216|Gasoline & Parking|0|15000
+2|2015|216|Building Maintenance|.19|1090000
+2|2015|216|Provision for Inventory Lost|1.7|9848873.19
+2|2015|217|Gas|.04|280000
+2|2015|217|Water|.14|1045200
+2|2015|217|Electric|3.35|25814815
+2|2015|217|Telephone|.13|996971
+2|2015|217|Store Supplies|.3|2275316.66
+2|2015|217|Office Supplies|.01|100000
+2|2015|217|Cost of Shrinkage|1.8|13889944.82
+2|2015|217|Employee Salaries|3.9|30040000
+2|2015|217|Officers Salaries|1.39|10731804
+2|2015|217|Credit Card Charge|.03|238731
+2|2015|217|Gasoline & Parking|0|33400
+2|2015|217|Building Maintenance|.11|860000
+2|2015|217|Employee Overtime Premium|-.01|-62258
+2|2015|217|Provision for Inventory Lost|10.33|79579196.6
+2|2015|218|Gas|.04|512000
+2|2015|218|Water|.04|563900
+2|2015|218|Electric|2.99|40750087
+2|2015|218|Telephone|.04|502228
+2|2015|218|Store Supplies|.24|3213200
+2|2015|218|Office Supplies|.01|164000
+2|2015|218|Cost of Shrinkage|1.81|24747003.89
+2|2015|218|Employee Salaries|3.29|44925000
+2|2015|218|Officers Salaries|1.6|21886072
+2|2015|218|Credit Card Charge|.25|3470174.66
+2|2015|218|Gasoline & Parking|.01|76900
+2|2015|218|Employee Allowances|.07|935000
+2|2015|218|Building Maintenance|.01|113000
+2|2015|218|Employee Overtime Premium|-.06|-758869
+2|2015|218|Store Equipment Maintenance|.01|130000
+2|2015|218|Provision for Inventory Lost|-.31|-4199922.37
+2|2015|219|Oil|.03|64000
+2|2015|219|Water|.01|30500
+2|2015|219|Electric|3.84|9761081
+2|2015|219|Telephone|.09|240553
+2|2015|219|Store Supplies|.18|461472
+2|2015|219|Cost of Shrinkage|1.28|3262603
+2|2015|219|Employee Salaries|3.38|8605000
+2|2015|219|Officers Salaries|4.98|12680368
+2|2015|219|Credit Card Charge|.06|141960
+2|2015|219|Gasoline & Parking|.01|25000
+2|2015|219|Employee Overtime Premium|-.02|-46290
+2|2015|219|Provision for Inventory Lost|.83|2102804.49
+2|2015|222|Gas|.33|1500000
+2|2015|222|Water|.01|40000
+2|2015|222|Electric|2.63|12012201
+2|2015|222|Telephone|.21|979828
+2|2015|222|Store Supplies|.18|817050
+2|2015|222|Office Supplies|.04|168997
+2|2015|222|Cost of Shrinkage|.43|1986483.79
+2|2015|222|Employee Salaries|3.99|18245000
+2|2015|222|Officers Salaries|1.64|7486104
+2|2015|222|Credit Card Charge|.1|440275
+2|2015|222|Employee Allowances|0|0
+2|2015|222|Building Maintenance|.11|520000
+2|2015|222|Employee Overtime Premium|-.03|-127096
+2|2015|222|Store Equipment Maintenance|.03|140000
+2|2015|222|Provision for Inventory Lost|.35|1615907.66
+2|2015|223|Water|.03|56000
+2|2015|223|Electric|3.71|7408048
+2|2015|223|Telephone|.09|188993
+2|2015|223|Store Supplies|.57|1127442
+2|2015|223|Office Supplies|.08|159999
+2|2015|223|Cost of Shrinkage|.3|607702.51
+2|2015|223|Employee Salaries|6.05|12075000
+2|2015|223|Officers Salaries|5.56|11082661
+2|2015|223|Credit Card Charge|.01|29652
+2|2015|223|Employee Allowances|.15|300000
+2|2015|223|Building Maintenance|.22|440000
+2|2015|223|Employee Overtime Premium|.16|315000
+2|2015|223|Provision for Inventory Lost|1.18|2348378.8
+2|2015|224|Water|.04|119500
+2|2015|224|Electric|2.18|6663357
+2|2015|224|Telephone|.37|1128574
+2|2015|224|Store Supplies|.16|488000
+2|2015|224|Office Supplies|.02|60000
+2|2015|224|Cost of Shrinkage|.19|581541.1
+2|2015|224|Employee Salaries|4.6|14060000
+2|2015|224|Officers Salaries|2.55|7800000
+2|2015|224|Credit Card Charge|.05|166492
+2|2015|224|Gasoline & Parking|.03|90000
+2|2015|224|Building Maintenance|.13|400000
+2|2015|225|Gas|.03|680000
+2|2015|225|Oil|.05|1145833.33
+2|2015|225|Water|.03|724500
+2|2015|225|Package|0|9000
+2|2015|225|Electric|3.07|77938417
+2|2015|225|Telephone|.1|2421088
+2|2015|225|Store Supplies|.08|2021624.4
+2|2015|225|Office Supplies|.11|2877700
+2|2015|225|Cost of Shrinkage|.87|22048112.4
+2|2015|225|Employee Salaries|2.94|74590000
+2|2015|225|Officers Salaries|1.94|49130748
+2|2015|225|Credit Card Charge|.07|1891011.6
+2|2015|225|Gasoline & Parking|0|35000
+2|2015|225|Employee Allowances|.95|23980000
+2|2015|225|Building Maintenance|0|40000
+2|2015|225|Employee Overtime Premium|.14|3599958
+2|2015|225|Store Equipment Maintenance|.05|1212414.5
+2|2015|225|Office Equipment Maintenance|.01|194667
+2|2015|225|Provision for Inventory Lost|.43|10811150.08
+2|2015|226|Oil|.07|340000
+2|2015|226|Water|.06|268700
+2|2015|226|Electric|1.92|8846416
+2|2015|226|Telephone|.14|652953
+2|2015|226|Store Supplies|.17|770000
+2|2015|226|Office Supplies|.07|320800
+2|2015|226|Cost of Shrinkage|.92|4248063.07
+2|2015|226|Employee Salaries|4.61|21260000
+2|2015|226|Officers Salaries|2.65|12202900
+2|2015|226|Credit Card Charge|.08|371826
+2|2015|226|Gasoline & Parking|.03|158300
+2|2015|226|Building Maintenance|.1|460000
+2|2015|226|Store Equipment Maintenance|.38|1737700
+2|2015|226|Provision for Inventory Lost|.58|2689760.91
+2|2015|227|Gas|.1|2262000
+2|2015|227|Water|.02|450000
+2|2015|227|Electric|1.3|28026126
+2|2015|227|Telephone|.11|2395054
+2|2015|227|Store Supplies|.28|6087059
+2|2015|227|Office Supplies|.04|814000
+2|2015|227|Cost of Shrinkage|.34|7255847.89
+2|2015|227|Employee Salaries|3.16|68135000
+2|2015|227|Officers Salaries|2.33|50308247
+2|2015|227|Credit Card Charge|.18|3832810.9
+2|2015|227|Gasoline & Parking|.01|300500
+2|2015|227|Employee Allowances|1.13|24301000
+2|2015|227|Building Maintenance|.22|4734600
+2|2015|227|Employee Overtime Premium|.07|1557753
+2|2015|227|Officers Overtime premium|0|75000
+2|2015|227|Store Equipment Maintenance|.25|5370600
+2|2015|227|Provision for Inventory Lost|.01|182688.27
+2|2015|228|Gas|.11|571000
+2|2015|228|Water|.03|140000
+2|2015|228|Electric|2.63|13148722
+2|2015|228|Telephone|.08|409041
+2|2015|228|Store Supplies|1.05|5271115.39
+2|2015|228|Office Supplies|.02|102000
+2|2015|228|Cost of Shrinkage|1.19|5945759.93
+2|2015|228|Employee Salaries|3.32|16620000
+2|2015|228|Officers Salaries|1.73|8635000
+2|2015|228|Credit Card Charge|.05|245005
+2|2015|228|Gasoline & Parking|.01|70000
+2|2015|228|Building Maintenance|0|0
+2|2015|228|Employee Overtime Premium|-.06|-315000
+2|2015|228|Provision for Inventory Lost|2.89|14447675.8
+2|2015|439|Gasoline & Parking|0|1000
+2|2015|439|Employee Allowances|.07|100000
+2|2015|439|Officers Allowances|.14|192500
+2|2015|439|Store Equipment Maintenance|.12|171500
+2|2015|440|Water|.07|144700
+2|2015|440|Electric|1.28|2776449
+2|2015|440|Telephone|.05|99335
+2|2015|440|Store Supplies|.26|568207
+2|2015|440|Cost of Shrinkage|.75|1620376.65
+2|2015|440|Employee Salaries|4.71|10230000
+2|2015|440|Officers Salaries|2.63|5698600
+2|2015|440|Employee Allowances|.14|300000
+2|2015|440|Officers Allowances|.12|262500
+2|2015|440|Building Maintenance|.01|32000
+2|2015|440|Store Equipment Maintenance|.06|130000
+2|2015|440|Provision for Inventory Lost|.32|702004.98
+2|2015|441|Water|.03|44600
+2|2015|441|Electric|2.17|3270095
+2|2015|441|Telephone|.06|94110
+2|2015|441|Store Supplies|.05|81153
+2|2015|441|Cost of Shrinkage|.13|200827.26
+2|2015|441|Employee Salaries|5.59|8430000
+2|2015|441|Officers Salaries|1.89|2855700
+2|2015|441|Employee Allowances|.2|300000
+2|2015|441|Officers Allowances|.05|70000
+2|2015|441|Building Maintenance|.01|15000
+2|2015|441|Provision for Inventory Lost|1.61|2431575.29
+2|2015|442|Water|.03|74100
+2|2015|442|Electric|1.69|4050000
+2|2015|442|Telephone|.15|371395
+2|2015|442|Store Supplies|.25|599011
+2|2015|442|Cost of Shrinkage|.25|603845.45
+2|2015|442|Employee Salaries|1.81|4340000
+2|2015|442|Officers Salaries|2.53|6062000
+2|2015|442|Employee Allowances|.04|100000
+2|2015|442|Building Maintenance|.02|42000
+2|2015|442|Store Equipment Maintenance|.06|150000
+2|2015|442|Provision for Inventory Lost|.74|1768400.06
+2|2015|443|Water|.01|14500
+2|2015|443|Electric|3.34|3311717
+2|2015|443|Telephone|.09|85860
+2|2015|443|Store Supplies|.4|395716
+2|2015|443|Cost of Shrinkage|.39|383725.9
+2|2015|443|Employee Salaries|8.24|8167097
+2|2015|443|Officers Salaries|3.01|2985800
+2|2015|443|Employee Allowances|.2|200000
+2|2015|443|Officers Allowances|.25|245000
+2|2015|443|Building Maintenance|.23|232500
+2|2015|443|Employee Overtime Premium|.14|135939
+2|2015|443|Store Equipment Maintenance|.34|332000
+2|2015|444|Water|.01|25000
+2|2015|444|Electric|2.22|4032500
+2|2015|444|Telephone|.06|99924
+2|2015|444|Store Supplies|.35|643517
+2|2015|444|Cost of Shrinkage|.16|291535.15
+2|2015|444|Employee Salaries|2.32|4213065
+2|2015|444|Officers Salaries|1.51|2744400
+2|2015|444|Employee Allowances|.06|100000
+2|2015|444|Officers Allowances|.1|175000
+2|2015|444|Building Maintenance|.02|45000
+2|2015|444|Employee Overtime Premium|.07|135939
+2|2015|444|Store Equipment Maintenance|.06|100000
+2|2015|444|Provision for Inventory Lost|3.09|5594215.24
+2|2015|446|Water|.05|70300
+2|2015|446|Electric|3.58|4746053
+2|2015|446|Telephone|.09|117210
+2|2015|446|Store Supplies|.62|818145
+2|2015|446|Cost of Shrinkage|1.44|1915869.5
+2|2015|446|Employee Salaries|5.34|7080000
+2|2015|446|Officers Salaries|6.44|8542900
+2|2015|446|Employee Allowances|.08|100000
+2|2015|446|Officers Allowances|.11|150000
+2|2015|446|Building Maintenance|.53|700000
+2|2015|446|Store Equipment Maintenance|.15|202000
+2|2015|446|Provision for Inventory Lost|.29|390655.78
+2|2015|447|Water|0|9000
+2|2015|447|Electric|2.49|6076602
+2|2015|447|Telephone|.03|64860
+2|2015|447|Store Supplies|.12|299804
+2|2015|447|Cost of Shrinkage|.19|469549.86
+2|2015|447|Employee Salaries|1.93|4720000
+2|2015|447|Officers Salaries|2.43|5943800
+2|2015|447|Employee Allowances|.08|200000
+2|2015|447|Officers Allowances|.09|210000
+2|2015|447|Building Maintenance|.47|1148500
+2|2015|447|Store Equipment Maintenance|.09|230000
+2|2015|448|Gas|.06|270000
+2|2015|448|Electric|1.69|7774522
+2|2015|448|Telephone|.02|96860
+2|2015|448|Store Supplies|.12|535690
+2|2015|448|Cost of Shrinkage|.27|1224442.74
+2|2015|448|Employee Salaries|3.59|16541613
+2|2015|448|Officers Salaries|1.22|5631800
+2|2015|448|Employee Allowances|.11|500000
+2|2015|448|Building Maintenance|.01|36900
+2|2015|448|Store Equipment Maintenance|.11|490000
+2|2015|448|Provision for Inventory Lost|-.13|-617374.61
+2|2015|449|Water|.01|28600
+2|2015|449|Electric|2.09|6316141
+2|2015|449|Telephone|.11|330420
+2|2015|449|Store Supplies|.26|774193
+2|2015|449|Cost of Shrinkage|.22|677750.44
+2|2015|449|Employee Salaries|3.94|11900000
+2|2015|449|Officers Salaries|2.9|8750600
+2|2015|449|Employee Allowances|.1|300000
+2|2015|449|Officers Allowances|.08|230000
+2|2015|449|Building Maintenance|.09|274500
+2|2015|449|Store Equipment Maintenance|.03|84000
+2|2015|450|Water|.02|28500
+2|2015|450|Electric|2.8|3845322
+2|2015|450|Telephone|.18|250860
+2|2015|450|Store Supplies|.28|379890
+2|2015|450|Cost of Shrinkage|.21|294213.96
+2|2015|450|Employee Salaries|3.27|4495000
+2|2015|450|Officers Salaries|3.98|5473200
+2|2015|450|Gasoline & Parking|.02|22500
+2|2015|450|Employee Allowances|.15|200000
+2|2015|450|Officers Allowances|.18|245000
+2|2015|450|Store Equipment Maintenance|.15|200000
+2|2015|450|Provision for Inventory Lost|.18|247858.64
+2|2015|451|Water|.01|18800
+2|2015|451|Electric|2.26|3933269
+2|2015|451|Telephone|.16|283285
+2|2015|451|Store Supplies|.23|401302
+2|2015|451|Cost of Shrinkage|.17|294573.12
+2|2015|451|Employee Salaries|2.35|4090000
+2|2015|451|Officers Salaries|3.26|5674700
+2|2015|451|Employee Allowances|.12|200000
+2|2015|451|Officers Allowances|.12|210000
+2|2015|451|Building Maintenance|.17|290500
+2|2015|451|Store Equipment Maintenance|1.39|2417900
+2|2015|451|Provision for Inventory Lost|.22|381582.37
+2|2015|452|Gas|.1|300000
+2|2015|452|Electric|2.69|8086265
+2|2015|452|Telephone|.03|75410
+2|2015|452|Store Supplies|.21|641903
+2|2015|452|Cost of Shrinkage|1.93|5793672.05
+2|2015|452|Employee Salaries|4.18|12576129
+2|2015|452|Officers Salaries|1.91|5750300
+2|2015|452|Employee Allowances|.15|450000
+2|2015|452|Officers Allowances|.08|227500
+2|2015|452|Building Maintenance|.1|310000
+2|2015|452|Store Equipment Maintenance|.07|215000
+2|2015|452|Provision for Inventory Lost|-.15|-450227.19
+2|2015|453|Water|.03|54700
+2|2015|453|Electric|2.02|3687464
+2|2015|453|Telephone|.03|54070
+2|2015|453|Store Supplies|.34|621955
+2|2015|453|Cost of Shrinkage|.39|715090.05
+2|2015|453|Employee Salaries|3.23|5915484
+2|2015|453|Officers Salaries|1.42|2593800
+2|2015|453|Employee Allowances|.11|200000
+2|2015|453|Officers Allowances|.07|122500
+2|2015|453|Building Maintenance|.32|591000
+2|2015|453|Store Equipment Maintenance|.09|170000
+2|2015|454|Water|.04|182000
+2|2015|454|Electric|.6|2992230
+2|2015|454|Telephone|.02|105634
+2|2015|454|Store Supplies|.08|425280
+2|2015|454|Cost of Shrinkage|.34|1683758.14
+2|2015|454|Employee Salaries|4.74|23750161
+2|2015|454|Officers Salaries|1.21|6054300
+2|2015|454|Employee Allowances|.08|400000
+2|2015|454|Officers Allowances|.08|400000
+2|2015|454|Building Maintenance|.01|65000
+2|2015|454|Store Equipment Maintenance|.02|100000
+2|2015|455|Water|.01|14500
+2|2015|455|Electric|3.24|3726429
+2|2015|455|Telephone|.06|71982
+2|2015|455|Store Supplies|.22|256502
+2|2015|455|Cost of Shrinkage|.25|292217.24
+2|2015|455|Employee Salaries|4.1|4720000
+2|2015|455|Officers Salaries|5.13|5911800
+2|2015|455|Employee Allowances|.09|100000
+2|2015|455|Officers Allowances|.2|227500
+2|2015|455|Building Maintenance|.13|155000
+2|2015|471|Employee Salaries|4.75|6254032
+2|2015|471|Officers Salaries|3.4|4477468
+2|2015|471|Employee Allowances|.15|200000
+2|2015|471|Officers Allowances|.11|140000
+2|2015|471|Employee Overtime Premium|.1|135939
+2|2015|471|Store Equipment Maintenance|.09|125000
+2|2015|472|Electric|1.95|2992158
+2|2015|472|Telephone|.08|120843
+2|2015|472|Store Supplies|.29|438903
+2|2015|472|Cost of Shrinkage|.09|135305.37
+2|2015|472|Employee Salaries|3.95|6069032
+2|2015|472|Officers Salaries|3.69|5671600
+2|2015|472|Employee Allowances|.13|200000
+2|2015|472|Officers Allowances|.16|245000
+2|2015|472|Building Maintenance|.06|85000
+2|2015|472|Store Equipment Maintenance|.19|295500
+2|2015|472|Provision for Inventory Lost|0|2528.5
+2|2015|473|Water|.02|41000
+2|2015|473|Electric|2.47|4582622
+2|2015|473|Telephone|.04|67512
+2|2015|473|Store Supplies|.16|288777
+2|2015|473|Cost of Shrinkage|.14|266377.88
+2|2015|473|Employee Salaries|2.22|4110000
+2|2015|473|Officers Salaries|1.37|2546100
+2|2015|473|Officers Allowances|.09|175000
+2|2015|473|Building Maintenance|0|7000
+2|2015|473|Store Equipment Maintenance|.82|1527000
+2|2015|473|Provision for Inventory Lost|0|8618.91
+2|2015|475|Water|.19|147100
+2|2015|475|Electric|3.58|2844597
+2|2015|475|Telephone|.1|76785
+2|2015|475|Store Supplies|.22|173114
+2|2015|475|Cost of Shrinkage|.81|642450.21
+2|2015|475|Employee Salaries|7.87|6255000
+2|2015|475|Officers Salaries|3.73|2966500
+2|2015|475|Employee Allowances|.13|100000
+2|2015|475|Officers Allowances|.13|105000
+2|2015|475|Building Maintenance|.05|38000
+2|2015|475|Store Equipment Maintenance|.32|255000
+2|2015|475|Provision for Inventory Lost|-.05|-36926.16
+2|2015|476|Gas|.19|435000
+2|2015|476|Water|.01|28900
+2|2015|476|Electric|3.45|7775227
+2|2015|476|Telephone|.04|98422
+2|2015|476|Store Supplies|.21|462190
+2|2015|476|Cost of Shrinkage|1.03|2310753.97
+2|2015|476|Employee Salaries|5.23|11775000
+2|2015|476|Officers Salaries|1.47|3301800
+2|2015|476|Employee Allowances|.13|300000
+2|2015|476|Officers Allowances|.01|17500
+2|2015|476|Building Maintenance|.02|35000
+2|2015|476|Store Equipment Maintenance|.14|314800
+2|2015|477|Water|.01|18000
+2|2015|477|Electric|2.88|4294142
+2|2015|477|Telephone|.11|158460
+2|2015|477|Store Supplies|.1|144548
+2|2015|477|Cost of Shrinkage|.02|34605.8
+2|2015|477|Employee Salaries|5.62|8364032
+2|2015|477|Officers Salaries|2.17|3223500
+2|2015|477|Employee Allowances|.2|300000
+2|2015|477|Officers Allowances|.07|105000
+2|2015|477|Store Equipment Maintenance|.08|120000
+2|2015|478|Gas|.12|234545.45
+2|2015|478|Water|.13|264000
+2|2015|478|Electric|3.49|7100000
+2|2015|478|Telephone|.01|22500
+2|2015|478|Store Supplies|.77|1559342
+2|2015|478|Cost of Shrinkage|.79|1609361.07
+2|2015|478|Employee Salaries|8.29|16876290
+2|2015|478|Officers Salaries|1.62|3301200
+2|2015|478|Employee Allowances|.15|300000
+2|2015|478|Building Maintenance|.01|27000
+2|2015|478|Store Equipment Maintenance|.05|100000
+2|2015|478|Provision for Inventory Lost|-.17|-344259.64
+2|2015|479|Water|.04|102250
+2|2015|479|Electric|2.25|5700000
+2|2015|479|Telephone|.05|128363
+2|2015|479|Store Supplies|.21|524287
+2|2015|479|Cost of Shrinkage|.06|150538.56
+2|2015|479|Employee Salaries|1.84|4675000
+2|2015|479|Officers Salaries|2.07|5254000
+2|2015|479|Gasoline & Parking|.01|22000
+2|2015|479|Employee Allowances|.08|200000
+2|2015|479|Officers Allowances|.01|35000
+2|2015|479|Building Maintenance|.27|682800
+2|2015|479|Store Equipment Maintenance|.1|260600
+2|2015|481|Water|.01|9000
+2|2015|481|Electric|2.91|3277612
+2|2015|481|Telephone|.1|115560
+2|2015|481|Store Supplies|.25|278714
+2|2015|481|Cost of Shrinkage|.2|225899.83
+2|2015|481|Employee Salaries|7.47|8430000
+2|2015|481|Officers Salaries|2.77|3128600
+2|2015|481|Employee Allowances|.27|300000
+2|2015|481|Officers Allowances|.05|52500
+2|2015|481|Store Equipment Maintenance|.12|138000
+2|2015|481|Provision for Inventory Lost|.31|347736.11
+2|2015|482|Water|.02|72250
+2|2015|482|Electric|2.48|7506295
+2|2015|482|Telephone|.03|94374
+2|2015|482|Store Supplies|.1|296952
+2|2015|482|Cost of Shrinkage|.63|1914583.26
+2|2015|482|Employee Salaries|1.98|5985000
+2|2015|482|Officers Salaries|1.91|5774600
+2|2015|482|Employee Allowances|.1|300000
+2|2015|482|Officers Allowances|.08|227500
+2|2015|482|Building Maintenance|.97|2919800
+2|2015|482|Store Equipment Maintenance|.07|220000
+2|2015|482|Provision for Inventory Lost|.76|2306511.79
+2|2015|483|Water|.01|14500
+2|2015|483|Electric|3.41|6230548
+2|2015|483|Telephone|.04|75410
+2|2015|483|Store Supplies|.29|528501
+2|2015|483|Cost of Shrinkage|.25|464123.76
+2|2015|483|Employee Salaries|3.41|6235000
+2|2015|483|Officers Salaries|1.71|3133200
+2|2015|483|Employee Allowances|.16|300000
+2|2015|483|Officers Allowances|.07|122500
+2|2015|483|Building Maintenance|.48|876000
+2|2015|483|Store Equipment Maintenance|.08|150000
+2|2015|484|Water|.03|63000
+2|2015|484|Electric|1.37|2900000
+2|2015|484|Telephone|.06|124360
+2|2015|484|Store Supplies|.42|899300
+2|2015|484|Cost of Shrinkage|.19|398772.01
+2|2015|484|Employee Salaries|3.98|8430000
+2|2015|484|Officers Salaries|1.33|2815900
+2|2015|484|Employee Allowances|.09|200000
+2|2015|484|Officers Allowances|.07|140000
+2|2015|484|Store Equipment Maintenance|.06|120000
+2|2015|484|Provision for Inventory Lost|.28|593056.05
+2|2015|485|Water|.01|29000
+2|2015|485|Electric|1.63|3609635
+2|2015|485|Telephone|.13|282185
+2|2015|485|Store Supplies|.22|484469
+2|2015|485|Cost of Shrinkage|.2|452148.27
+2|2015|485|Employee Salaries|2.88|6385000
+2|2015|485|Officers Salaries|2.53|5603300
+2|2015|485|Employee Allowances|.09|200000
+2|2015|485|Store Equipment Maintenance|.1|213400
+2|2015|485|Provision for Inventory Lost|.25|551670.54
+2|2015|486|Water|.06|36000
+2|2015|486|Electric|8.94|5224498
+2|2015|486|Telephone|.15|90214
+2|2015|486|Store Supplies|.23|132264
+2|2015|486|Cost of Shrinkage|1.03|600650.74
+2|2015|486|Employee Salaries|2.04|1190000
+2|2015|486|Officers Salaries|9.68|5658100
+2|2015|486|Employee Allowances|.17|100000
+2|2015|486|Building Maintenance|.2|116000
+2|2015|486|Store Equipment Maintenance|1.56|910000
+2|2015|486|Provision for Inventory Lost|-.11|-64328
+2|2015|487|Electric|0|0
+2|2015|487|Telephone|0|0
+2|2015|487|Building Maintenance|0|0
+2|2015|487|Store Equipment Maintenance|0|0
+2|2015|487|Provision for Inventory Lost|0|0
+2|2015|489|Water|.15|363600
+2|2015|489|Electric|2.07|4861818
+2|2015|489|Telephone|.05|113085
+2|2015|489|Store Supplies|.18|425505
+2|2015|489|Cost of Shrinkage|.18|431552.63
+2|2015|489|Employee Salaries|2.95|6930000
+2|2015|489|Officers Salaries|2.57|6045600
+2|2015|489|Employee Allowances|.13|300000
+2|2015|489|Officers Allowances|.1|245000
+2|2015|489|Store Equipment Maintenance|.04|100000
+2|2015|490|Water|.01|14500
+2|2015|490|Electric|1.59|4443505
+2|2015|490|Telephone|.03|92288
+2|2015|490|Store Supplies|.22|618589
+2|2015|490|Cost of Shrinkage|.33|915759.01
+2|2015|490|Employee Salaries|2.28|6385000
+2|2015|490|Officers Salaries|1.06|2957200
+2|2015|490|Employee Allowances|.04|100000
+2|2015|490|Officers Allowances|.01|35000
+2|2015|490|Building Maintenance|0|8000
+2|2015|490|Store Equipment Maintenance|.06|180000
+2|2015|491|Water|.06|84800
+2|2015|491|Electric|2.42|3245856
+2|2015|491|Telephone|.22|300060
+2|2015|491|Store Supplies|.16|218302
+2|2015|491|Cost of Shrinkage|.57|766533.17
+2|2015|491|Employee Salaries|4.76|6385000
+2|2015|491|Officers Salaries|2.47|3307700
+2|2015|491|Employee Allowances|.15|200000
+2|2015|491|Officers Allowances|.08|105000
+2|2015|491|Building Maintenance|.17|230000
+2|2015|491|Store Equipment Maintenance|.04|50000
+2|2015|491|Provision for Inventory Lost|.3|404027.29
+2|2015|492|Water|.01|24500
+2|2015|492|Electric|2.54|4700000
+2|2015|492|Telephone|.11|198500
+2|2015|492|Store Supplies|.28|510733
+2|2015|492|Cost of Shrinkage|.09|169444.23
+2|2015|492|Employee Salaries|5.3|9788871
+2|2015|492|Officers Salaries|1.74|3204700
+2|2015|492|Officers Allowances|.01|17500
+2|2015|492|Building Maintenance|.43|803000
+2|2015|492|Store Equipment Maintenance|.31|565800
+2|2015|492|Provision for Inventory Lost|-.16|-302749.76
+2|2015|494|Water|.04|73500
+2|2015|494|Electric|2.46|4371875
+2|2015|494|Telephone|.05|85860
+2|2015|494|Store Supplies|.23|416805
+2|2015|494|Cost of Shrinkage|.45|802485.04
+2|2015|494|Employee Salaries|4.12|7330000
+2|2015|494|Officers Salaries|5.15|9158748
+2|2015|494|Employee Allowances|.11|200000
+2|2015|494|Officers Allowances|.13|227500
+2|2015|494|Store Equipment Maintenance|.06|100000
+2|2015|494|Provision for Inventory Lost|.08|142984.04
+2|2015|495|Water|.06|90100
+2|2015|495|Electric|2.18|3180545
+2|2015|495|Telephone|.02|22500
+2|2015|495|Store Supplies|.17|243003
+2|2015|495|Cost of Shrinkage|.4|582241.29
+2|2015|495|Employee Salaries|1.32|1930000
+2|2015|495|Officers Salaries|3.94|5738000
+2|2015|495|Officers Allowances|.14|210000
+2|2015|495|Building Maintenance|.04|55000
+2|2015|495|Employee Overtime Premium|.26|384884
+2|2015|495|Store Equipment Maintenance|.1|145000
+2|2015|496|Water|.19|254500
+2|2015|496|Electric|2.01|2697189
+2|2015|496|Telephone|.03|45500
+2|2015|496|Store Supplies|.18|242338
+2|2015|496|Cost of Shrinkage|.23|314789.98
+2|2015|496|Employee Salaries|7.23|9695000
+2|2015|496|Officers Salaries|2.26|3028600
+2|2015|496|Employee Allowances|.22|300000
+2|2015|496|Officers Allowances|.08|105000
+2|2015|496|Building Maintenance|.03|45000
+2|2015|496|Store Equipment Maintenance|.05|65000
+2|2015|496|Provision for Inventory Lost|.3|406435.57
+2|2015|497|Water|.06|57700
+2|2015|497|Electric|1.96|1950000
+2|2015|497|Telephone|.07|64860
+2|2015|497|Store Supplies|.18|182117
+2|2015|497|Cost of Shrinkage|.24|237278.27
+2|2015|497|Employee Salaries|4.1|4090000
+2|2015|497|Officers Salaries|5.43|5409600
+2|2015|497|Employee Allowances|.2|200000
+2|2015|497|Officers Allowances|.23|227500
+2|2015|497|Store Equipment Maintenance|.15|153800
+2|2015|497|Provision for Inventory Lost|.39|387721.31
+2|2015|498|Water|.1|137150
+2|2015|498|Electric|2.51|3420511
+2|2015|498|Telephone|.04|54070
+2|2015|498|Store Supplies|.29|389705
+2|2015|498|Cost of Shrinkage|.19|258690.17
+2|2015|498|Employee Salaries|4.67|6365000
+2|2015|498|Officers Salaries|2.1|2863500
+2|2015|498|Employee Allowances|.15|200000
+2|2015|498|Officers Allowances|.04|52500
+2|2015|498|Building Maintenance|.27|371500
+2|2015|498|Store Equipment Maintenance|.11|150000
+2|2015|500|Water|.09|168700
+2|2015|500|Electric|3.96|7633969
+2|2015|500|Telephone|.16|313713
+2|2015|500|Store Supplies|.14|268217
+2|2015|500|Cost of Shrinkage|.54|1037512.93
+2|2015|500|Employee Salaries|2.23|4290000
+2|2015|500|Officers Salaries|4.37|8418600
+2|2015|500|Employee Allowances|.1|200000
+2|2015|500|Building Maintenance|.05|101500
+2|2015|500|Store Equipment Maintenance|.14|276600
+2|2015|500|Provision for Inventory Lost|-.02|-38142.01
+2|2015|501|Water|.03|43400
+2|2015|501|Electric|3.45|4565707
+2|2015|501|Telephone|.23|309698
+2|2015|501|Store Supplies|.19|252678
+2|2015|501|Cost of Shrinkage|.11|148831.2
+2|2015|501|Employee Salaries|3.44|4545000
+2|2015|501|Officers Salaries|4.48|5919000
+2|2015|501|Employee Allowances|.15|200000
+2|2015|501|Officers Allowances|.09|122500
+2|2015|501|Building Maintenance|.2|262000
+2|2015|501|Store Equipment Maintenance|.15|200000
+2|2015|502|Water|.02|14500
+2|2015|502|Electric|4.44|3302137
+2|2015|502|Telephone|.35|257360
+2|2015|502|Store Supplies|.29|215206
+2|2015|502|Cost of Shrinkage|.53|393649.35
+2|2015|502|Employee Salaries|6.14|4570000
+2|2015|502|Officers Salaries|7.75|5770000
+2|2015|502|Employee Allowances|.27|200000
+2|2015|502|Officers Allowances|.02|17500
+2|2015|502|Building Maintenance|.41|305000
+2|2015|502|Store Equipment Maintenance|.22|167000
+2|2015|503|Water|.01|14500
+2|2015|503|Electric|3.53|4594516
+2|2015|503|Telephone|.23|305441
+2|2015|503|Store Supplies|.18|232347
+2|2015|503|Cost of Shrinkage|.89|1159373.03
+2|2015|503|Employee Salaries|3.92|5106774
+2|2015|503|Officers Salaries|4.35|5663800
+2|2015|503|Employee Allowances|.12|150000
+2|2015|503|Officers Allowances|.05|70000
+2|2015|503|Building Maintenance|.86|1120000
+2|2015|503|Store Equipment Maintenance|.08|100000
+2|2015|503|Provision for Inventory Lost|.31|408987.11
+2|2015|504|Water|.02|43500
+2|2015|504|Electric|3.01|5598123
+2|2015|504|Telephone|.16|292910
+2|2015|504|Store Supplies|.16|289720
+2|2015|504|Cost of Shrinkage|.21|395178.14
+2|2015|504|Employee Salaries|2.67|4962000
+2|2015|504|Officers Salaries|3.2|5950400
+2|2015|504|Officers Allowances|.03|52500
+2|2015|504|Building Maintenance|.44|815500
+2|2015|504|Employee Overtime Premium|.05|95058
+2|2015|504|Store Equipment Maintenance|.12|225000
+2|2015|505|Water|.02|46500
+2|2015|505|Electric|1.25|3266650
+2|2015|505|Telephone|.11|281058
+2|2015|505|Store Supplies|.31|803412
+2|2015|505|Cost of Shrinkage|.28|733200.65
+2|2015|505|Employee Salaries|2.83|7405000
+2|2015|505|Officers Salaries|2.18|5721800
+2|2015|505|Employee Allowances|.11|300000
+2|2015|505|Building Maintenance|.29|761200
+2|2015|505|Store Equipment Maintenance|.11|290000
+2|2015|506|Water|.02|48000
+2|2015|506|Electric|2.15|6775834
+2|2015|506|Telephone|.03|88234
+2|2015|506|Store Supplies|.19|583642
+2|2015|506|Cost of Shrinkage|.17|549379.3
+2|2015|506|Employee Salaries|2.51|7930000
+2|2015|506|Officers Salaries|1.8|5666500
+2|2015|506|Gasoline & Parking|0|4000
+2|2015|506|Employee Allowances|.1|300000
+2|2015|506|Building Maintenance|.08|250000
+2|2015|506|Store Equipment Maintenance|.1|300000
+2|2015|506|Provision for Inventory Lost|.26|826470.79
+2|2015|507|Water|.01|28900
+2|2015|507|Electric|2.16|4433692
+2|2015|507|Telephone|.04|73412
+2|2015|507|Store Supplies|.14|279730
+2|2015|507|Cost of Shrinkage|.29|601478.17
+2|2015|507|Employee Salaries|1.98|4075000
+2|2015|507|Officers Salaries|2.84|5838300
+2|2015|507|Employee Allowances|.1|200000
+2|2015|507|Building Maintenance|.12|238000
+2|2015|507|Store Equipment Maintenance|.07|140000
+2|2015|507|Provision for Inventory Lost|.23|472224.52
+2|2015|508|Water|.03|66100
+2|2015|508|Electric|1.69|3313298
+2|2015|508|Telephone|.04|79130
+2|2015|508|Store Supplies|.15|283827
+2|2015|508|Cost of Shrinkage|.75|1469499.92
+2|2015|508|Employee Salaries|3.74|7310806
+2|2015|508|Officers Salaries|2.62|5131700
+2|2015|508|Employee Allowances|.26|500000
+2|2015|508|Officers Allowances|.08|157500
+2|2015|508|Building Maintenance|.16|306500
+2|2015|508|Store Equipment Maintenance|.09|175000
+2|2015|508|Provision for Inventory Lost|.28|543942.89
+2|2015|509|Water|.05|104800
+2|2015|509|Electric|3.03|6295629
+2|2015|509|Telephone|.05|96169
+2|2015|509|Store Supplies|.33|680637
+2|2015|509|Cost of Shrinkage|.48|987782.46
+2|2015|509|Employee Salaries|1.84|3825000
+2|2015|509|Officers Salaries|3.99|8279400
+2|2015|509|Employee Allowances|.14|300000
+2|2015|509|Officers Allowances|.08|157500
+2|2015|509|Building Maintenance|.02|40000
+2|2015|509|Store Equipment Maintenance|.05|100000
+2|2015|509|Provision for Inventory Lost|.27|558195.94
+2|2015|510|Water|.01|28900
+2|2015|510|Electric|1.87|5087006
+2|2015|510|Telephone|.04|101213
+2|2015|510|Store Supplies|.26|702062
+2|2015|510|Cost of Shrinkage|.08|221952.75
+2|2015|510|Employee Salaries|3.72|10105000
+2|2015|510|Officers Salaries|1.2|3250700
+2|2015|510|Employee Allowances|.11|300000
+2|2015|510|Officers Allowances|.05|122500
+2|2015|510|Store Equipment Maintenance|.09|250000
+2|2015|510|Provision for Inventory Lost|.16|445789.42
+2|2015|511|Water|.04|68500
+2|2015|511|Electric|2.52|4227587
+2|2015|511|Telephone|.04|59679
+2|2015|511|Store Supplies|.52|872103
+2|2015|511|Cost of Shrinkage|.8|1337128.73
+2|2015|511|Employee Salaries|3.64|6095000
+2|2015|511|Officers Salaries|1.84|3088800
+2|2015|511|Employee Allowances|.06|100000
+2|2015|511|Officers Allowances|.06|105000
+2|2015|511|Building Maintenance|0|6500
+2|2015|511|Store Equipment Maintenance|.08|133500
+2|2015|511|Provision for Inventory Lost|.32|543787.24
+2|2015|512|Electric|1.22|3200000
+2|2015|512|Telephone|.03|85450
+2|2015|512|Store Supplies|.15|400059
+2|2015|512|Cost of Shrinkage|.19|502002.44
+2|2015|512|Employee Salaries|4.09|10680000
+2|2015|512|Officers Salaries|1.2|3128600
+2|2015|512|Employee Allowances|.11|300000
+2|2015|512|Building Maintenance|.05|130000
+2|2015|512|Store Equipment Maintenance|.05|135000
+2|2015|512|Provision for Inventory Lost|.14|377500.39
+2|2015|513|Water|.07|119800
+2|2015|513|Electric|2.29|4050000
+2|2015|513|Telephone|.04|64992
+2|2015|513|Store Supplies|.14|253372
+2|2015|513|Cost of Shrinkage|.57|1013522.75
+2|2015|513|Employee Salaries|4|7080000
+2|2015|513|Officers Salaries|1.71|3028600
+2|2015|513|Employee Allowances|.06|100000
+2|2015|513|Store Equipment Maintenance|.06|115000
+2|2015|513|Provision for Inventory Lost|.01|12498.79
+2|2015|514|Gas|.03|145000
+2|2015|514|Water|.05|217500
+2|2015|514|Electric|.47|2200000
+2|2015|514|Telephone|0|22500
+2|2015|514|Store Supplies|.48|2247479
+2|2015|514|Cost of Shrinkage|.38|1801209.53
+2|2015|514|Employee Salaries|2.55|12005000
+2|2015|514|Officers Salaries|.66|3109400
+2|2015|514|Employee Allowances|.08|400000
+2|2015|514|Officers Allowances|.02|87500
+2|2015|514|Building Maintenance|0|18000
+2|2015|514|Store Equipment Maintenance|.16|730500
+2|2015|514|Provision for Inventory Lost|.49|2295075.11
+2|2015|515|Water|.01|4000
+2|2015|515|Electric|4.4|3400000
+2|2015|515|Telephone|.12|94910
+2|2015|515|Store Supplies|.34|263131
+2|2015|515|Cost of Shrinkage|.45|345454.63
+2|2015|515|Employee Salaries|15.91|12290000
+2|2015|515|Officers Salaries|7.81|6036100
+2|2015|515|Employee Allowances|.39|300000
+2|2015|515|Officers Allowances|.23|175000
+2|2015|515|Store Equipment Maintenance|.29|225000
+2|2015|515|Provision for Inventory Lost|.04|31029.4
+2|2015|516|Water|.03|43400
+2|2015|516|Electric|2.35|3099996
+2|2015|516|Telephone|.07|89911
+2|2015|516|Store Supplies|.16|213469
+2|2015|516|Cost of Shrinkage|.22|290361.63
+2|2015|516|Employee Salaries|5.48|7227903
+2|2015|516|Officers Salaries|2.11|2776000
+2|2015|516|Employee Allowances|.08|100000
+2|2015|516|Officers Allowances|.05|70000
+2|2015|516|Store Equipment Maintenance|.14|190200
+2|2015|516|Provision for Inventory Lost|.08|108094.31
+2|2015|517|Water|.04|59000
+2|2015|517|Electric|2.27|3578879
+2|2015|517|Store Supplies|.14|228331
+2|2015|517|Cost of Shrinkage|.23|361059.96
+2|2015|517|Employee Salaries|3.71|5845000
+2|2015|517|Officers Salaries|3.63|5725600
+2|2015|517|Employee Allowances|.06|100000
+2|2015|517|Officers Allowances|.41|645000
+2|2015|517|Store Equipment Maintenance|.06|100000
+2|2015|517|Provision for Inventory Lost|0|3561.61
+2|2015|518|Water|.03|124500
+2|2015|518|Electric|3.1|11033816
+2|2015|518|Telephone|.05|190295
+2|2015|518|Store Supplies|.03|118934
+2|2015|518|Cost of Shrinkage|.34|1195954
+2|2015|518|Employee Salaries|4.02|14290000
+2|2015|518|Officers Salaries|.83|2957200
+2|2015|518|Employee Allowances|.06|200000
+2|2015|518|Officers Allowances|0|17500
+2|2015|518|Store Equipment Maintenance|.1|350000
+2|2015|518|Provision for Inventory Lost|-.04|-147810.2
+2|2015|519|Water|.03|37500
+2|2015|519|Electric|2.48|3496336
+2|2015|519|Telephone|.05|70314
+2|2015|519|Store Supplies|.36|513116
+2|2015|519|Cost of Shrinkage|.48|679800.79
+2|2015|519|Employee Salaries|4.84|6830000
+2|2015|519|Officers Salaries|2.1|2958700
+2|2015|519|Employee Allowances|.07|100000
+2|2015|519|Officers Allowances|.07|105000
+2|2015|519|Store Equipment Maintenance|.07|100000
+2|2015|519|Provision for Inventory Lost|.67|943475.62
+2|2015|520|Water|.04|101300
+2|2015|520|Electric|1.83|5267407
+2|2015|520|Telephone|.02|52910
+2|2015|520|Store Supplies|.39|1126017
+2|2015|520|Cost of Shrinkage|.21|611796.66
+2|2015|520|Employee Salaries|4.18|12070000
+2|2015|520|Officers Salaries|1.11|3200100
+2|2015|520|Employee Allowances|.14|400000
+2|2015|520|Officers Allowances|.04|122500
+2|2015|520|Building Maintenance|.01|15000
+2|2015|520|Store Equipment Maintenance|.11|303500
+2|2015|521|Electric|1.03|4576576
+2|2015|521|Telephone|.01|64910
+2|2015|521|Store Supplies|.15|682869
+2|2015|521|Cost of Shrinkage|.07|310786.52
+2|2015|521|Employee Salaries|2.27|10100000
+2|2015|521|Officers Salaries|.63|2808100
+2|2015|521|Employee Allowances|.07|300000
+2|2015|521|Officers Allowances|.03|122500
+2|2015|521|Building Maintenance|.37|1625000
+2|2015|521|Store Equipment Maintenance|.35|1543000
+2|2015|522|Water|.01|40000
+2|2015|522|Electric|1.49|4099112
+2|2015|522|Telephone|.04|104257
+2|2015|522|Store Supplies|.11|289209
+2|2015|522|Cost of Shrinkage|.19|527302.99
+2|2015|522|Employee Salaries|3.61|9914355
+2|2015|522|Officers Salaries|1.1|3028600
+2|2015|522|Employee Allowances|.11|300000
+2|2015|522|Officers Allowances|.06|175000
+2|2015|522|Store Equipment Maintenance|.09|240000
+2|2015|523|Water|.08|62200
+2|2015|523|Electric|4.6|3774442
+2|2015|523|Telephone|.08|64936
+2|2015|523|Store Supplies|.16|131150
+2|2015|523|Cost of Shrinkage|.98|806143.2
+2|2015|523|Employee Salaries|7.67|6284516
+2|2015|523|Officers Salaries|3.09|2530100
+2|2015|523|Officers Allowances|.19|157500
+2|2015|523|Building Maintenance|.48|391500
+2|2015|523|Employee Overtime Premium|.31|256590
+2|2015|523|Store Equipment Maintenance|.2|160000
+2|2015|524|Gas|.15|420000
+2|2015|524|Water|.01|14500
+2|2015|524|Electric|1.26|3500000
+2|2015|524|Telephone|.03|95850
+2|2015|524|Store Supplies|.11|302028
+2|2015|524|Cost of Shrinkage|.47|1299001.83
+2|2015|524|Employee Salaries|1.91|5308871
+2|2015|524|Officers Salaries|2.04|5687600
+2|2015|524|Employee Allowances|.07|200000
+2|2015|524|Officers Allowances|.08|210000
+2|2015|524|Building Maintenance|.1|275700
+2|2015|524|Store Equipment Maintenance|.15|406500
+2|2015|524|Provision for Inventory Lost|-1.24|-3452655.79
+2|2015|525|Water|.02|29000
+2|2015|525|Electric|1.3|1947082
+2|2015|525|Telephone|.09|132060
+2|2015|525|Store Supplies|.23|336328
+2|2015|525|Cost of Shrinkage|.21|315905.33
+2|2015|525|Employee Salaries|4.69|7005000
+2|2015|525|Officers Salaries|1.91|2855700
+2|2015|525|Gasoline & Parking|.04|67000
+2|2015|525|Employee Allowances|.13|200000
+2|2015|525|Officers Allowances|.14|210000
+2|2015|525|Store Equipment Maintenance|.09|134000
+2|2015|526|Gas|.06|290000
+2|2015|526|Water|0|14500
+2|2015|526|Electric|2.32|11760974
+2|2015|526|Telephone|.01|58360
+2|2015|526|Store Supplies|.17|848050
+2|2015|526|Cost of Shrinkage|.31|1588855.86
+2|2015|526|Employee Salaries|4.71|23920000
+2|2015|526|Officers Salaries|.58|2966500
+2|2015|526|Inventory Variance|-.09|-464722
+2|2015|526|Employee Allowances|.08|400000
+2|2015|526|Officers Allowances|.06|305000
+2|2015|526|Building Maintenance|.12|588000
+2|2015|526|Employee Overtime Premium|.03|174827
+2|2015|526|Store Equipment Maintenance|.11|560000
+2|2015|526|Provision for Inventory Lost|-.23|-1166324.61
+2|2015|527|Gas|.34|351818.18
+2|2015|527|Water|.08|81800
+2|2015|527|Electric|4.32|4440094
+2|2015|527|Telephone|.13|131785
+2|2015|527|Store Supplies|.23|237673
+2|2015|527|Cost of Shrinkage|.27|277514.96
+2|2015|527|Employee Salaries|14.04|14415000
+2|2015|527|Officers Salaries|3.1|3180900
+2|2015|527|Employee Allowances|.19|200000
+2|2015|527|Officers Allowances|.14|140000
+2|2015|527|Store Equipment Maintenance|.1|100000
+2|2015|527|Provision for Inventory Lost|.41|425673.88
+2|2015|528|Water|.02|27500
+2|2015|528|Electric|2.79|3223673
+2|2015|528|Telephone|.07|85860
+2|2015|528|Store Supplies|.31|356831
+2|2015|528|Cost of Shrinkage|.26|297494.81
+2|2015|528|Employee Salaries|5.52|6385000
+2|2015|528|Officers Salaries|5.39|6234800
+2|2015|528|Employee Allowances|.17|200000
+2|2015|528|Building Maintenance|.09|108000
+2|2015|528|Store Equipment Maintenance|.09|100000
+2|2015|528|Provision for Inventory Lost|.39|455991.5
+2|2015|529|Water|.02|23500
+2|2015|529|Electric|2.05|2771709
+2|2015|529|Telephone|.06|79810
+2|2015|529|Store Supplies|.14|190942
+2|2015|529|Cost of Shrinkage|.09|125311.12
+2|2015|529|Employee Salaries|7.17|9690000
+2|2015|529|Officers Salaries|1.97|2665200
+2|2015|529|Employee Allowances|.15|200000
+2|2015|529|Officers Allowances|.13|175000
+2|2015|529|Building Maintenance|.44|598000
+2|2015|529|Store Equipment Maintenance|.07|100000
+2|2015|529|Provision for Inventory Lost|.29|394262.55
+2|2015|530|Water|.17|175000
+2|2015|530|Electric|3.08|3149157
+2|2015|530|Telephone|.25|250860
+2|2015|530|Store Supplies|.19|192878
+2|2015|530|Cost of Shrinkage|.49|503741.52
+2|2015|530|Employee Salaries|4.74|4836371
+2|2015|530|Officers Salaries|9.9|10109216
+2|2015|530|Officers Allowances|.07|70000
+2|2015|530|Building Maintenance|.13|130000
+2|2015|530|Store Equipment Maintenance|.05|50000
+2|2015|530|Provision for Inventory Lost|2.27|2321307.55
+2|2015|531|Water|.16|78600
+2|2015|531|Electric|6.37|3046062
+2|2015|531|Telephone|.05|22500
+2|2015|531|Store Supplies|.12|59106
+2|2015|531|Cost of Shrinkage|.45|212829.68
+2|2015|531|Employee Salaries|4.94|2360000
+2|2015|531|Officers Salaries|11.5|5497100
+2|2015|531|Employee Allowances|.21|100000
+2|2015|531|Officers Allowances|.37|175000
+2|2015|531|Store Equipment Maintenance|3.79|1810000
+2|2015|531|Provision for Inventory Lost|3.29|1573756.65
+2|2015|533|Gas|.09|243636.36
+2|2015|533|Water|.01|27000
+2|2015|533|Electric|2.33|6438347.76
+2|2015|533|Telephone|.07|194485
+2|2015|533|Store Supplies|.11|304940
+2|2015|533|Cost of Shrinkage|.18|486992.57
+2|2015|533|Employee Salaries|4.36|12050000
+2|2015|533|Officers Salaries|2.11|5839200
+2|2015|533|Employee Allowances|.11|300000
+2|2015|533|Officers Allowances|.27|750000
+2|2015|533|Building Maintenance|.02|44000
+2|2015|533|Employee Overtime Premium|.06|156879
+2|2015|533|Store Equipment Maintenance|1.6|4413909
+2|2015|534|Water|.01|14500
+2|2015|534|Electric|4.67|4811338
+2|2015|534|Telephone|.28|292910
+2|2015|534|Store Supplies|.28|291117
+2|2015|534|Cost of Shrinkage|.5|520177.36
+2|2015|534|Employee Salaries|3.02|3110000
+2|2015|534|Officers Salaries|5.54|5706300
+2|2015|534|Employee Allowances|.1|100000
+2|2015|534|Building Maintenance|.19|199000
+2|2015|534|Store Equipment Maintenance|.21|212000
+2|2015|535|Water|.03|28600
+2|2015|535|Electric|3.2|3601742
+2|2015|535|Telephone|.02|22500
+2|2015|535|Store Supplies|.35|391938
+2|2015|535|Cost of Shrinkage|.11|118332.14
+2|2015|535|Employee Salaries|1.82|2045000
+2|2015|535|Officers Salaries|5.2|5848600
+2|2015|535|Employee Allowances|.09|100000
+2|2015|535|Officers Allowances|.2|227500
+2|2015|535|Store Equipment Maintenance|.13|150000
+2|2015|535|Provision for Inventory Lost|.11|119713.62
+2|2015|536|Water|.08|216600
+2|2015|536|Electric|1.47|4075268
+2|2015|536|Telephone|.02|67728
+2|2015|536|Store Supplies|.23|636502
+2|2015|536|Cost of Shrinkage|.08|225719.23
+2|2015|536|Employee Salaries|2.21|6110000
+2|2015|536|Officers Salaries|1.92|5321100
+2|2015|536|Employee Allowances|.11|300000
+2|2015|536|Officers Allowances|.28|785000
+2|2015|536|Building Maintenance|.04|117000
+2|2015|536|Store Equipment Maintenance|.04|100000
+2|2015|537|Water|.02|29000
+2|2015|537|Electric|2.43|3300000
+2|2015|537|Telephone|.04|58070
+2|2015|537|Store Supplies|.08|108025
+2|2015|537|Cost of Shrinkage|.71|962601.9
+2|2015|537|Employee Salaries|4.35|5910000
+2|2015|537|Officers Salaries|3.33|4520800
+2|2015|537|Employee Allowances|.07|100000
+2|2015|537|Officers Allowances|.18|245000
+2|2015|537|Building Maintenance|.8|1085000
+2|2015|537|Store Equipment Maintenance|.14|183500
+2|2015|537|Provision for Inventory Lost|.2|269570.71
+2|2015|538|Water|.03|28900
+2|2015|538|Electric|4.66|3864353
+2|2015|538|Telephone|.06|52910
+2|2015|538|Store Supplies|.13|103963
+2|2015|538|Cost of Shrinkage|.53|436868.24
+2|2015|538|Employee Salaries|2.37|1970000
+2|2015|538|Officers Salaries|7.53|6242600
+2|2015|538|Officers Allowances|.82|680000
+2|2015|538|Building Maintenance|.16|130000
+2|2015|538|Store Equipment Maintenance|.34|283500
+2|2015|539|Water|0|9000
+2|2015|539|Electric|1.8|4138678
+2|2015|539|Telephone|.06|143885
+2|2015|539|Store Supplies|.28|633130
+2|2015|539|Cost of Shrinkage|.12|286654.93
+2|2015|539|Employee Salaries|2.06|4720000
+2|2015|539|Officers Salaries|2.49|5722400
+2|2015|539|Employee Allowances|.09|200000
+2|2015|539|Officers Allowances|.1|227500
+2|2015|539|Building Maintenance|.65|1494000
+2|2015|539|Employee Overtime Premium|.62|1411907
+2|2015|539|Store Equipment Maintenance|.04|100000
+2|2015|539|Provision for Inventory Lost|.65|1493430.59
+2|2015|540|Water|.05|79650
+2|2015|540|Electric|2.79|4159369
+2|2015|540|Telephone|.09|140035
+2|2015|540|Store Supplies|.36|541652
+2|2015|540|Cost of Shrinkage|.35|519400
+2|2015|540|Employee Salaries|7.52|11194600
+2|2015|540|Officers Salaries|2.03|3028600
+2|2015|540|Employee Allowances|.2|300000
+2|2015|540|Officers Allowances|.09|140000
+2|2015|540|Building Maintenance|.01|8000
+2|2015|540|Store Equipment Maintenance|.07|100000
+2|2015|540|Provision for Inventory Lost|.19|281863.06
+2|2015|541|Gas|.4|725000
+2|2015|541|Water|.19|345226
+2|2015|541|Electric|8.4|15147194
+2|2015|541|Telephone|.11|200860
+2|2015|541|Store Supplies|.52|936231
+2|2015|541|Cost of Shrinkage|.21|373835.56
+2|2015|541|Employee Salaries|11.76|21210000
+2|2015|541|Officers Salaries|3.39|6108000
+2|2015|541|Employee Allowances|.19|350000
+2|2015|541|Officers Allowances|.53|962500
+2|2015|541|Store Equipment Maintenance|.18|327000
+2|2015|541|Provision for Inventory Lost|-.65|-1172333.71
+2|2015|542|Water|.01|14500
+2|2015|542|Electric|1.96|2750000
+2|2015|542|Telephone|.06|87674
+2|2015|542|Store Supplies|.23|327527
+2|2015|542|Cost of Shrinkage|.35|488435.46
+2|2015|542|Employee Salaries|6.77|9496900
+2|2015|542|Officers Salaries|1.88|2641400
+2|2015|542|Employee Allowances|.07|100000
+2|2015|542|Officers Allowances|.34|472500
+2|2015|542|Building Maintenance|.72|1012000
+2|2015|542|Store Equipment Maintenance|.3|417500
+2|2015|543|Water|.05|75800
+2|2015|543|Electric|4.71|7237052
+2|2015|543|Telephone|.01|22500
+2|2015|543|Store Supplies|.22|335017
+2|2015|543|Cost of Shrinkage|.6|920764.45
+2|2015|543|Employee Salaries|2.47|3800000
+2|2015|543|Officers Salaries|3.66|5626700
+2|2015|543|Employee Allowances|.07|100000
+2|2015|543|Officers Allowances|.26|402500
+2|2015|543|Building Maintenance|.38|588000
+2|2015|543|Store Equipment Maintenance|.15|230000
+2|2015|543|Provision for Inventory Lost|0|-4296.41
+2|2015|544|Water|.09|109500
+2|2015|544|Electric|3.46|4450000
+2|2015|544|Telephone|.06|78910
+2|2015|544|Store Supplies|.14|177700
+2|2015|544|Cost of Shrinkage|.72|928323.58
+2|2015|544|Employee Salaries|3.01|3875000
+2|2015|544|Officers Salaries|4.35|5597200
+2|2015|544|Officers Allowances|.2|262500
+2|2015|544|Store Equipment Maintenance|.18|235000
+2|2015|545|Water|.01|12000
+2|2015|545|Electric|9.25|8874107.5
+2|2015|545|Telephone|.14|137127
+2|2015|545|Store Supplies|.46|438089
+2|2015|545|Cost of Shrinkage|.67|640131.12
+2|2015|545|Building Maintenance|1.85|1774707.25
+2|2015|545|Provision for Inventory Lost|.13|121833.66
+2|2015|546|Water|.01|55500
+2|2015|546|Electric|1.68|8321145.09
+2|2015|546|Telephone|.02|85860
+2|2015|546|Store Supplies|.14|691850
+2|2015|546|Cost of Shrinkage|.35|1741078.69
+2|2015|546|Employee Salaries|3.34|16596129
+2|2015|546|Officers Salaries|1.26|6262900
+2|2015|546|Employee Allowances|.1|500000
+2|2015|546|Officers Allowances|.15|750000
+2|2015|546|Building Maintenance|.05|259000
+2|2015|546|Store Equipment Maintenance|.64|3199200
+2|2015|546|Provision for Inventory Lost|.02|88228.22
+2|2015|547|Water|.01|14500
+2|2015|547|Electric|3.06|5650000
+2|2015|547|Telephone|.01|22500
+2|2015|547|Store Supplies|.2|376791
+2|2015|547|Cost of Shrinkage|.4|730807.8
+2|2015|547|Employee Salaries|4.41|8140000
+2|2015|547|Officers Salaries|1.47|2712800
+2|2015|547|Employee Allowances|.11|200000
+2|2015|547|Officers Allowances|.25|462500
+2|2015|547|Employee Overtime Premium|.09|174827
+2|2015|547|Store Equipment Maintenance|.15|275000
+2|2015|548|Water|.01|23500
+2|2015|548|Electric|1.41|5418498
+2|2015|548|Telephone|.04|141685
+2|2015|548|Store Supplies|.14|542117
+2|2015|548|Cost of Shrinkage|.69|2667815.2
+2|2015|548|Employee Salaries|2.1|8105000
+2|2015|548|Officers Salaries|1.5|5782400
+2|2015|548|Employee Allowances|.05|200000
+2|2015|548|Officers Allowances|.06|245000
+2|2015|548|Building Maintenance|.03|119500
+2|2015|548|Store Equipment Maintenance|.24|927500
+2|2015|549|Water|.02|74000
+2|2015|549|Electric|2.08|6250000
+2|2015|549|Telephone|.03|85860
+2|2015|549|Store Supplies|.17|504587
+2|2015|549|Cost of Shrinkage|.47|1422823.18
+2|2015|549|Employee Salaries|3.52|10590000
+2|2015|549|Officers Salaries|1.9|5718700
+2|2015|549|Employee Allowances|.07|200000
+2|2015|549|Store Equipment Maintenance|.07|200000
+2|2015|549|Provision for Inventory Lost|-.02|-60555.92
+2|2015|550|Water|.02|61000
+2|2015|550|Electric|3.61|13020913
+2|2015|550|Telephone|.02|85860
+2|2015|550|Store Supplies|.26|944038
+2|2015|550|Cost of Shrinkage|2.17|7839317.81
+2|2015|550|Employee Salaries|5.29|19082759
+2|2015|550|Officers Salaries|1.7|6121300
+2|2015|550|Employee Allowances|.1|350000
+2|2015|550|Officers Allowances|.21|750000
+2|2015|550|Store Equipment Maintenance|.11|409000
+2|2015|550|Provision for Inventory Lost|-8.3|-29905190.65
+2|2015|551|Water|.02|43500
+2|2015|551|Electric|2.01|3800000
+2|2015|551|Telephone|.05|85860
+2|2015|551|Store Supplies|.13|242765
+2|2015|551|Cost of Shrinkage|.62|1172253.44
+2|2015|551|Employee Salaries|3.75|7080000
+2|2015|551|Officers Salaries|3.06|5785600
+2|2015|551|Employee Allowances|.16|300000
+2|2015|551|Officers Allowances|.11|210000
+2|2015|551|Store Equipment Maintenance|.57|1070000
+2|2015|551|Provision for Inventory Lost|0|-463.41
+2|2015|552|Water|.01|18000
+2|2015|552|Electric|3.28|4253246
+2|2015|552|Telephone|.07|85860
+2|2015|552|Store Supplies|.3|388639
+2|2015|552|Cost of Shrinkage|.25|320445.81
+2|2015|552|Employee Salaries|3.16|4090000
+2|2015|552|Officers Salaries|4.41|5714100
+2|2015|552|Employee Allowances|.15|200000
+2|2015|552|Officers Allowances|.15|192500
+2|2015|552|Building Maintenance|.06|82000
+2|2015|552|Store Equipment Maintenance|.14|183500
+2|2015|553|Water|.01|19000
+2|2015|553|Electric|1.24|4100000
+2|2015|553|Telephone|.01|22500
+2|2015|553|Store Supplies|.13|418500
+2|2015|553|Cost of Shrinkage|.41|1372169.4
+2|2015|553|Employee Salaries|3.56|11800000
+2|2015|553|Officers Salaries|1.73|5742700
+2|2015|553|Employee Allowances|.09|300000
+2|2015|553|Officers Allowances|.26|855000
+2|2015|553|Provision for Inventory Lost|-.08|-255193
+2|2015|554|Gas|.13|270000
+2|2015|554|Water|.03|58000
+2|2015|554|Electric|2.87|5800000
+2|2015|554|Telephone|.12|250860
+2|2015|554|Store Supplies|.17|343162
+2|2015|554|Cost of Shrinkage|1.88|3795663.28
+2|2015|554|Employee Salaries|3.26|6596774
+2|2015|554|Officers Salaries|2.9|5872400
+2|2015|554|Employee Allowances|.15|300000
+2|2015|554|Officers Allowances|.12|245000
+2|2015|554|Employee Overtime Premium|.07|135939
+2|2015|554|Store Equipment Maintenance|.11|232300
+2|2015|554|Provision for Inventory Lost|-.3|-603741.02
+2|2015|555|Water|.24|184000
+2|2015|555|Electric|21.04|16442723
+2|2015|555|Telephone|.03|22500
+2|2015|555|Store Supplies|8.54|6671534
+2|2015|555|Cost of Shrinkage|8.81|6885245.14
+2|2015|555|Employee Salaries|12.08|9440000
+2|2015|555|Officers Salaries|7.64|5973300
+2|2015|555|Employee Allowances|.38|300000
+2|2015|555|Officers Allowances|.34|262500
+2|2015|555|Building Maintenance|.06|50500
+2|2015|555|Store Equipment Maintenance|.12|95600
+2|2015|555|Provision for Inventory Lost|-.17|-134048.2
+2|2015|556|Gas|.09|300000
+2|2015|556|Telephone|.01|22500
+2|2015|556|Store Supplies|.12|387870
+2|2015|556|Cost of Shrinkage|.51|1610405.6
+2|2015|556|Employee Salaries|6.68|21205161
+2|2015|556|Officers Salaries|.91|2903300
+2|2015|556|Employee Allowances|.06|200000
+2|2015|556|Officers Allowances|.11|357500
+2|2015|556|Building Maintenance|.39|1230000
+2|2015|556|Store Equipment Maintenance|.03|85000
+2|2015|557|Electric|2.02|4888532.5
+2|2015|557|Store Supplies|.83|2003907
+2|2015|557|Cost of Shrinkage|.51|1229209.98
+2|2015|557|Employee Salaries|2.02|4895000
+2|2015|557|Officers Salaries|1.25|3028600
+2|2015|557|Employee Allowances|.04|100000
+2|2015|557|Officers Allowances|.01|17500
+2|2015|557|Building Maintenance|.11|275600
+2|2015|557|Store Equipment Maintenance|.09|207000
+2|2015|558|Water|.01|19000
+2|2015|558|Telephone|.02|52000
+2|2015|558|Store Supplies|.21|706591
+2|2015|558|Cost of Shrinkage|.71|2371296.86
+2|2015|558|Employee Salaries|.78|2610000
+2|2015|558|Officers Salaries|1.8|6046900
+2|2015|558|Building Maintenance|.04|120000
+2|2015|558|Store Equipment Maintenance|.01|20000
+2|2015|559|Water|.02|37500
+2|2015|559|Electric|4.2|7327666
+2|2015|559|Telephone|.05|91155
+2|2015|559|Store Supplies|.27|466900
+2|2015|559|Cost of Shrinkage|2.01|3511494.16
+2|2015|559|Employee Salaries|4.2|7330000
+2|2015|559|Employee Allowances|.06|100000
+2|2015|559|Building Maintenance|.36|635000
+2|2015|559|Store Equipment Maintenance|.97|1697030
+2|2015|559|Provision for Inventory Lost|-.13|-227055.29
+2|2015|560|Water|.01|29200
+2|2015|560|Electric|3.98|16895258.48
+2|2015|560|Telephone|.08|343673
+2|2015|560|Store Supplies|.06|268650
+2|2015|560|Office Supplies|0|0
+2|2015|560|Cost of Shrinkage|.42|1779867.48
+2|2015|560|Employee Salaries|.34|1445000
+2|2015|560|Officers Salaries|1.35|5741500
+2|2015|560|Gasoline & Parking|.02|100000
+2|2015|560|Building Maintenance|.08|348750
+2|2015|560|Store Equipment Maintenance|.11|480000
+2|2015|561|Gas|.05|133000
+2|2015|561|Water|.01|34500
+2|2015|561|Electric|.94|2521836
+2|2015|561|Telephone|0|0
+2|2015|561|Store Supplies|1.61|4307092
+2|2015|561|Employee Salaries|3.14|8381613
+2|2015|561|Officers Salaries|.99|2641400
+2|2015|561|Employee Allowances|.11|300000
+2|2015|561|Officers Allowances|.03|70000
+2|2015|561|Building Maintenance|.66|1765500
+2|2015|561|Store Equipment Maintenance|.14|360500
+2|2015|563|Water|.03|53400
+2|2015|563|Electric|2.51|4319757.36
+2|2015|563|Telephone|.18|311027
+2|2015|563|Store Supplies|2.04|3514605
+2|2015|563|Cost of Shrinkage|.58|994388.58
+2|2015|563|Employee Salaries|2.37|4090000
+2|2015|563|Officers Salaries|1.5|2585500
+2|2015|563|Employee Allowances|.12|200000
+2|2015|563|Officers Allowances|.04|70000
+2|2015|563|Building Maintenance|.32|548000
+2|2015|563|Store Equipment Maintenance|1.29|2218000
+2|2015|564|Employee Salaries|0|0
+2|2015|564|Employee Allowances|0|0
+2|2015|564|Employee Overtime Premium|0|0
+2|2015|598|Water|23.51|43500
+2|2015|598|Electric|563.01|1041567.5
+2|2015|598|Telephone|40.76|75410
+2|2015|598|Office Supplies|95.84|177300
+2|2015|598|Cost of Shrinkage|3346.94|6191833.33
+2|2015|598|Officers Salaries|6637.86|12280045
+2|2015|598|Gasoline & Parking|2053.24|3798500
+2|2015|598|Officers Allowances|56.76|105000
+2|2015|598|Building Maintenance|189.19|350000
+2|2015|598|Officers Overtime premium|202.09|373873
+2|2015|598|Provision for Inventory Lost|2750.64|5088682.06
+2|2015|599|Water|.09|2871000
+2|2015|599|Electric|1.27|42578703
+2|2015|599|Telephone|.05|1713610
+2|2015|599|Office Supplies|.89|29764769
+2|2015|599|Cost of Shrinkage|.87|29101782.72
+2|2015|599|Officers Salaries|15.48|518024301
+2|2015|599|Gasoline & Parking|4.63|155035697
+2|2015|599|Officers Allowances|1.55|51846673
+2|2015|599|Building Maintenance|.18|5987000
+2|2015|599|Officers Overtime premium|.32|10628777
+2|2015|599|Store Equipment Maintenance|0|0
+2|2015|599|Office Equipment Maintenance|.13|4456500
+2|2015|599|Provision for Inventory Lost|3.71|124074375.81
+2|2015|601|Gas|.13|417500
+2|2015|601|Water|.02|51300
+2|2015|601|Electric|2.48|8200000
+2|2015|601|Telephone|.04|147460
+2|2015|601|Store Supplies|.25|827404
+2|2015|601|Cost of Shrinkage|.45|1476422.89
+2|2015|601|Employee Salaries|2.5|8295000
+2|2015|601|Officers Salaries|1.83|6063000
+2|2015|601|Employee Allowances|.06|200000
+2|2015|601|Officers Allowances|.06|192500
+2|2015|601|Building Maintenance|.01|42000
+2|2015|601|Store Equipment Maintenance|.22|724900
+2|2015|601|Provision for Inventory Lost|-.25|-823734.09
+2|2015|602|Telephone|0|0
+2|2015|603|Water|.07|127000
+2|2015|603|Electric|2.27|4244235
+2|2015|603|Telephone|.05|96310
+2|2015|603|Store Supplies|.25|459206
+2|2015|603|Cost of Shrinkage|.19|350917.28
+2|2015|603|Employee Salaries|3.25|6070000
+2|2015|603|Officers Salaries|3.06|5722400
+2|2015|603|Employee Allowances|.11|200000
+2|2015|603|Officers Allowances|.13|245000
+2|2015|603|Building Maintenance|.28|525000
+2|2015|603|Store Equipment Maintenance|1.23|2302215
+2|2015|603|Provision for Inventory Lost|.03|54047.38
+2|2015|610|Gas|0|0
+2|2015|610|Water|0|4000
+2|2015|610|Telephone|.03|70260
+2|2015|610|Store Supplies|.17|373528
+2|2015|610|Cost of Shrinkage|.21|474199.84
+2|2015|610|Employee Salaries|.57|1275000
+2|2015|610|Officers Salaries|2.66|5909300
+2|2015|610|Employee Allowances|.05|100000
+2|2015|610|Officers Allowances|.09|210000
+2|2015|610|Building Maintenance|.27|603000
+2|2015|610|Store Equipment Maintenance|.08|177500
+2|2015|610|Provision for Inventory Lost|.27|591268.46
+2|2015|611|Electric|1.24|4192674
+2|2015|611|Telephone|.03|85860
+2|2015|611|Store Supplies|.23|770202
+2|2015|611|Cost of Shrinkage|.28|944663.13
+2|2015|611|Employee Salaries|4.29|14548142
+2|2015|611|Officers Salaries|.79|2680800
+2|2015|611|Employee Allowances|.07|250000
+2|2015|611|Officers Allowances|.02|70000
+2|2015|611|Building Maintenance|.05|155000
+2|2015|611|Store Equipment Maintenance|.03|100000
+2|2015|612|Water|.01|14500
+2|2015|612|Electric|1.16|3276556
+2|2015|612|Telephone|.01|22500
+2|2015|612|Store Supplies|.27|748558
+2|2015|612|Cost of Shrinkage|.35|978989.43
+2|2015|612|Employee Salaries|4.37|12303838
+2|2015|612|Officers Salaries|.98|2760500
+2|2015|612|Employee Allowances|.05|150000
+2|2015|612|Officers Allowances|.07|200000
+2|2015|612|Building Maintenance|0|0
+2|2015|612|Store Equipment Maintenance|.02|50000
+2|2015|613|Electric|173.16|6424287
+2|2015|613|Telephone|2.03|75410
+2|2015|613|Store Supplies|4.08|151308
+2|2015|613|Cost of Shrinkage|4.04|149769.42
+2|2015|613|Officers Salaries|121.86|4520800
+2|2015|613|Officers Allowances|2.83|105000
+2|2015|613|Building Maintenance|5.71|212000
+2|2015|613|Provision for Inventory Lost|0|0
+2|2015|614|Water|0|6000
+2|2015|614|Electric|2.56|3266814
+2|2015|614|Telephone|.04|54070
+2|2015|614|Store Supplies|.4|508867
+2|2015|614|Cost of Shrinkage|.5|635976.83
+2|2015|614|Employee Salaries|2.2|2805000
+2|2015|614|Officers Salaries|4.49|5721800
+2|2015|614|Employee Allowances|.08|100000
+2|2015|614|Building Maintenance|.28|355000
+2|2015|614|Store Equipment Maintenance|.13|160000
+2|2015|614|Provision for Inventory Lost|1.61|2053099.8
+2|2015|615|Water|.02|36800
+2|2015|615|Electric|1.6|2719375
+2|2015|615|Telephone|.06|109235
+2|2015|615|Store Supplies|.34|583920
+2|2015|615|Cost of Shrinkage|.05|89813.83
+2|2015|615|Employee Salaries|2.41|4090000
+2|2015|615|Officers Salaries|3.32|5634900
+2|2015|615|Employee Allowances|.06|100000
+2|2015|615|Officers Allowances|.13|227500
+2|2015|615|Store Equipment Maintenance|.2|330700
+2|2015|616|Water|.03|36800
+2|2015|616|Electric|2.97|3477387
+2|2015|616|Telephone|.05|58360
+2|2015|616|Store Supplies|.22|258065
+2|2015|616|Cost of Shrinkage|.36|418890.26
+2|2015|616|Employee Salaries|8.22|9615000
+2|2015|616|Officers Salaries|2.68|3135800
+2|2015|616|Employee Allowances|.26|300000
+2|2015|616|Officers Allowances|.1|122500
+2|2015|616|Building Maintenance|.01|13000
+2|2015|616|Store Equipment Maintenance|.09|100000
+2|2015|617|Water|.14|173800
+2|2015|617|Electric|2.47|3169754
+2|2015|617|Telephone|.25|316285
+2|2015|617|Store Supplies|.46|589767
+2|2015|617|Cost of Shrinkage|.32|408434.87
+2|2015|617|Employee Salaries|4.52|5805161
+2|2015|617|Officers Salaries|4.46|5722400
+2|2015|617|Employee Allowances|.23|300000
+2|2015|617|Officers Allowances|.25|315000
+2|2015|617|Building Maintenance|.24|302000
+2|2015|617|Store Equipment Maintenance|.06|82500
+2|2015|617|Provision for Inventory Lost|.22|285903.45
+2|2015|692|Water|.03|44500
+2|2015|692|Electric|2.9|5001371
+2|2015|692|Telephone|.08|142568
+2|2015|692|Store Supplies|.28|479550
+2|2015|692|Cost of Shrinkage|.27|465917.29
+2|2015|692|Employee Salaries|4.71|8115000
+2|2015|692|Officers Salaries|3.28|5652800
+2|2015|692|Employee Allowances|.12|200000
+2|2015|692|Officers Allowances|.12|210000
+2|2015|692|Building Maintenance|.08|140000
+2|2015|692|Store Equipment Maintenance|.13|220000
+2|2015|694|Water|.08|154000
+2|2015|694|Electric|1.94|3951621
+2|2015|694|Telephone|.04|91360
+2|2015|694|Store Supplies|.25|499280
+2|2015|694|Cost of Shrinkage|.1|211040.2
+2|2015|694|Employee Salaries|3.14|6385000
+2|2015|694|Officers Salaries|2.65|5401800
+2|2015|694|Employee Allowances|.05|100000
+2|2015|694|Officers Allowances|.03|52500
+2|2015|694|Building Maintenance|.51|1032000
+2|2015|694|Store Equipment Maintenance|.07|150000
+2|2015|694|Provision for Inventory Lost|.18|374722.19
+2|2015|697|Water|.01|41000
+2|2015|697|Electric|.97|3103590
+2|2015|697|Telephone|.02|75410
+2|2015|697|Store Supplies|.23|746373
+2|2015|697|Cost of Shrinkage|.13|410682.76
+2|2015|697|Employee Salaries|2.05|6583871
+2|2015|697|Officers Salaries|.94|3027310
+2|2015|697|Employee Allowances|.09|300000
+2|2015|697|Officers Allowances|.01|17500
+2|2015|697|Building Maintenance|.04|139000
+2|2015|697|Store Equipment Maintenance|.05|164000
+2|2015|697|Provision for Inventory Lost|.59|1877308.46
+2|2015|699|Gas|.04|86000
+2|2015|699|Water|.05|120000
+2|2015|699|Electric|6.87|16830648
+2|2015|699|Telephone|.01|22500
+2|2015|699|Store Supplies|.84|2063175
+2|2015|699|Cost of Shrinkage|.86|2111790.74
+2|2015|699|Employee Salaries|4.22|10336129
+2|2015|699|Officers Salaries|2.29|5616200
+2|2015|699|Employee Allowances|.09|225000
+2|2015|699|Officers Allowances|.14|355000
+2|2015|699|Store Equipment Maintenance|.08|200000
+2|2015|701|Water|.01|27000
+2|2015|701|Electric|1.64|4500357
+2|2015|701|Telephone|.06|157666
+2|2015|701|Store Supplies|.37|1008055
+2|2015|701|Cost of Shrinkage|.84|2307797.45
+2|2015|701|Employee Salaries|4.39|12055000
+2|2015|701|Officers Salaries|1.13|3109400
+2|2015|701|Gasoline & Parking|.01|29000
+2|2015|701|Employee Allowances|.11|300000
+2|2015|701|Officers Allowances|.03|87500
+2|2015|701|Building Maintenance|.08|232500
+2|2015|701|Store Equipment Maintenance|.09|239758.33
+2|2015|702|Electric|1.28|3399743
+2|2015|702|Store Supplies|.26|694475
+2|2015|702|Cost of Shrinkage|.66|1751514.28
+2|2015|702|Employee Salaries|5.5|14565000
+2|2015|702|Officers Salaries|1.25|3301200
+2|2015|702|Employee Allowances|.16|425000
+2|2015|702|Officers Allowances|.01|17500
+2|2015|702|Store Equipment Maintenance|.09|250000
+2|2015|702|Provision for Inventory Lost|.92|2451268.57
+2|2015|706|Water|.02|28900
+2|2015|706|Electric|2.2|3450000
+2|2015|706|Telephone|.05|81521
+2|2015|706|Store Supplies|.13|207728
+2|2015|706|Cost of Shrinkage|.15|233675.39
+2|2015|706|Employee Salaries|.94|1475000
+2|2015|706|Officers Salaries|3.65|5722400
+2|2015|706|Employee Allowances|.06|100000
+2|2015|706|Officers Allowances|.13|210000
+2|2015|706|Building Maintenance|.11|165000
+2|2015|706|Store Equipment Maintenance|.06|100000
+2|2015|710|Water|.02|29000
+2|2015|710|Electric|2.29|3876716
+2|2015|710|Telephone|.05|78228
+2|2015|710|Store Supplies|.15|245802
+2|2015|710|Cost of Shrinkage|.14|237376.22
+2|2015|710|Employee Salaries|1.51|2562800
+2|2015|710|Officers Salaries|4.4|7436439
+2|2015|710|Employee Allowances|.12|200000
+2|2015|710|Building Maintenance|.13|219000
+2|2015|710|Store Equipment Maintenance|.14|243900
+2|2015|710|Provision for Inventory Lost|.51|854918.83
+2|2015|712|Water|.07|176000
+2|2015|712|Electric|2.62|6350000
+2|2015|712|Telephone|.01|22500
+2|2015|712|Store Supplies|1.33|3225253
+2|2015|712|Cost of Shrinkage|1.69|4085342.63
+2|2015|712|Employee Salaries|5.76|13963142
+2|2015|712|Officers Salaries|1.29|3133200
+2|2015|712|Employee Allowances|.08|200000
+2|2015|712|Officers Allowances|.04|87500
+2|2015|712|Building Maintenance|.07|162000
+2|2015|712|Provision for Inventory Lost|-1.74|-4210858.79
+2|2015|715|Water|.04|75000
+2|2015|715|Electric|1.8|3634801
+2|2015|715|Telephone|.01|22500
+2|2015|715|Store Supplies|.27|553003
+2|2015|715|Cost of Shrinkage|.84|1705346.65
+2|2015|715|Employee Salaries|4.03|8140000
+2|2015|715|Officers Salaries|1.58|3186300
+2|2015|715|Employee Allowances|.1|200000
+2|2015|715|Officers Allowances|.52|1055000
+2|2015|715|Store Equipment Maintenance|.05|110000
+2|2015|718|Electric|1.65|6402100
+2|2015|718|Store Supplies|.2|788467
+2|2015|718|Cost of Shrinkage|.07|286485.28
+2|2015|718|Employee Salaries|3.56|13837419
+2|2015|718|Officers Salaries|2.48|9612700
+2|2015|718|Employee Allowances|.1|400000
+2|2015|718|Officers Allowances|.73|2825000
+2|2015|718|Store Equipment Maintenance|.06|250000
+2|2015|725|Water|.03|43400
+2|2015|725|Electric|1.74|2650000
+2|2015|725|Telephone|.07|107280
+2|2015|725|Store Supplies|.41|625653
+2|2015|725|Cost of Shrinkage|.12|182669.33
+2|2015|725|Employee Salaries|2.51|3825000
+2|2015|725|Officers Salaries|3.76|5733300
+2|2015|725|Employee Allowances|.2|300000
+2|2015|725|Officers Allowances|.18|280000
+2|2015|725|Store Equipment Maintenance|.1|160000
+2|2015|725|Provision for Inventory Lost|.27|413434.21
+2|2015|731|Water|.08|142500
+2|2015|731|Electric|2.23|3933221
+2|2015|731|Telephone|.07|115538
+2|2015|731|Store Supplies|.12|205803
+2|2015|731|Cost of Shrinkage|.32|558783.47
+2|2015|731|Employee Salaries|6.11|10770000
+2|2015|731|Officers Salaries|1.51|2665200
+2|2015|731|Employee Allowances|.11|200000
+2|2015|731|Officers Allowances|.2|357500
+2|2015|731|Store Equipment Maintenance|.06|100000
+2|2015|731|Provision for Inventory Lost|.56|985892.13
+2|2015|732|Water|.02|28900
+2|2015|732|Telephone|.06|74000
+2|2015|732|Store Supplies|.43|509800
+2|2015|732|Cost of Shrinkage|.32|379359.51
+2|2015|732|Employee Salaries|1.09|1275000
+2|2015|732|Officers Salaries|4.47|5242900
+2|2015|732|Employee Allowances|.09|100000
+2|2015|732|Officers Allowances|.18|210000
+2|2015|732|Building Maintenance|.09|110000
+2|2015|732|Store Equipment Maintenance|.13|150000
+2|2015|732|Provision for Inventory Lost|1.88|2211766.08
+2|2015|740|Water|.52|1591400
+2|2015|740|Electric|2.82|8577613
+2|2015|740|Telephone|.04|125166
+2|2015|740|Store Supplies|.21|642602
+2|2015|740|Cost of Shrinkage|.91|2774707.19
+2|2015|740|Employee Salaries|4.65|14137419
+2|2015|740|Officers Salaries|1|3033400
+2|2015|740|Credit Card Charge|.02|69944.3
+2|2015|740|Gasoline & Parking|.01|20000
+2|2015|740|Employee Allowances|.03|100000
+2|2015|740|Officers Allowances|.13|400000
+2|2015|740|Store Equipment Maintenance|.15|460000
+2|2015|740|Provision for Inventory Lost|.58|1769409.12
+2|2015|751|Gas|.24|5118181.82
+2|2015|751|Water|.04|756500
+2|2015|751|Electric|2.67|57069420
+2|2015|751|Telephone|.07|1393025
+2|2015|751|Store Supplies|.4|8554743.95
+2|2015|751|Cost of Shrinkage|1.42|30314663.18
+2|2015|751|Employee Salaries|6.69|143133318
+2|2015|751|Officers Salaries|1.69|36067100
+2|2015|751|Credit Card Charge|.21|4401683.66
+2|2015|751|Gasoline & Parking|0|33700
+2|2015|751|Employee Allowances|.1|2040000
+2|2015|751|Officers Allowances|.02|400000
+2|2015|751|Building Maintenance|.08|1686470.3
+2|2015|751|Employee Overtime Premium|.03|668000
+2|2015|751|Store Equipment Maintenance|.09|1971800
+2|2015|752|Water|.02|28900
+2|2015|752|Electric|2.84|5185384.02
+2|2015|752|Telephone|.08|137305
+2|2015|752|Store Supplies|.19|343303
+2|2015|752|Cost of Shrinkage|1.56|2851262.57
+2|2015|752|Employee Salaries|2.39|4355549
+2|2015|752|Officers Salaries|1.75|3200100
+2|2015|752|Employee Allowances|.05|100000
+2|2015|752|Officers Allowances|.08|140000
+2|2015|752|Building Maintenance|.32|576568.33
+2|2015|752|Employee Overtime Premium|.22|407818
+2|2015|752|Store Equipment Maintenance|.09|167500
+2|2015|752|Provision for Inventory Lost|.12|210906.29
+2|2015|455|Store Equipment Maintenance|.09|100000
+2|2015|455|Provision for Inventory Lost|1.08|1244678.61
+2|2015|456|Water|.01|9000
+2|2015|456|Electric|2.71|3141247
+2|2015|456|Telephone|.08|91360
+2|2015|456|Store Supplies|.13|148964
+2|2015|456|Cost of Shrinkage|.19|216749.41
+2|2015|456|Employee Salaries|5.39|6255000
+2|2015|456|Officers Salaries|2.46|2855700
+2|2015|456|Employee Allowances|.09|100000
+2|2015|456|Officers Allowances|.06|70000
+2|2015|456|Building Maintenance|.09|103500
+2|2015|456|Employee Overtime Premium|.12|135939
+2|2015|456|Store Equipment Maintenance|.15|170000
+2|2015|456|Provision for Inventory Lost|.53|615099.9
+2|2015|457|Gas|.11|487272.72
+2|2015|457|Water|.02|82500
+2|2015|457|Electric|1.85|7824945.09
+2|2015|457|Telephone|.06|244865
+2|2015|457|Store Supplies|.21|886287
+2|2015|457|Cost of Shrinkage|.74|3131610.58
+2|2015|457|Employee Salaries|2.95|12520000
+2|2015|457|Officers Salaries|1.31|5536500
+2|2015|457|Employee Allowances|.07|300000
+2|2015|457|Building Maintenance|.07|300000
+2|2015|457|Store Equipment Maintenance|.06|255500
+2|2015|457|Provision for Inventory Lost|.23|987947.13
+2|2015|458|Water|.02|24000
+2|2015|458|Electric|3.22|3704183
+2|2015|458|Telephone|.07|85860
+2|2015|458|Store Supplies|.74|852152
+2|2015|458|Cost of Shrinkage|.53|610182.63
+2|2015|458|Employee Salaries|5.55|6385000
+2|2015|458|Officers Salaries|2.41|2776000
+2|2015|458|Employee Allowances|.17|200000
+2|2015|458|Officers Allowances|.12|140000
+2|2015|458|Building Maintenance|.01|7000
+2|2015|458|Store Equipment Maintenance|.13|150000
+2|2015|459|Gas|0|0
+2|2015|459|Water|.01|37500
+2|2015|459|Electric|5.23|16139756
+2|2015|459|Telephone|.04|125427
+2|2015|459|Store Supplies|.28|853221
+2|2015|459|Cost of Shrinkage|.77|2368892.47
+2|2015|459|Employee Salaries|2.44|7531028
+2|2015|459|Officers Salaries|1.09|3350100
+2|2015|459|Employee Allowances|.06|200000
+2|2015|459|Building Maintenance|.11|330000
+2|2015|459|Store Equipment Maintenance|.05|143000
+2|2015|459|Provision for Inventory Lost|.08|261233.37
+2|2015|460|Water|.03|115000
+2|2015|460|Electric|1.3|4528847
+2|2015|460|Telephone|.02|86135
+2|2015|460|Store Supplies|.2|689691
+2|2015|460|Cost of Shrinkage|.14|478747.16
+2|2015|460|Employee Salaries|1.36|4720000
+2|2015|460|Officers Salaries|1.68|5846000
+2|2015|460|Employee Allowances|.06|200000
+2|2015|460|Officers Allowances|.05|175000
+2|2015|460|Building Maintenance|.05|166500
+2|2015|460|Store Equipment Maintenance|.03|100000
+2|2015|460|Provision for Inventory Lost|.17|598962.57
+2|2015|461|Water|.02|42300
+2|2015|461|Electric|2.35|4473311
+2|2015|461|Telephone|.03|58360
+2|2015|461|Store Supplies|.21|402400
+2|2015|461|Cost of Shrinkage|.13|245270.67
+2|2015|461|Employee Salaries|7.99|15200900
+2|2015|461|Officers Salaries|1.71|3257100
+2|2015|461|Employee Allowances|.16|300000
+2|2015|461|Officers Allowances|.45|855000
+2|2015|461|Building Maintenance|.18|338000
+2|2015|461|Employee Overtime Premium|.08|156879
+2|2015|461|Store Equipment Maintenance|1.8|3431000
+2|2015|462|Water|.18|211450
+2|2015|462|Electric|3.11|3645574
+2|2015|462|Telephone|.1|119960
+2|2015|462|Store Supplies|.35|408300
+2|2015|462|Cost of Shrinkage|.76|888413.49
+2|2015|462|Employee Salaries|3.49|4090000
+2|2015|462|Officers Salaries|4.79|5607900
+2|2015|462|Employee Allowances|.09|100000
+2|2015|462|Officers Allowances|.15|175000
+2|2015|462|Store Equipment Maintenance|.12|140000
+2|2015|463|Gas|.25|609090.91
+2|2015|463|Water|0|9000
+2|2015|463|Telephone|.06|138385
+2|2015|463|Store Supplies|.09|231571
+2|2015|463|Cost of Shrinkage|.23|577607.13
+2|2015|463|Employee Salaries|1.76|4340000
+2|2015|463|Officers Salaries|2.34|5770000
+2|2015|463|Employee Allowances|.04|100000
+2|2015|463|Building Maintenance|1.13|2780000
+2|2015|463|Store Equipment Maintenance|.64|1587200
+2|2015|464|Water|.03|37600
+2|2015|464|Electric|2.03|2884286
+2|2015|464|Telephone|.09|126835
+2|2015|464|Store Supplies|.29|409269
+2|2015|464|Cost of Shrinkage|.06|83184.08
+2|2015|464|Employee Salaries|5.94|8430000
+2|2015|464|Officers Salaries|1.98|2808100
+2|2015|464|Employee Allowances|.14|200000
+2|2015|464|Officers Allowances|.1|140000
+2|2015|464|Building Maintenance|.01|12000
+2|2015|464|Store Equipment Maintenance|.13|190000
+2|2015|464|Provision for Inventory Lost|.12|164964.4
+2|2015|465|Water|.03|72500
+2|2015|465|Electric|1.42|3198299
+2|2015|465|Telephone|.04|88610
+2|2015|465|Store Supplies|.29|646050
+2|2015|465|Cost of Shrinkage|.16|371874.06
+2|2015|465|Employee Salaries|2.9|6538387
+2|2015|465|Officers Salaries|2.53|5693800
+2|2015|465|Officers Allowances|.05|105000
+2|2015|465|Building Maintenance|.28|637500
+2|2015|465|Store Equipment Maintenance|.09|200000
+2|2015|466|Water|.05|86800
+2|2015|466|Electric|2.51|3992046
+2|2015|466|Telephone|.01|22500
+2|2015|466|Store Supplies|.25|400004
+2|2015|466|Cost of Shrinkage|.39|622656.24
+2|2015|466|Employee Salaries|5.21|8300000
+2|2015|466|Officers Salaries|1.95|3100100
+2|2015|466|Employee Allowances|.13|200000
+2|2015|466|Officers Allowances|.12|192500
+2|2015|466|Building Maintenance|.08|125500
+2|2015|466|Store Equipment Maintenance|.15|245500
+2|2015|466|Provision for Inventory Lost|.03|42898.37
+2|2015|467|Water|.02|30500
+2|2015|467|Electric|.86|1520030
+2|2015|467|Telephone|.12|211423
+2|2015|467|Store Supplies|.18|310967
+2|2015|467|Cost of Shrinkage|.61|1086253.65
+2|2015|467|Employee Salaries|2.32|4110000
+2|2015|467|Officers Salaries|1.89|3347500
+2|2015|467|Employee Allowances|.06|100000
+2|2015|467|Officers Allowances|.1|175000
+2|2015|467|Store Equipment Maintenance|.2|360000
+2|2015|467|Provision for Inventory Lost|.21|366362.36
+2|2015|468|Water|.04|41500
+2|2015|468|Electric|3.39|3994464
+2|2015|468|Telephone|.23|267910
+2|2015|468|Store Supplies|.12|142866
+2|2015|468|Cost of Shrinkage|.47|557966.73
+2|2015|468|Employee Salaries|8.22|9690000
+2|2015|468|Officers Salaries|2.6|3061800
+2|2015|468|Employee Allowances|.25|300000
+2|2015|468|Officers Allowances|.09|105000
+2|2015|468|Store Equipment Maintenance|.13|150000
+2|2015|468|Provision for Inventory Lost|.34|406213.6
+2|2015|469|Gas|.11|243637
+2|2015|469|Water|.02|41500
+2|2015|469|Electric|.66|1464965
+2|2015|469|Telephone|.01|22500
+2|2015|469|Store Supplies|.18|393344
+2|2015|469|Cost of Shrinkage|.47|1033128.81
+2|2015|469|Employee Salaries|3.8|8430000
+2|2015|469|Officers Salaries|2.74|6086700
+2|2015|469|Employee Allowances|.09|200000
+2|2015|469|Officers Allowances|.05|105000
+2|2015|469|Store Equipment Maintenance|.09|200000
+2|2015|469|Provision for Inventory Lost|.1|211409.77
+2|2015|470|Water|.08|123700
+2|2015|470|Electric|2.23|3450990
+2|2015|470|Telephone|.06|89710
+2|2015|470|Store Supplies|.2|311899
+2|2015|470|Cost of Shrinkage|.38|583272.86
+2|2015|470|Employee Salaries|4.12|6385000
+2|2015|470|Officers Salaries|1.71|2649200
+2|2015|470|Employee Allowances|.13|200000
+2|2015|470|Officers Allowances|.09|140000
+2|2015|470|Store Equipment Maintenance|.06|100000
+2|2015|471|Water|.02|30500
+2|2015|471|Electric|1.78|2350000
+2|2015|471|Telephone|.07|88060
+2|2015|471|Store Supplies|.12|160739
+2|2015|471|Cost of Shrinkage|1.47|1933482.24

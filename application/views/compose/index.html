@@ -1,0 +1,106 @@
+<div class="container" style="min-width: 310px; min-height: 700px; margin: 0 auto;">
+    
+    <div class="row">
+        
+        <div class="col-lg-12">
+            
+            <div class="panel panel-default bootstrap-admin-no-table-panel">
+                
+                <div class="panel-heading">
+                    <div class="text-muted bootstrap-admin-box-title">Compose</div>
+                </div>
+                
+                <div class="bootstrap-admin-no-table-panel-content bootstrap-admin-panel-content collapse in">
+                    
+                    <form action="<?php echo base_url(); ?>compose/send" method="post" class="form-horizontal" id="form_data">
+                        
+                        <fieldset>
+                            <legend>Message</legend>
+                            
+                            <div class="alert alert-danger hide">
+                                <a class="close" data-dismiss="alert" href="#">&times;</a>
+                                <span id="alertMessage">&nbsp;</span>
+                            </div>
+							
+							<div class="alert alert-success hide">
+								<a class="close" data-dismiss="alert" href="#">&times;</a>
+								<span id="successMessage">Message has been sent successfully.</span>
+							</div>
+                            
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="recipient">Recipient<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+                                    <input class="form-control" id="recipient" name="recipient" type="email" maxlength="100">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="notes">Notes<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+									<textarea id="notes" name="notes" class="form-control textarea-wysihtml5" placeholder="Enter notes..." style="width: 100%; height: 400px">
+										<br><img src="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/chart_forge/' . $fileName; ?>"><br>
+									</textarea>
+                                </div>
+                            </div>
+							<div class="form-group">
+                                <label class="col-lg-2 control-label">&nbsp;</label>
+                                <div class="col-lg-10">
+                                    <button type="submit" class="btn btn-primary"><i class='glyphicon glyphicon-share-alt'></i> Send &nbsp;</button>
+									&nbsp;<img id="imgLoading" class="hide" src="<?php base_url(); ?>/images/loading24_blue.gif">
+                                </div>
+                            </div>
+							
+                        </fieldset>
+						
+						<input type="hidden" id="fileName" name="fileName" value="<?php echo $fileName; ?>">
+                        
+                    </form><!-- /form -->
+                    
+                </div><!-- /.bootstrap-admin-no-table-panel-content bootstrap-admin-panel-content collapse in -->
+                
+            </div><!-- /.panel panel-default bootstrap-admin-no-table-panel -->
+            
+        </div><!-- /.col-lg-12 -->
+    
+    </div><!-- /.row -->
+    
+</div>
+
+<input type="hidden" id="actYear" value="<?php echo $actYear; ?>">
+<input type="hidden" id="actMonth" value="<?php echo $actMonth; ?>">
+<input type="hidden" id="storeCode" value="<?php echo $storeCode; ?>">
+<input type="hidden" id="clusterCode" value="<?php echo $clusterCode; ?>">
+<input type="hidden" id="regionalCode" value="<?php echo $regionalCode; ?>">
+<input type="hidden" id="ytd" value="<?php echo $ytd; ?>">
+    
+<!-- put additional css here -->
+<link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/core-b3.css">
+<link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/xpense.css">
+
+<!-- put additional js here -->
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/javascripts/bootstrap-wysihtml5/wysihtml5.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/javascripts/bootstrap-wysihtml5/core-b3.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/compose.validation.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/compose.js"></script>
+
+<script type="text/javascript">
+	
+	$(function() {
+		$('.textarea-wysihtml5').wysihtml5({
+			/*
+			stylesheets: [
+				'<?php echo base_url(); ?>vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/wysiwyg-color.css'
+			]
+			*/
+			'emphasis': true, //Italics, bold, etc.
+			'lists': true, //(Un)ordered lists, e.g. Bullets, Numbers.
+			'html': false, //Button which allows you to edit the generated HTML.
+			'color': false, //Button to change color of font
+			'font-styles': false,
+			'link': false, //Button to insert a link.
+			'image': false, //Button to insert an image.
+		});
+		
+	});
+	
+</script>

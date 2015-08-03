@@ -1,0 +1,47 @@
+/* overwrite */
+.alert {
+  padding: 10px;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+/* end overwrite */
+
+.j-container {
+    min-height: 444px;
+}
+
+.j-w98 {
+    width: 98%;
+}
+
+.al-left {
+    text-align: left;
+}
+
+.al-center {
+    text-align: center;
+}
+
+.al-right {
+    text-align: right;
+}
+
+.btn-add {
+    float: right;
+}
+
+.btn-back {
+    float: right;
+}
+
+.required {
+    color: #FF0000;
+}
+
+.help-inline {
+    color: #a94442;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php echo $title; ?></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/bootstrap.min.css">
+        <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/bootstrap-theme.min.css">
+
+        <!-- Bootstrap Admin Theme -->
+        <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/bootstrap-admin-theme.css">
+        <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/bootstrap-admin-theme-change-size.css">
+        
+        <!-- 3rd party -->
+        <!--<link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>vendors/chosen/chosen.min.css">-->
+            
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/html5shiv.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/respond.min.js"></script>
+        <![endif]-->
+        
+        <script type="text/javascript">var baseUrl = "<?php echo base_url(); ?>";</script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/twitter-bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap-admin-theme-change-size.js"></script>
+        
+        <!-- 3rd party -->
+        <script type="text/javascript" src="<?php echo base_url(); ?>vendors/boostrap3-typeahead/bootstrap3-typeahead.min.js"></script>
+        <!--<script type="text/javascript" src="<?php echo base_url(); ?>vendors/chosen/chosen.jquery.min.js"></script>-->
+        
+        <script type="text/javascript">
+            var arrStore = [];
+
+            $(function() {
+                //$(".chzn-select").chosen();
+                $("#saveChange").click(function() {
+                    var actYear = $("#actYear").val();
+                    var actMonth = $("#actMonth").val();
+                    //var storeCode = $("#selStoreCode option:selected").val();
+                    var storeName = $("#storeName").val();
+                    var storeCode = (arrStore[storeName] != null ? arrStore[storeName] : "");
+                    var ytd = $("#ytd").val();
+                    
+                    if (storeCode != "") {
+                        $("#changeStore").modal("hide");
+                        if (ytd == "yes") 
+                            location.href=baseUrl+"dboard/ytd/"+storeCode;
+                        else
+                            location.href=baseUrl+"dboard/"+actYear+"/"+actMonth+"/"+storeCode;
+                    }
+                });
+                
+                $("#saveChangeCluster").click(function() {
+                    var actYear = $("#actYear").val();
+                    var actMonth = $("#actMonth").val();
+                    var clusterCode = $("#selCluster option:selected").val();
+                    if (clusterCode != "") {
+                        $("#yomartCluster").modal("hide");
+                        location.href=baseUrl+"dboard/"+actYear+"/"+actMonth+"/cluster/"+clusterCode;
+                    }
+                });
+                
+                $("#saveChangeRegional").click(function() {
+                    var actYear = $("#actYear").val();
+                    var actMonth = $("#actMonth").val();
+                    var regionalCode = $("#selRegional option:selected").val();
+                    if (regionalCode != "") {
+                        $("#regionalYogya").modal("hide");
+                        location.href=baseUrl+"dboard/"+actYear+"/"+actMonth+"/regional/"+regionalCode;
+                    }
+                });
+                
+                $("#ytdMode").click(function(event) {
+                    event.preventDefault();
+                    var storeCode = $("#storeCode").val();
+                            
+                    if($.isNumeric(storeCode)) {
+                        var ytd = $("#ytd").val();
+                        if (ytd == "no") {
+                            location.href=baseUrl+"dboard/ytd/"+storeCode;
+                        }
+                        else {
+                            var actYear = $("#actYear").val();
+                            var actMonth = $("#actMonth").val();
+                            location.href=baseUrl+"dboard/"+actYear+"/"+actMonth+"/"+storeCode;
+                        }
+                    }
+                    else {
+                        alert("YTD mode only for single store, please choose store first.");
+                    }
+                });
+                
+                $("#changeStore").on("shown.bs.modal", function () {
+                    $("#storeName").focus();
+                })
+                
+                $("#storeName").keypress(function(event) {
+                    if (event.which == 13) {
+                        $("#saveChange").trigger("click");
+                    }
+                });
+                
+                $("#btnCompose").click(function(event) {
+                    event.preventDefault();
+                    
+                    var ytd = $("#ytd").val();
+                    
+                    var svg = $("#theChart").children().html();
+                    // get canvas element through javascript, not jquery 
+                    var canvas = document.getElementById("canvas");
+                    canvg(canvas, svg);
+                    var img = canvas.toDataURL("image/jpeg", 1.0);
+                    img = img.replace("data:image/jpeg;base64,", "");
+                    
+                    var dataString = "binData=" + img;
+                    $.ajax({
+                        type: "POST",
+                        url: baseUrl+"dboard/savecharts/",
+                        data: dataString,
+                        beforeSend: function() {
+                        },
+                        success: function(data) {
+                            if (data.substr(0,5) != "Error") {
+                                //location.href=baseUrl+"compose/"+data;
+                                location.href=baseUrl+"compose/"+data;
+                            }
+                            else {
+                                alert(data);
+                            }
+                        },
+                        error: function(xhr, textStatus, errorThrown) {
+                            alert(textStatus + ": " + errorThrown);
+                        },
+                        complete: function(xhr, textStatus) {
+                        }
+                    });
+                });
+                
+            });
+        </script>
+        
+        <!-- generates js array 'store name' => 'store_code' -->
+        <?php
+            $storeList = '';
+            
+            echo "<script type='text/javascript'>";
+            foreach ($stores as $store) {
+                $storeList .= '"' . $store->store_name . '",';
+                echo "arrStore['" . $store->store_name . "'] = '" . $store->store_code . "'; ";
+            }
+            echo "</script>";
+            
+            $storeList = rtrim($storeList, ',');
+        ?>  
+        
+    </head>
+    
+    <body class="bootstrap-admin-with-small-navbar">
+        
+        <!-- main / large navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Expense Report</a>
+                        </div>
+                        <div class="collapse navbar-collapse main-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-hover="dropdown">Year<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <?php
+                                            if ($storeCode == 'cluster' || $storeCode == 'regional')
+                                                $uriStoreCode = $storeCode . '/' . str_replace(' ', '-', $clusterCode);
+                                            else
+                                                $uriStoreCode = $storeCode;
+                                            
+                                            for ($optYear = $currYear; $optYear > $currYear-5; $optYear--) {
+                                        ?>
+                                            <li><a href="<?php echo base_url(); ?>dboard/<?php echo $optYear; ?>/<?php echo $actMonth; ?>/<?php echo $uriStoreCode; ?>"><?php echo $optYear; ?></a></li>
+                                        <?php
+                                            }
+                                        ?>                              
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-hover="dropdown">Month<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/1/<?php echo $uriStoreCode; ?>">January</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/2/<?php echo $uriStoreCode; ?>">February</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/3/<?php echo $uriStoreCode; ?>">March</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/4/<?php echo $uriStoreCode; ?>">April</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/5/<?php echo $uriStoreCode; ?>">May</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/6/<?php echo $uriStoreCode; ?>">June</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/7/<?php echo $uriStoreCode; ?>">July</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/8/<?php echo $uriStoreCode; ?>">August</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/9/<?php echo $uriStoreCode; ?>">September</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/10/<?php echo $uriStoreCode; ?>">October</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/11/<?php echo $uriStoreCode; ?>">November</a></li>
+                                        <li><a href="<?php echo base_url(); ?>dboard/<?php echo $actYear; ?>/12/<?php echo $uriStoreCode; ?>">December</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-hover="dropdown">Store<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#changeStore" data-toggle="modal">Choose Store</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li><a href="#regionalYogya" data-toggle="modal">Regional (Yogya)</a></li>
+                                        <li><a href="#yomartCluster" data-toggle="modal">Cluster (Yomart)</a></li>
+                                    </ul>
+                                </li>
+                                <!--
+                                <li><a href="#changeStore" data-toggle="modal">Change Store</a></li>
+                                <li><a href="#yomartCluster" data-toggle="modal">Yomart Cluster</a></li>
+                                -->
+                                <?php if (!isset($fileName)) { ?>
+                                    <li><a href="#" id="ytdMode"><?php echo $ytdLbl; ?></a></li>
+                                    <li><a href="#" id="btnCompose">Send Chart</a></li>
+                                <?php } ?>
+                            </ul>
+                            
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown">
+                                    <a href="#" role="button" class="dropdown-toggle" data-hover="dropdown"> <i class="glyphicon glyphicon-user"></i> <?php echo $userName; ?> <i class="caret"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <?php if ($allowAdminModule) { ?>
+                                        <li><a href="<?php echo base_url(); ?>admin">System Admin</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <?php } ?>
+                                        <li><a href="<?php echo base_url(); ?>chpass">Change Password</a></li>
+                                        <li><a href="<?php echo base_url(); ?>logout">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </nav>
+        
+        
+        <!-- dialog -->
+        <div id="changeStore" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="width: 400px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 id="myModalChangeStoreLabel" class="modal-title">Type Store</h4>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <!--Store: &nbsp;-->
+                        <!--
+                        <select id="selStoreCode" class="chzn-select">
+                            <option value="">Please select store.. </option>
+                            <?php
+                                #foreach ($stores as $store) {
+                            ?>
+                                    <option value="<?php echo $store->store_code; ?>" <?php if ($storeCode == $store->store_code) echo "selected=\"selected\""; ?>><?php echo $store->store_init . " | " . $store->store_name; ?></option>
+                            <?php
+                                #}
+                            ?>
+                        </select>
+                        -->
+                        
+                        <input type="text" class="form-control col-md-6" id="storeName" autocomplete="off" data-provide="typeahead" data-items="10" data-source='[<?php echo $storeList; ?>]'>
+                        
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="saveChange">&nbsp; OK &nbsp;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /dialog -->
+        
+        <!-- dialog for regional yogya -->
+        <div id="regionalYogya" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="width: 410px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 id="myModalRegionalYogyaLabel" class="modal-title">Choose Regional</h4>
+                    </div>
+                    <div class="modal-body">
+                        Regional: &nbsp;
+                        <select id="selRegional" class="chzn-select">
+                            <option value="">Please select regional.. </option>
+                            <?php
+                                foreach ($regionals as $regional) {
+                            ?>
+                                    <option value="<?php echo $regional->reg_code; ?>" <?php if ($regionalCode == $regional->reg_code) echo "selected=\"selected\""; ?>><?php echo $regional->reg_code; ?></option>
+                            <?php
+                                }
+                            ?>
+                        </select>
+                        
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="saveChangeRegional">&nbsp; OK &nbsp;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /dialog -->
+        
+        <!-- dialog for yomart cluster -->
+        <div id="yomartCluster" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="width: 410px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 id="myModalYomartClusterLabel" class="modal-title">Choose Cluster</h4>
+                    </div>
+                    <div class="modal-body">
+                        Cluster: &nbsp;
+                        <select id="selCluster" class="chzn-select">
+                            <option value="">Please select cluster.. </option>
+                            <?php
+                                foreach ($clusters as $cluster) {
+                            ?>
+                                    <option value="<?php echo str_replace(' ', '-', $cluster->cluster); ?>" <?php if ($clusterCode == $cluster->cluster) echo "selected=\"selected\""; ?>><?php echo $cluster->cluster; ?></option>
+                            <?php
+                                }
+                            ?>
+                        </select>
+                        
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="saveChangeCluster">&nbsp; OK &nbsp;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /dialog -->
+        

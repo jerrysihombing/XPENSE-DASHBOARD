@@ -1,0 +1,29 @@
+<div class="container" style="min-width: 310px; min-height: 700px; margin: 0 auto;">
+    
+    <div id="theChart"></div>
+    
+</div>
+
+<!-- canvas tag to convert SVG -->
+<canvas id="canvas" style="display:none;"></canvas>
+
+<input type="hidden" id="actYear" value="<?php echo $actYear; ?>">
+<input type="hidden" id="actMonth" value="<?php echo $actMonth; ?>">
+<input type="hidden" id="storeCode" value="<?php echo $storeCode; ?>">
+<input type="hidden" id="clusterCode" value="<?php echo $clusterCode; ?>">
+<input type="hidden" id="regionalCode" value="<?php echo $regionalCode; ?>">
+<input type="hidden" id="ytd" value="<?php echo $ytd; ?>">
+
+<!-- put additional css here -->
+<link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/xpense.css">
+
+<!-- put additional js here -->
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/highcharts/js/highcharts.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/highcharts/js/modules/exporting.js"></script>
+<!--<script type="text/javascript" src="<?php echo base_url(); ?>vendors/highcharts/js/modules/drilldown.js"></script>-->
+
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/canvg/js/rgbcolor.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/canvg/js/StackBlur.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/canvg/js/canvg.js"></script>
+
+<script type="text/javascript" src="<?php echo base_url(); ?>js/dboard.js"></script>

@@ -145,13 +145,14 @@
 							$xpenseName = trim((isset($DATA[3]) ? $DATA[3] : ""));
 							$xpensePc = trim((isset($DATA[4]) ? $DATA[4] : 0));
 							$amount = trim((isset($DATA[5]) ? $DATA[5] : 0));
+							$xpenseAccount = trim((isset($DATA[6]) ? $DATA[6] : 0));
 							
-							$aParams = array ($curSeq, $pmonth, $pyear, $storeCode, $xpenseName, $xpensePc, $amount);
-							$sql = "insert into xpense (pid, pmonth, pyear, store_code, xpense_name, xpense_pc, amount) values ($1, $2, $3, $4, $5, $6, $7)";
+							$aParams = array ($curSeq, $pmonth, $pyear, $storeCode, $xpenseName, $xpensePc, $amount, $xpenseAccount);
+							$sql = "insert into xpense (pid, pmonth, pyear, store_code, xpense_name, xpense_pc, amount, xpense_account) values ($1, $2, $3, $4, $5, $6, $7, $8)";
 							$res = pg_query_params($conn, $sql, $aParams);
 							if (!$res) {
-								echo "failed at line ", $lineNumber, ", data: pid, pmonth, pyear, store_code, xpense_name, xpense_pc, amount => ";
-								echo $curSeq, ", ", $pmonth, ", ", $pyear, ", ", $storeCode, ", ", $xpenseName, ", ", $xpensePc, ", ", $amount, EOL;
+								echo "failed at line ", $lineNumber, ", data: pid, pmonth, pyear, store_code, xpense_name, xpense_pc, amount, xpense_account => ";
+								echo $curSeq, ", ", $pmonth, ", ", $pyear, ", ", $storeCode, ", ", $xpenseName, ", ", $xpensePc, ", ", $amount, ", ", $xpenseAccount, EOL;
 								$msgToSend .= "Failed to insert data from file " . $fileToRead . " at line " . $lineNumber . ".<br>";
 								continue;
 							}

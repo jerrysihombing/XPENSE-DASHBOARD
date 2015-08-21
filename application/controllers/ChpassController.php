@@ -1,7 +1,5 @@
 <?php
 
-date_default_timezone_set('Asia/Jakarta');
-
 class ChpassController extends MY_Controller {
 
         public function __construct() {
@@ -28,6 +26,7 @@ class ChpassController extends MY_Controller {
                 # regional use same value as cluster!
                 $regionalCode = $clusterCode;
                 
+                $data['allowGroup'] = $this->getRoleName() == "Administrator" ? true : false;
                 $data['allowAdminModule'] = $this->isAllowable('System Administration');
                 $data['userName'] = $this->getUserName();
                 if ($this->getUserId() == 'admin')

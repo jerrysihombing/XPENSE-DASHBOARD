@@ -1,3 +1,17 @@
+<!-- generates js array 'name' => 'email' -->
+<?php
+	$emailList = '';
+	
+	echo "<script type='text/javascript'>";
+	foreach ($emails as $email) {
+		$emailList .= '"' . $email->name . ' [' . $email->email . ']' . '",';
+		echo "arrEmail['" . $email->name . " [" . $email->email . "]" . "'] = '" . $email->email . "'; ";
+	}
+	echo "</script>";
+	
+	$emailList = rtrim($emailList, ',');
+?>
+		
 <div class="container" style="min-width: 310px; min-height: 700px; margin: 0 auto;">
     
     <div class="row">
@@ -30,15 +44,20 @@
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="recipient">Recipient<span class="required"> *</span></label>
                                 <div class="col-lg-10">
-                                    <input class="form-control" id="recipient" name="recipient" type="email" maxlength="100">
+                                    <!--<input class="form-control" id="recipient" name="recipient" type="email" maxlength="100">-->
+									<input class="form-control" id="recipient" name="recipient" type="text" autocomplete="off" data-provide="typeahead" data-items="10" data-source='[<?php echo $emailList; ?>]' maxlength="100">
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label class="col-lg-2 control-label" for="notesImg">Chart<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+									<textarea id="notesImg" name="notesImg" class="form-control textarea-wysihtml5" placeholder="" style="width: 100%; height: 400px"><img src="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/chart_forge/' . $fileName; ?>"></textarea>
+                                </div>
+                            </div>
+							<div class="form-group">
                                 <label class="col-lg-2 control-label" for="notes">Notes<span class="required"> *</span></label>
                                 <div class="col-lg-10">
-									<textarea id="notes" name="notes" class="form-control textarea-wysihtml5" placeholder="Enter notes..." style="width: 100%; height: 400px">
-										<br><img src="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/chart_forge/' . $fileName; ?>"><br>
-									</textarea>
+									<textarea id="notes" name="notes" class="form-control textarea-wysihtml5" placeholder="Enter notes..." style="width: 100%; height: 100px"></textarea>
                                 </div>
                             </div>
 							<div class="form-group">
@@ -86,7 +105,22 @@
 <script type="text/javascript">
 	
 	$(function() {
-		$('.textarea-wysihtml5').wysihtml5({
+		$('#notesImg').wysihtml5({
+			/*
+			stylesheets: [
+				'<?php echo base_url(); ?>vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/wysiwyg-color.css'
+			]
+			*/
+			'emphasis': false, //Italics, bold, etc.
+			'lists': false, //(Un)ordered lists, e.g. Bullets, Numbers.
+			'html': false, //Button which allows you to edit the generated HTML.
+			'color': false, //Button to change color of font
+			'font-styles': false,
+			'link': false, //Button to insert a link.
+			'image': false, //Button to insert an image.
+		});
+		
+		$('#notes').wysihtml5({
 			/*
 			stylesheets: [
 				'<?php echo base_url(); ?>vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/wysiwyg-color.css'

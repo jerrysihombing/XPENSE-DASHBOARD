@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Asia/Jakarta');
+
 class MY_Controller extends CI_Controller {
     public function __construct() {
         parent::__construct();
@@ -13,36 +15,36 @@ class MY_Controller extends CI_Controller {
     
     public function getUserId() {
         $userInfo = $this->session->userdata('userInfo');
-        return $userInfo["userId"];
+        return $userInfo['userId'];
     }
     
     public function getUserName() {
         $userInfo = $this->session->userdata('userInfo');
-        return (!empty($userInfo["userName"]) ? $userInfo["userName"] : $userInfo["userId"]);
+        return (!empty($userInfo['userName']) ? $userInfo['userName'] : $userInfo['userId']);
     }
     
     public function getRoleName() {
         $userInfo = $this->session->userdata('userInfo');
-        return $userInfo["roleName"];
+        return $userInfo['roleName'];
     }
     
     public function getMenus() {
         $userInfo = $this->session->userdata('userInfo');
-        return $userInfo["menus"];
+        return $userInfo['menus'];
     }
     
     public function getStores() {
         $userInfo = $this->session->userdata('userInfo');
-        return $userInfo["stores"];
+        return $userInfo['stores'];
     }
     
     public function isAllowable($title) {
         $userInfo = $this->session->userdata('userInfo');
-        $menus = $userInfo["menus"];
+        $menus = $userInfo['menus'];
         
         $found = false;
         foreach($menus as $menu) {
-            if ($menu["title"] == $title) {
+            if ($menu['title'] == $title) {
                 $found = true;
                 break;
             }

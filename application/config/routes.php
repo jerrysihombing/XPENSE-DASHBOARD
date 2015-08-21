@@ -60,17 +60,20 @@ $route['dboard/(:num)/(:num)'] = 'DboardController/index/$1/$2';
 $route['dboard/(:num)/(:num)/(:num)'] = 'DboardController/index/$1/$2/$3';
 $route['dboard/(:num)/(:num)/cluster/(:any)'] = 'DboardController/index/$1/$2/cluster/$3';
 $route['dboard/(:num)/(:num)/regional/(:any)'] = 'DboardController/index/$1/$2/regional/$3';
-$route['dboard/ytd/(:num)'] = 'DboardController/ytd/$1';
+$route['dboard/ytd/(:num)/(:num)/(:num)'] = 'DboardController/ytd/$1/$2/$3';
 $route['dboard/getdata/(:num)/(:num)/(:num)'] = 'DboardController/getData/$1/$2/$3';
 $route['dboard/getdatacluster/(:num)/(:num)/(:any)'] = 'DboardController/getDataCluster/$1/$2/$3';
 $route['dboard/getdataregional/(:num)/(:num)/(:any)'] = 'DboardController/getDataRegional/$1/$2/$3';
 $route['dboard/getdataytd/(:num)'] = 'DboardController/getDataYtd/$1';
+$route['dboard/getdataytdv2/(:num)/(:num)'] = 'DboardController/getDataYtdV2/$1/$2';
 $route['dboard/savecharts'] = 'DboardController/saveCharts';
 
 # Compose
 $route['compose'] = 'ComposeController';
 $route['compose/send'] = 'ComposeController/send';
-$route['compose/(:any)'] = 'ComposeController/index/$1';
+$route['compose/(:num)/(:num)/(:num)/(:any)'] = 'ComposeController/index/$1/$2/$3/$4';
+$route['compose/(:num)/(:num)/cluster/(:any)/(:any)'] = 'ComposeController/index/$1/$2/cluster/$3/$4';
+$route['compose/(:num)/(:num)/regional/(:any)/(:any)'] = 'ComposeController/index/$1/$2/regional/$3/$4';
 
 # Admin
 $route['admin'] = 'AdminController/user';
@@ -80,8 +83,15 @@ $route['admin/user/(:any)/(:num)'] = 'AdminController/user/$1/$2';
 $route['admin/role'] = 'AdminController/role';
 $route['admin/role/(:any)'] = 'AdminController/role/$1';
 $route['admin/role/(:any)/(:num)'] = 'AdminController/role/$1/$2';
+$route['admin/contact'] = 'AdminController/contact';
+$route['admin/contact/(:any)'] = 'AdminController/contact/$1';
+$route['admin/contact/(:any)/(:num)'] = 'AdminController/contact/$1/$2';
+$route['admin/expense'] = 'AdminController/expense';
+$route['admin/expense/(:any)'] = 'AdminController/expense/$1';
+$route['admin/expense/(:any)/(:num)'] = 'AdminController/expense/$1/$2';
 $route['admin/stores/(:num)'] = 'AdminController/stores/$1';
 $route['admin/menus/(:num)'] = 'AdminController/menus/$1';
+$route['admin/accounts/(:num)'] = 'AdminController/accounts/$1';
 
 # Login
 $route['login'] = 'LoginController';

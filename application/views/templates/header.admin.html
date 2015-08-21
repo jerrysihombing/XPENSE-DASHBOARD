@@ -31,6 +31,7 @@
         
         <!-- main / large navbar -->
         <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar" role="navigation">
+            <div style="float: left;"><img width="55" height="50" src="<?php echo base_url(); ?>images/yogya_group_no_title.png"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -42,8 +43,12 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-hover="dropdown">System Admin<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
+                                        <li><a href="<?php echo base_url(); ?>admin/expense">Expense</a></li>
+                                        <li role="presentation" class="divider"></li>
                                         <li><a href="<?php echo base_url(); ?>admin/user">User</a></li>
                                         <li><a href="<?php echo base_url(); ?>admin/role">Role</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li><a href="<?php echo base_url(); ?>admin/contact">Contact</a></li>
                                     </ul>
                                 </li>    
                                 <!--<li><a href="#">User Administration</a></li>-->
@@ -55,9 +60,9 @@
                                     <ul class="dropdown-menu">
                                         <?php if ($allowUserModule) { ?>
                                         <li><a href="<?php echo base_url(); ?>dboard">Expense Report</a></li>
-                                        <li role="presentation" class="divider"></li>
                                         <?php } ?>
                                         <li><a href="<?php echo base_url(); ?>chpass">Change Password</a></li>
+                                        <li role="presentation" class="divider"></li>
                                         <li><a href="<?php echo base_url(); ?>logout">Logout</a></li>
                                     </ul>
                                 </li>

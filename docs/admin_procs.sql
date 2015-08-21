@@ -1,3 +1,158 @@
+create or replace function expense_load(p_account varchar, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select expense_account, expense_name from mst_expense where expense_account = p_account;
+        
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function expense_load_all(p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select expense_account, expense_name from mst_expense where expense_account not in ('5000000', '4100000') order by expense_name;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+-- ### --
+
+create or replace function adm_expense_add(p_name varchar, p_detail varchar[], p_created_by varchar, p_created_date timestamp) returns void as $$
+declare 
+	idh integer;
+	upbnd integer;
+begin
+    --- header
+    insert into adm_expense_hdr (
+        name, created_by, created_date
+    ) values (
+        p_name, p_created_by, p_created_date
+    );
+
+	--- get currval of hdr sequence to make a link of hdr and dtl
+	select currval('adm_expense_hdr_seq') into idh;	
+	
+	---- detail
+	-- loop through array element
+	select array_upper(p_detail, 1) into upbnd;
+	if upbnd is null then
+	    upbnd = 0;
+	end if;
+	for idx in 1 .. upbnd loop
+		--- insert detail ---
+		if p_detail[idx] <> '' then
+			insert into adm_expense_dtl (id_hdr, xpense_account) values (idh, p_detail[idx]);
+		end if;	    	    
+	end loop;
+end;
+$$ language plpgsql;
+
+create or replace function adm_expense_load(p_id integer, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select name, is_active, created_by, created_date, last_user, last_update from adm_expense_hdr where id = p_id;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function adm_expense_load_dtl(p_id integer, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select x.xpense_account, y.expense_name from adm_expense_dtl x inner join mst_expense y on y.expense_account = x.xpense_account 
+        where x.id_hdr = p_id order by x.xpense_account;
+
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+
+create or replace function adm_expense_load_all(p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select name, is_active, created_by, created_date, last_user, last_update from adm_expense_hdr order by name;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function adm_expense_remove(p_id integer) returns void as $$
+begin
+    delete from adm_expense_dtl where id_hdr = p_id;
+    delete from adm_expense_hdr where id = p_id;
+end;
+$$ language plpgsql;
+
+create or replace function adm_expense_update(p_id integer, p_name varchar, p_is_active integer, p_detail varchar[], p_last_user varchar, p_last_update timestamp) returns void as $$
+declare 
+	upbnd integer;
+begin
+    -- delete detail first
+	delete from adm_expense_dtl where id_hdr = p_id;
+	
+	--- header       
+    update adm_expense_hdr set name = p_name, is_active = p_is_active, last_user = p_last_user, last_update = p_last_update where id = p_id;
+        
+	---- detail
+	-- loop through array element
+	select array_upper(p_detail, 1) into upbnd;
+	if upbnd is null then
+	    upbnd = 0;
+	end if;
+	for idx in 1 .. upbnd loop
+		--- insert detail ---
+		if p_detail[idx] <> '' then
+			insert into adm_expense_dtl (id_hdr, xpense_account) values (p_id, p_detail[idx]);
+		end if;	    	    
+	end loop;
+end;
+$$ language plpgsql;
+
+-- ### --
+
+create or replace function contact_add(p_name varchar, p_email varchar, p_position varchar, p_created_by varchar, p_created_date timestamp) returns void as $$
+begin
+    insert into adm_contact (
+        name, email, position, created_by, created_date
+    ) values (
+        p_name, p_email, p_position, p_created_by, p_created_date
+    );
+end;
+$$ language plpgsql;
+
+create or replace function contact_load(p_id integer, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select name, email, position, created_by, created_date, last_user, last_update from adm_contact where id = p_id;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function contact_load_all(p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select id, name, email, position, created_by, created_date, last_user, last_update from adm_contact order by name;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function contact_remove(p_id integer) returns void as $$
+begin
+    delete from adm_contact where id = p_id;
+end;
+$$ language plpgsql;
+
+create or replace function contact_update(p_id integer, p_name varchar, p_email varchar, p_position varchar, p_last_user varchar, p_last_update timestamp) returns void as $$
+begin
+    update adm_contact set name = p_name,  email = p_email, position = p_position, last_user = p_last_user, last_update = p_last_update where id = p_id;        
+end;
+$$ language plpgsql;
+
+-- #### --
+
 create or replace function menu_load_all(p_cursor refcursor) returns refcursor as $$
 begin
     open p_cursor for
@@ -168,6 +323,15 @@ begin
 end;
 $$ language plpgsql;
 
+create or replace function user_load_all_email(p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select user_id, user_name, email from adm_user where email <> '' order by user_name, user_id;
+        
+    return p_cursor;
+end;
+$$ language plpgsql;
+
 create or replace function user_load_by_active(p_active integer, p_cursor refcursor) returns refcursor as $$
 begin
     open p_cursor for
@@ -299,6 +463,34 @@ begin
 			insert into adm_user_store (id_hdr, branch_code) values (p_id, p_detail[idx]);
 		end if;	    	    
 	end loop;
+end;
+$$ language plpgsql;
+
+create or replace function adm_expense_count(p_name varchar) returns integer as $$
+declare 
+	cnt integer;
+begin
+	if p_name is null then
+        select count(id) into cnt from adm_expense_hdr;
+    else
+        select count(id) into cnt from adm_expense_hdr where name = p_name;
+    end if;
+
+    return cnt;
+end;
+$$ language plpgsql;
+
+create or replace function contact_count(p_name varchar) returns integer as $$
+declare 
+	cnt integer;
+begin
+	if p_name is null then
+        select count(id) into cnt from adm_contact;
+    else
+        select count(id) into cnt from adm_contact where name = p_name;
+    end if;
+
+    return cnt;
 end;
 $$ language plpgsql;
 

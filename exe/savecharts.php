@@ -1,6 +1,6 @@
 <?php
  
-date_default_timezone_set("asia/jakarta"); 
+date_default_timezone_set("Asia/Jakarta"); 
  
 $data = str_replace(" ", "+", $_POST['binData']);
 $data = base64_decode($data);

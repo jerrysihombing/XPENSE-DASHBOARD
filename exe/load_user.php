@@ -1,6 +1,6 @@
 <?php
 
-date_default_timezone_set("asia/jakarta");
+date_default_timezone_set("Asia/Jakarta");
 
 /*
  * DataTables example server-side processing script.
@@ -244,12 +244,13 @@ class SSP {
 		
 		if ( isset($request['search']) && $request['search']['value'] != '' ) {
 			$str = $request['search']['value'];
-			
+					
 			for ( $i=0, $ien=count($request['columns']) ; $i<$ien ; $i++ ) {
 				$requestColumn = $request['columns'][$i];
 				$columnIdx = array_search( $requestColumn['data'], $dtColumns );
 				$column = $columns[ $columnIdx ];
-
+				
+				$check = 0;
 				if ( $requestColumn['searchable'] == 'true' ) {
 					$binding = self::bind( $bindings, '%'.$str.'%', PDO::PARAM_STR );
 					$globalSearch[] = $column['db']." LIKE ".$binding;
@@ -301,6 +302,10 @@ class SSP {
 		$sql = "select * from ({$tableWithFilter}) tbl " . $order . " " . $limit;
 		$data = self::sql_exec( $db, $bindings, $sql );
 		
+		#$h = fopen("/tmp/test.txt", "w");
+		#fwrite($h, $sql);
+		#fclose($h);
+		
 		// Data set length after filtering
 		$sql = "select count({$primaryKey}) from ({$tableWithFilter}) tbl";
 		$resFilterLength = self::sql_exec( $db, $bindings, $sql );
@@ -308,7 +313,7 @@ class SSP {
 		
 		// Total data set length
 		$sql = "select count({$primaryKey}) from ({$table}) tbl";
-		$resTotalLength = self::sql_exec( $db, $bindings, $sql );
+		$resTotalLength = self::sql_exec( $db, $sql );
 		$recordsTotal = $resTotalLength[0][0];
 
 		/*

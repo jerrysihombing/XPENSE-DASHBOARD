@@ -84,7 +84,8 @@ $(function () {
     */
     
     /* trying to follow CI rule */
-    $.getJSON(baseUrl+'dboard/getdataytd/'+storeCode, function(json) {
+    //$.getJSON(baseUrl+'dboard/getdataytd/'+storeCode, function(json) {
+    $.getJSON(baseUrl+'dboard/getdataytdv2/'+storeCode+'/'+actYear, function(json) {
         var seriesCount = json['series_count'];
         if (seriesCount > 0) {
             options.xAxis.categories = json['expense_holder'][0]['name'];

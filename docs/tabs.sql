@@ -1,3 +1,24 @@
+drop table mst_dc;
+create table mst_dc (
+    dc_code varchar(5) not null,
+    dc_init varchar(5),
+    dc_name varchar(60)
+);
+alter table mst_dc add primary key (dc_code);
+create index mst_dc_idx on mst_dc(dc_init);
+
+insert into mst_dc values 
+('189', 'DCM', 'DC KAYUMANIS'),
+('303', 'DCGMS', 'DCGMS'),
+('101', 'DCL', 'DC BUAHBATU'),
+('160', 'RM2', 'RM2'),
+('126', 'DCP', 'DCP'),
+('196', 'CTA', 'CTA'),
+('127', 'DCC', 'DC CIKONENG'),
+('144', 'DCT', 'DC TEGAL'),
+('125', 'DCS', 'DC SUMBER'),
+('198', 'DCG', 'DCG');
+
 create table mst_regional (
     reg_code varchar(3),
     store_init varchar(5),
@@ -60,3 +81,5 @@ create index xpense_idx3 on xpense (pyear);
 create index xpense_idx4 on xpense (store_code);
 
 alter table xpense add amount numeric(18, 2);
+alter table xpense add xpense_account varchar(16);
+create index xpense_idx5 on xpense (xpense_account);

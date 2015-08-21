@@ -1,0 +1,41 @@
+<div class="container" style="min-width: 310px; min-height: 440px; margin: 0 auto;">
+    
+    <span style="font-size: 16px;"><?php echo $greeting; ?>, welcome to Expense Report Application.</span> <br><br>
+    
+    <!--
+    Untuk memulai, silahkan pilih store yang tersedia atau klik disini. <br>
+    Jika tahun dan bulan tidak dipilih, maka secara otomatis sistem akan memilih tahun 2015 dan bulan Juni. <br>
+    Klik menu YTD Mode untuk menampilkan laporan dalam mode Year-To-Date atau klik Monthly mode untuk menampilkan laporan bulanan. <br>
+    YTD mode hanya berlaku untuk satu store. <br>
+    Untuk menampilkan laporan berdasarkan regional klik menu Regional (Yogya) dan untuk menampilkan laporan berdasarkan cluster klik menu Cluster (Yomart).
+    <br><br>
+    -->
+    
+    Please choose the <b>Store</b> (Store -> Choose Store) provided or click <a id="storeNameSc" href="#">here</a> to start. <br>
+    If Year and Month is not selected, the system will automatically pick up <?php echo $defaultPeriod; ?>. <br>
+    Click <b>YTD Mode</b> to display the report in a Year-to-Date mode or click <b>Monthly Mode</b> to display it in monthly mode (default). <br>
+    YTD mode applies only to one store, so you have to choose store first before you click YTD Mode. <br>
+    To display a report based on regional, click <b>Regional</b> (Store -> Regional (Yogya)) and to display it based on cluster, click <b>Cluster</b> (Store -> Cluster (Yomart)).
+    
+    
+</div>
+
+<input type="hidden" id="actYear" value="<?php echo $actYear; ?>">
+<input type="hidden" id="actMonth" value="<?php echo $actMonth; ?>">
+<input type="hidden" id="storeCode" value="<?php echo $storeCode; ?>">
+<input type="hidden" id="clusterCode" value="<?php echo $clusterCode; ?>">
+<input type="hidden" id="regionalCode" value="<?php echo $regionalCode; ?>">
+<input type="hidden" id="ytd" value="<?php echo $ytd; ?>">
+
+<!-- put additional css here -->
+<link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/xpense.css">
+
+<!-- put additional js here -->
+<script type="text/javascript">
+    $(function() {
+        $('#storeNameSc').click(function(event) {
+            event.preventDefault();
+            $('#changeStore').modal('show');
+        });
+    });
+</script>

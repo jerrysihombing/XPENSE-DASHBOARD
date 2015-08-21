@@ -1,6 +1,6 @@
 <?php
 
-date_default_timezone_set("asia/jakarta");
+date_default_timezone_set("Asia/Jakarta");
 
 /*
  * DataTables example server-side processing script.
@@ -237,6 +237,7 @@ class SSP {
 		
 		if ( isset($request['search']) && $request['search']['value'] != '' ) {
 			$str = $request['search']['value'];
+			$binding = self::bind( $bindings, '%'.$str.'%', PDO::PARAM_STR );
 			
 			for ( $i=0, $ien=count($request['columns']) ; $i<$ien ; $i++ ) {
 				$requestColumn = $request['columns'][$i];
@@ -301,7 +302,7 @@ class SSP {
 		
 		// Total data set length
 		$sql = "select count({$primaryKey}) from ({$table}) tbl";
-		$resTotalLength = self::sql_exec( $db, $bindings, $sql );
+		$resTotalLength = self::sql_exec( $db, $sql );
 		$recordsTotal = $resTotalLength[0][0];
 
 		/*

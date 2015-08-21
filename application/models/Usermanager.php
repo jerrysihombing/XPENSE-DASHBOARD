@@ -79,7 +79,14 @@ class Usermanager extends CI_Model {
                 
                 return $query->result();			
         }
-            
+        
+        public function loadAllEmail() {	
+                $sql = "select user_load_all_email('data'); fetch all in data;";
+                $query = $this->db->query($sql);
+                
+                return $query->result();
+        }
+        
         public function loadAll() {	
                 $sql = "select user_load_all('data'); fetch all in data;";
                 $query = $this->db->query($sql);

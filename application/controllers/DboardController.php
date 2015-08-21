@@ -1,7 +1,5 @@
 <?php
 
-date_default_timezone_set('Asia/Jakarta');
-
 class DboardController extends MY_Controller {
 
         public function __construct() {
@@ -22,6 +20,12 @@ class DboardController extends MY_Controller {
         }
         
         public function index($actYear = null, $actMonth = null, $storeCode = null, $clusterCode = null) {
+                
+                $isHome = false;
+                if ($actYear == null && $actMonth == null && $storeCode == null && $clusterCode == null) {
+                        $isHome = true;
+                }
+                
                 $currTime = strtotime('-2 months');
                 $currYear = date('Y', $currTime);
                 $currMonth = date('n', $currTime);
@@ -33,6 +37,7 @@ class DboardController extends MY_Controller {
                 # regional use same value as cluster!
                 $regionalCode = $clusterCode;
                 
+                $data['allowGroup'] = $this->getRoleName() == "Administrator" ? true : false;
                 $data['allowAdminModule'] = $this->isAllowable('System Administration');
                 $data['userName'] = $this->getUserName();
                 if ($this->getUserId() == 'admin')
@@ -42,6 +47,7 @@ class DboardController extends MY_Controller {
                         //$data['stores'] = $this->getStores();
                         $stores = $this->getStores();
                 
+                $data['isHome'] = $isHome;
                 $data['ytdLbl'] = 'YTD Mode';
                 $data['ytd'] = 'no';
                 $data['stores'] = $stores;        
@@ -57,21 +63,31 @@ class DboardController extends MY_Controller {
                 $data['title'] = 'Expense Report';
                 
                 $this->load->view('templates/header.html', $data);
-                $this->load->view('dboard/index.html');
+                if ($isHome) {
+                        $data['greeting'] = $this->greeting();
+                        $data['defaultPeriod'] = $this->defaultPeriod();
+                        $this->load->view('dboard/welcome.html', $data);
+                }
+                else {
+                        $this->load->view('dboard/index.html');
+                }
                 $this->load->view('templates/footer.html');
         }
         
-        public function ytd($storeCode = null) {
+        public function ytd($actYear = null, $actMonth = null, $storeCode = null) {
+                $isHome = false;
+                
                 $currTime = strtotime('-2 months');
                 $currYear = date('Y', $currTime);
                 $currMonth = date('n', $currTime);
                 
-                $actYear = $currYear;
-                $actMonth = $currMonth;
+                if ($actYear == null) $actYear = $currYear;
+                if ($actMonth == null) $actMonth = $currMonth;
                 if ($storeCode == null) $storeCode = "";
                 $clusterCode = "";
                 $regionalCode = "";
                 
+                $data['allowGroup'] = $this->getRoleName() == "Administrator" ? true : false;
                 $data['allowAdminModule'] = $this->isAllowable('System Administration');
                 $data['userName'] = $this->getUserName();
                 if ($this->getUserId() == 'admin')
@@ -79,9 +95,10 @@ class DboardController extends MY_Controller {
                 else 
                         $stores = $this->getStores();
                 
-                $data['ytdLbl'] = 'Regular Mode';
+                $data['isHome'] = $isHome;
+                $data['ytdLbl'] = 'Monthly Mode';
                 $data['ytd'] = 'yes';
-                $data['stores'] = $stores;        
+                $data['stores'] = $stores;
                 $data['clusters'] = $this->Site->loadAllCluster();
                 $data['regionals'] = $this->Site->loadAllRegional();
                 $data['currYear'] = $currYear;
@@ -107,8 +124,24 @@ class DboardController extends MY_Controller {
                         $storeName = $store->store_name; 
                 }
                 
-                $result = $this->Expense->loadArray($pYear, $pMonth, $pStore);
+                #$result = $this->Expense->loadArray($pYear, $pMonth, $pStore);
+                $result = $this->Expense->loadArrayV2($pYear, $pMonth, $pStore);
                 $result['expense_pc']['name'] = (!empty($storeName) ? $storeName : ($pStore == 0 ? 'no store selected' : $pStore));
+                
+                echo json_encode($result);
+        }
+        
+        public function getDataYtdV2($pStore, $pYear) {
+                $store = $this->Site->loadStore($pStore);
+                $storeInit = "";
+                $storeName = "";
+                if ($store) {
+                        $storeInit = $store->store_init;
+                        $storeName = $store->store_name; 
+                }
+                
+                $result = $this->Expense->loadYtdArrayV2($pStore, $pYear);
+                $result['group_name'] = (!empty($storeName) ? $storeName : ($pStore == 0 ? 'no store selected' : $pStore));
                 
                 echo json_encode($result);
         }
@@ -162,6 +195,40 @@ class DboardController extends MY_Controller {
                 else {
                     echo 'Error occured while trying to create image.';
                 }
+        }
+        
+        private function greeting() {
+                $userName = strtoupper($this->getUserName());
+                $chkTime = date("G");
+        
+                if ($chkTime > 3 && $chkTime <= 11) {
+                    return 'Good morning ' . $userName;
+                    #return 'Selamat pagi ' . $userName;
+                }
+                else if ($chkTime > 11 && $chkTime <= 18) {
+                    return 'Good afternoon ' . $userName;
+                    #return 'Selamat siang ' . $userName;
+                }
+                else if ($chkTime > 18 && $chkTime <= 24) {
+                    return 'Good evening ' . $userName;
+                    #return 'Selamat petang ' . $userName;
+                }
+                else if ($chkTime > 0 && $chkTime <= 3) {
+                    return 'Good evening ' . $userName;
+                    #return 'Selamat malam ' . $userName;
+                }
+                else {
+                    return 'Good morning ' . $userName;
+                    #return 'Selamat pagi ' . $userName;
+                }
+        }
+        
+        private function defaultPeriod() {
+                $currTime = strtotime('-2 months');
+                $currYear = date('Y', $currTime);
+                $currMonth = date('F', $currTime);
+                
+                return $currYear . ' and ' . $currMonth;
         }
         
 }

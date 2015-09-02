@@ -27,6 +27,16 @@ class Expensemanager extends CI_Model {
 		return $query->result_array();
 	}
 	
+	public function loadAllActive($arrayMode = false) {	
+		$sql = "select adm_expense_load_all_active('data'); fetch all in data;";
+		$query = $this->db->query($sql);
+		
+		if ($arrayMode)
+			return $query->result_array();
+		else
+			return $query->result();
+	}
+	
 	public function loadAll() {	
 		$sql = "select adm_expense_load_all('data'); fetch all in data;";
 		$query = $this->db->query($sql);

@@ -29,6 +29,7 @@ var FormValidation = function () {
                 invalidHandler: function (event, validator) { //display error alert on form submit              
                     //success1.hide();
                     //error1.show();
+                    $("#alertMessageForm").html("You have some form errors. Please check below.");
                     success1.addClass("hide");
                     error1.removeClass("hide");
                     FormValidation.scrollTo(error1, -200);
@@ -66,8 +67,51 @@ var FormValidation = function () {
                     }();
                     
                     if (ret) {
-                        error1.addClass('hide');
-                        form.submit();
+                        
+                        var todo = $("#todo").val();
+                        
+                        if (todo == "add") {
+                                var expenseName = $("#expenseName").val();
+                                var dataString = "expenseName=" + expenseName;
+                                
+                                $.ajax({
+                                    type: "POST",
+                                    url: baseUrl+"admin/isExpenseExist",
+                                    data: dataString,
+                                    beforeSend: function() {
+                                        success1.addClass("hide");
+                                        error1.addClass("hide");
+                                        $("#imgLoading").removeClass("hide");
+                                    },
+                                    success: function(data) {
+                                        if (data == "not exist") {
+                                                error1.addClass('hide');
+                                                form.submit();
+                                        }
+                                        else {
+                                            $("#alertMessageForm").html(data);
+                                            $(".alert-danger").removeClass("hide");
+                                            FormValidation.scrollTo(error1, -200);
+                                        }
+                                    },
+                                    error: function(xhr, textStatus, errorThrown) {
+                                        $("#imgLoading").addClass("hide");
+                                        $("#alertMessageForm").html(textStatus + ": " + errorThrown);
+                                        $(".alert-danger").removeClass("hide");
+                                        FormValidation.scrollTo(error1, -200);
+                                    },
+                                    complete: function(xhr, textStatus) {
+                                        $("#imgLoading").addClass("hide");
+                                    }
+                                });        
+                        }
+                        else {
+                                error1.addClass('hide');
+                                form.submit();
+                        }
+                        
+                        //error1.addClass('hide');
+                        //form.submit();
                     }
                     else {
                         $("#alertMessage").html("Please select at least one account.");

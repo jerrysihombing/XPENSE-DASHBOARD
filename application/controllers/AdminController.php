@@ -15,6 +15,7 @@ class AdminController extends MY_Controller {
                         exit;
                 }
                 
+                $this->load->model('Budgetmanager');
                 $this->load->model('Expensemanager');
                 $this->load->model('Contactmanager');
                 $this->load->model('Menumanager');
@@ -123,12 +124,20 @@ class AdminController extends MY_Controller {
                 $this->load->view('templates/footer.html');
         }
         
+        public function isUserExist() {
+                $input = $this->input->post();
+                if ($this->Usermanager->isExist($input['userId']))
+                        echo "User with specific id already exist.";
+                else
+                        echo "not exist";
+        }
+        
         private function createUser() {
                 $input = $this->input->post();
                 $userName = $this->getUserName();
                 $currentTime = date('Y-m-d H:i:s');
                 
-                if (!$this->Usermanager->isExist($input['userId'])) {
+                #if (!$this->Usermanager->isExist($input['userId'])) {
                         $ret = $this->Usermanager->addNew($input['userId'], $input['userName'], $input['passwd'], $input['email'], '', '', $input['roleName'], $input['active'], $input['chkStore'], $userName, $currentTime);
                         if ($ret) {
                                 $this->session->set_userdata('saved', 'saved');
@@ -140,12 +149,12 @@ class AdminController extends MY_Controller {
                                 header('Location: ' . base_url() . 'admin/user/saveerror');
                                 exit;
                         }
-                }
-                else {
-                        $this->session->set_userdata('errorMsg', 'User ' . $input['userId'] . ' already exist.');
-                        header('Location: ' . base_url() . 'admin/user/saveerror');
-                        exit;
-                }
+                #}
+                #else {
+                #        $this->session->set_userdata('errorMsg', 'User ' . $input['userId'] . ' already exist.');
+                #        header('Location: ' . base_url() . 'admin/user/saveerror');
+                #        exit;
+                #}
         }
         
         private function updateUser($id) {
@@ -271,12 +280,20 @@ class AdminController extends MY_Controller {
                 $this->load->view('templates/footer.html');
         }
         
+        public function isRoleExist() {
+                $input = $this->input->post();
+                if ($this->Rolemanager->isExist($input["roleName"]))
+                        echo "Role with specific name already exist.";
+                else
+                        echo "not exist";
+        }
+        
         private function createRole() {
                 $input = $this->input->post();
                 $userName = $this->getUserName();
                 $currentTime = date('Y-m-d H:i:s');
                 
-                if (!$this->Rolemanager->isExist($input['roleName'])) {
+                #if (!$this->Rolemanager->isExist($input['roleName'])) {
                         $ret = $this->Rolemanager->addNew($input['roleName'], $input['description'], $input['chkMenu'], $userName, $currentTime);
                         if ($ret) {
                                 $this->session->set_userdata('saved', 'saved');
@@ -288,12 +305,12 @@ class AdminController extends MY_Controller {
                                 header('Location: ' . base_url() . 'admin/role/saveerror');
                                 exit;
                         }
-                }
-                else {
-                        $this->session->set_userdata('errorMsg', 'Role ' . $input['roleName'] . ' already exist.');
-                        header('Location: ' . base_url() . 'admin/role/saveerror');
-                        exit;
-                }
+                #}
+                #else {
+                #        $this->session->set_userdata('errorMsg', 'Role ' . $input['roleName'] . ' already exist.');
+                #        header('Location: ' . base_url() . 'admin/role/saveerror');
+                #        exit;
+                #}
         }
         
         private function updateRole($id) {
@@ -315,7 +332,7 @@ class AdminController extends MY_Controller {
         }
         
         private function deleteRole($id) {
-                $ret = $this->RoleManager->remove($id);
+                $ret = $this->Rolemanager->remove($id);
                 if ($ret) {
                         $this->session->set_userdata('saved', 'saved');
                         $this->session->set_userdata('crudMsg', 'Role has been deleted successfully.');
@@ -388,12 +405,20 @@ class AdminController extends MY_Controller {
                 $this->load->view('templates/footer.html');
         }
         
+        public function isContactExist() {
+                $input = $this->input->post();
+                if ($this->Contactmanager->isExist($input['name']))
+                        echo "Contact with specific name already exist.";
+                else
+                        echo "not exist";
+        }
+        
         private function createContact() {
                 $input = $this->input->post();
                 $userName = $this->getUserName();
                 $currentTime = date('Y-m-d H:i:s');
                 
-                if (!$this->Contactmanager->isExist($input['name'])) {
+                #if (!$this->Contactmanager->isExist($input['name'])) {
                         $ret = $this->Contactmanager->addNew($input['name'], $input['email'], $input['position'], $userName, $currentTime);
                         if ($ret) {
                                 $this->session->set_userdata('saved', 'saved');
@@ -405,12 +430,12 @@ class AdminController extends MY_Controller {
                                 header('Location: ' . base_url() . 'admin/contact/saveerror');
                                 exit;
                         }
-                }
-                else {
-                        $this->session->set_userdata('errorMsg', 'Name ' . $input['name'] . ' already exist.');
-                        header('Location: ' . base_url() . 'admin/contact/saveerror');
-                        exit;
-                }
+                #}
+                #else {
+                #        $this->session->set_userdata('errorMsg', 'Name ' . $input['name'] . ' already exist.');
+                #        header('Location: ' . base_url() . 'admin/contact/saveerror');
+                #        exit;
+                #}
         }
         
         private function updateContact($id) {
@@ -532,12 +557,20 @@ class AdminController extends MY_Controller {
                 $this->load->view('templates/footer.html');
         }
         
+        public function isExpenseExist() {
+                $input = $this->input->post();
+                if ($this->Expensemanager->isExist($input['expenseName']))
+                        echo "Expense with specific name already exist.";
+                else
+                        echo "not exist";
+        }
+        
         private function createExpense() {
                 $input = $this->input->post();
                 $userName = $this->getUserName();
                 $currentTime = date('Y-m-d H:i:s');
                 
-                if (!$this->Expensemanager->isExist($input['expenseName'])) {
+                #if (!$this->Expensemanager->isExist($input['expenseName'])) {
                         $ret = $this->Expensemanager->addNew($input['expenseName'], $input['chkAccount'], $userName, $currentTime);
                         if ($ret) {
                                 $this->session->set_userdata('saved', 'saved');
@@ -549,12 +582,12 @@ class AdminController extends MY_Controller {
                                 header('Location: ' . base_url() . 'admin/expense/saveerror');
                                 exit;
                         }
-                }
-                else {
-                        $this->session->set_userdata('errorMsg', 'Expense ' . $input['expenseName'] . ' already exist.');
-                        header('Location: ' . base_url() . 'admin/expense/saveerror');
-                        exit;
-                }
+                #}
+                #else {
+                #       $this->session->set_userdata('errorMsg', 'Expense ' . $input['expenseName'] . ' already exist.');
+                #        header('Location: ' . base_url() . 'admin/expense/saveerror');
+                #        exit;
+                #}
         }
         
         private function updateExpense($id) {
@@ -589,4 +622,188 @@ class AdminController extends MY_Controller {
                 }
         }
         # -- end expense display section --
+        
+        # -- budget section --
+        public function budget($action = null, $id = null) {
+                $data['title'] = 'Expense Report - System Administration';
+                $data['userName'] = $this->getUserName();
+                $data['allowUserModule'] = $this->isAllowable('Expense Report');
+                
+                $this->load->view('templates/header.admin.html', $data);
+                
+                switch ($action) {
+                        case null:
+                                $saved = $this->session->userdata('saved');
+                                $crudMsg = $this->session->userdata('crudMsg');
+                                if ($saved == "saved")
+                                        $data['hide'] = '';
+                                else
+                                        $data['hide'] = 'hide';
+                                $data['crudMsg'] = $crudMsg;
+                                
+                                # add this
+                                $data['userId'] = $this->getUserId();
+                                
+                                $this->load->view('admin/budget.list.html', $data);
+                                $this->session->set_userdata('saved', '');
+                                break;
+                        
+                        case "add":
+                                $data['currYear'] = date('Y');
+                                $data['currMonth'] = date('n');
+                                $data['activeAccounts'] = $this->Expensemanager->loadAllActive();
+                                $data['userStores'] = $this->Usermanager->loadStoresByUserId($this->getUserId());
+                                
+                                $this->load->view('admin/budget.add.html', $data);
+                                break;
+                        
+                        case "save":
+                                $this->createBudget();
+                                break;
+                        
+                        case "saveerror":
+                                $saved = $this->session->userdata('saved');
+                                $errorMsg = $this->session->userdata('errorMsg');
+                                $data['errorMsg'] = $errorMsg;
+                                
+                                $this->load->view('admin/saveerror.html', $data);
+                                break;
+                        
+                        case "edit":
+                                $data['activeAccounts'] = $this->Expensemanager->loadAllActive();
+                                $data['userStores'] = $this->Usermanager->loadStoresByUserId($this->getUserId());
+                                $budget = $this->Budgetmanager->load($id);
+                                $data['monthName'] = $this->readMonth($budget->pmonth);
+                                
+                                $data['id'] = $id;
+                                $data['budget'] = $budget;
+                                
+                                $this->load->view('admin/budget.edit.html', $data);
+                                break;
+                        
+                        case "update":
+                                $this->updateBudget($id);
+                                break;
+                        
+                        case "delete":
+                                $this->deleteBudget($id);
+                                break;
+                }
+                
+                $this->load->view('templates/footer.html');
+        }
+        
+        public function isBudgetExist() {
+                $input = $this->input->post();
+                if ($this->Budgetmanager->isExist($input['month'], $input['year'], $input['store'], $input['account']))
+                        echo "Budget with specific store, year, month and account already exist.";
+                else
+                        echo "not exist";
+        }
+        
+        private function createBudget() {
+                $input = $this->input->post();
+                $userName = $this->getUserName();
+                $currentTime = date('Y-m-d H:i:s');
+                
+                #if (!$this->Budgetmanager->isExist($input['month'], $input['year'], $input['store'], $input['account'])) {
+                        $budget = str_replace(",", "", $input['budget']);
+                        $budget = is_numeric($budget) ? $budget : 0;
+                        $ret = $this->Budgetmanager->addNew($input['month'], $input['year'], $input['store'], $input['account'], $budget, $userName, $currentTime);
+                        if ($ret) {
+                                $this->session->set_userdata('saved', 'saved');
+                                $this->session->set_userdata('crudMsg', 'A new budget has been successfully added.');
+                                header('Location: ' . base_url() . 'admin/budget');
+                                exit;
+                        }
+                        else {
+                                header('Location: ' . base_url() . 'admin/budget/saveerror');
+                                exit;
+                        }
+                #}
+                #else {
+                #        $this->session->set_userdata('errorMsg', 'Account ' . $input['account'] . ' already exist for this store and period.');
+                #        header('Location: ' . base_url() . 'admin/budget/saveerror');
+                #        exit;
+                #}
+        }
+        
+        private function updateBudget($id) {
+                $input = $this->input->post();
+                $userName = $this->getUserName();
+                $currentTime = date('Y-m-d H:i:s');
+                
+                $budget = str_replace(",", "", $input['budget']);
+                $budget = is_numeric($budget) ? $budget : 0;
+                        
+                $ret = $this->Budgetmanager->update($id, $input['month'], $input['year'], $input['store'], $input['account'], $budget, $input['active'], $userName, $currentTime);
+                if ($ret) {
+                        $this->session->set_userdata('saved', 'saved');
+                        $this->session->set_userdata('crudMsg', 'Successfully modify budget.');
+                        header('Location: ' . base_url() . 'admin/budget');
+                        exit;
+                }
+                else {
+                        header('Location: ' . base_url() . 'admin/budget/saveerror');
+                        exit;
+                }
+        }
+        
+        private function deleteBudget($id) {
+                $ret = $this->Budgetmanager->remove($id);
+                if ($ret) {
+                        $this->session->set_userdata('saved', 'saved');
+                        $this->session->set_userdata('crudMsg', 'Budget has been deleted successfully.');
+                        header('Location: ' . base_url() . 'admin/budget');
+                        exit;
+                }
+                else {
+                        header('Location: ' . base_url() . 'admin/budget/saveerror');
+                        exit;
+                }
+        }
+        # -- end budget section --
+        
+        private function readMonth($v) {
+                $ret = "";
+                switch ($v) {
+                    case 1:
+                        $ret = "January";
+                        break;
+                    case 2:
+                        $ret = "February";
+                        break;
+                    case 3:
+                        $ret = "March";
+                        break;
+                    case 4:
+                        $ret = "April";
+                        break;
+                    case 5:
+                        $ret = "May";
+                        break;
+                    case 6:
+                        $ret = "June";
+                        break;
+                    case 7:
+                        $ret = "July";
+                        break;
+                    case 8:
+                        $ret = "August";
+                        break;
+                    case 9:
+                        $ret = "September";
+                        break;
+                    case 10:
+                        $ret = "October";
+                        break;
+                    case 11:
+                        $ret = "November";
+                        break;
+                    case 12:
+                        $ret = "December";
+                        break;
+                }
+                return $ret;
+        }
 }

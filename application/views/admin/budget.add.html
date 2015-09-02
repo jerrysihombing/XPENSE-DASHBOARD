@@ -1,0 +1,157 @@
+<div class="container j-container">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-header">
+                <h1>Add Budget<span class="btn-back"><button class="btn btn-warning"><i class='glyphicon glyphicon-arrow-left'></i> Back &nbsp;</button></span></h1> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        
+        <div class="col-lg-12">
+            
+            <div class="panel panel-default bootstrap-admin-no-table-panel">
+                
+                <div class="panel-heading">
+                    <div class="text-muted bootstrap-admin-box-title">New Budget</div>
+                </div>
+                
+                <div class="bootstrap-admin-no-table-panel-content bootstrap-admin-panel-content collapse in">
+                    
+                    <form action="<?php echo base_url() ?>admin/budget/save" method="post" class="form-horizontal" id="form_data">
+                        
+                        <fieldset>
+                            <legend>Budget Data</legend>
+                            
+                            <div class="alert alert-danger hide">
+                                <a class="close" data-dismiss="alert" href="#">&times;</a>
+                                <span id="alertMessageForm">&nbsp;</span>
+                            </div>
+							
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="store">Store<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+                                    <select class="form-control" id="store" name="store">
+                                        <?php
+                                            foreach ($userStores as $userStore) {
+                                        ?>
+                                            <option value="<?php echo $userStore->store_init; ?>"><?php echo $userStore->store_name; ?></option>
+                                        <?php
+                                            }
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="year">Year<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+                                    <select class="form-control" id="year" name="year">
+                                        <?php
+                                            for ($optYear = $currYear+1; $optYear > 2013; $optYear--) {
+                                                $sel = "";
+                                                if ($optYear == $currYear) $sel = "selected='selected'";
+                                        ?>
+                                            <option <?php echo $sel; ?> value="<?php echo $optYear; ?>"><?php echo $optYear; ?></option>
+                                        <?php
+                                            }
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="month">Month<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+                                    <select class="form-control" id="month" name="month">
+                                        <option <?php if ($currMonth == 1) echo "selected='selected'"; ?> value="1">January</option>
+                                        <option <?php if ($currMonth == 2) echo "selected='selected'"; ?> value="2">February</option>
+                                        <option <?php if ($currMonth == 3) echo "selected='selected'"; ?> value="3">March</option>
+                                        <option <?php if ($currMonth == 4) echo "selected='selected'"; ?> value="4">April</option>
+                                        <option <?php if ($currMonth == 5) echo "selected='selected'"; ?> value="5">May</option>
+                                        <option <?php if ($currMonth == 6) echo "selected='selected'"; ?> value="6">June</option>
+                                        <option <?php if ($currMonth == 7) echo "selected='selected'"; ?> value="7">July</option>
+                                        <option <?php if ($currMonth == 8) echo "selected='selected'"; ?> value="8">August</option>
+                                        <option <?php if ($currMonth == 9) echo "selected='selected'"; ?> value="9">September</option>
+                                        <option <?php if ($currMonth == 10) echo "selected='selected'"; ?> value="10">October</option>
+                                        <option <?php if ($currMonth == 11) echo "selected='selected'"; ?> value="11">November</option>
+                                        <option <?php if ($currMonth == 12) echo "selected='selected'"; ?> value="12">December</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="account">Account<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+                                    <select class="form-control" id="account" name="account">
+                                        <option value="">Select account.. </option>
+                                        <?php
+                                            foreach ($activeAccounts as $activeAccount) {
+                                        ?>
+                                            <option value="<?php echo $activeAccount->id; ?>"><?php echo $activeAccount->name; ?></option>
+                                        <?php
+                                            }
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label" for="budget">Budget<span class="required"> *</span></label>
+                                <div class="col-lg-10">
+                                    <input class="form-control" id="budget" name="budget" type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label">
+                                    <img id="imgLoading" class="hide" src="<?php base_url(); ?>/images/loading24_blue.gif">
+                                </label>
+                                <div class="col-lg-10">
+                                    <button type="submit" class="btn btn-primary"><i class='glyphicon glyphicon-ok'></i> Save &nbsp;</button>
+                                    <button type="reset" class="btn btn-default"><i class='glyphicon glyphicon-repeat'></i> Cancel </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                        
+                    </form><!-- /form -->
+                    
+                </div><!-- /.bootstrap-admin-no-table-panel-content bootstrap-admin-panel-content collapse in -->
+                
+            </div><!-- /.panel panel-default bootstrap-admin-no-table-panel -->
+            
+        </div><!-- /.col-lg-12 -->
+    
+    </div><!-- /.row -->
+    
+</div>
+
+<div id="inputAlert" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalAlertLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 400px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 id="myModalAlertLabel" class="modal-title">Input Alert</h4>
+            </div>
+            <div class="modal-body">
+                <p><span id="alertMessage"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary alertOk">&nbsp; OK &nbsp;</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="todo" value="add">
+    
+<!-- put additional css here -->
+<link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>css/xpense.css">
+
+<!-- put additional js here -->
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/autoNumeric/autoNumeric.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>vendors/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/admin.budget.validation.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/admin.budget.js"></script>

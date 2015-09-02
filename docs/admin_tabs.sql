@@ -1,11 +1,37 @@
+drop table if exists adm_budget;
 drop table if exists mst_expense;
 drop table if exists adm_expense_hdr;
+drop table if exists adm_expense_dtl;
 drop table if exists adm_contact;
 drop table if exists adm_user_login;
 drop table if exists adm_menu;
 drop table if exists adm_role_hdr;
 drop table if exists adm_role_dtl;
 drop table if exists adm_user;
+
+create sequence adm_budget_seq;
+create table adm_budget (
+    id integer not null default nextval('adm_budget_seq'),
+    pmonth integer not null,
+    pyear integer not null,
+    store_init varchar(5) not null,
+    account varchar(16) not null,
+    amount numeric(18, 2),
+    is_active integer default 1, -- 0/1
+    created_by varchar(20),
+    created_date timestamp,
+    last_user varchar(20),
+    last_update timestamp
+);
+alter table adm_budget add primary key (id);
+alter sequence adm_budget_seq owned by adm_budget.id;
+create index adm_budget_idx on adm_budget(pmonth);
+create index adm_budget_idx2 on adm_budget(pyear);
+create index adm_budget_idx3 on adm_budget(store_init);
+create index adm_budget_idx4 on adm_budget(account);
+create index adm_budget_idx5 on adm_budget(is_active);
+
+-- ### --
 
 create table mst_expense (
     expense_account varchar(16) not null,
@@ -14,8 +40,6 @@ create table mst_expense (
 );
 alter table mst_expense add primary key (expense_account);
 create index mst_expense_idx on mst_expense(expense_name);
-
--- ### --
 
 create sequence adm_expense_hdr_seq;
 create table adm_expense_hdr (

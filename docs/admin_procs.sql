@@ -1,3 +1,68 @@
+-- ### --
+
+create or replace function adm_budget_add(p_month integer, p_year integer, p_store_init varchar, p_account varchar, p_amount numeric, p_created_by varchar, p_created_date timestamp) returns void as $$
+begin
+    insert into adm_budget (
+        pmonth, pyear, store_init, account, amount, created_by, created_date
+    ) values (
+        p_month, p_year, p_store_init, p_account, p_amount, p_created_by, p_created_date
+    );
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_load(p_id integer, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select pmonth, pyear, store_init, account, amount, is_active, created_by, created_date, last_user, last_update from adm_budget where id = p_id;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_load_all(p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select pmonth, pyear, store_init, account, amount, is_active, created_by, created_date, last_user, last_update from adm_budget order by pyear, pmonth, store_init, account;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_load_by_store(p_month integer, p_year integer, p_store_init varchar, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select pmonth, pyear, store_init, account, amount, is_active, created_by, created_date, last_user, last_update from adm_budget
+        where pmonth = p_month and pyear = p_year and store_init = p_store_init
+        order by account;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_load_amount(p_month integer, p_year integer, p_store_init varchar, p_account varchar, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select amount from adm_budget where pmonth = p_month and pyear = p_year and store_init = p_store_init and account = p_account;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_remove(p_id integer) returns void as $$
+begin
+    delete from adm_budget where id = p_id;
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_update(p_id integer, p_month integer, p_year integer, p_store_init varchar, p_account varchar, p_amount numeric, p_is_active integer, p_last_user varchar, p_last_update timestamp) returns void as $$
+begin
+    update adm_budget set pmonth = p_month, pyear = p_year, store_init = p_store_init, account = p_account, amount = p_amount, is_active = p_is_active,
+    last_user = p_last_user, last_update = p_last_update where id = p_id;
+end;
+$$ language plpgsql;
+
+-- ### --
+
 create or replace function expense_load(p_account varchar, p_cursor refcursor) returns refcursor as $$
 begin
     open p_cursor for
@@ -67,11 +132,19 @@ begin
 end;
 $$ language plpgsql;
 
+create or replace function adm_expense_load_all_active(p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select id, name, is_active, created_by, created_date, last_user, last_update from adm_expense_hdr where is_active = 1 order by name;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
 
 create or replace function adm_expense_load_all(p_cursor refcursor) returns refcursor as $$
 begin
     open p_cursor for
-        select name, is_active, created_by, created_date, last_user, last_update from adm_expense_hdr order by name;
+        select id, name, is_active, created_by, created_date, last_user, last_update from adm_expense_hdr order by name;
     
     return p_cursor;
 end;
@@ -305,6 +378,16 @@ begin
 end;
 $$ language plpgsql;
 
+create or replace function user_load_stores_by_user_id(p_user_id varchar, p_cursor refcursor) returns refcursor as $$
+begin
+    open p_cursor for
+        select distinct y.store_code, x.branch_code store_init, y.store_name from adm_user_store x inner join adm_user z on z.id = x.id_hdr inner join mst_site y on y.store_init = x.branch_code
+        where z.user_id = p_user_id order by y.store_name;
+    
+    return p_cursor;
+end;
+$$ language plpgsql;
+
 create or replace function user_load_stores(p_id integer, p_cursor refcursor) returns refcursor as $$
 begin
     open p_cursor for
@@ -358,22 +441,6 @@ begin
         select id, user_id, user_name, passwd, email, branch_code, departement, role_name, active, created_by, created_date, last_user, last_update from adm_user
 		where user_id = p_user_id;
         
-    return p_cursor;
-end;
-$$ language plpgsql;
-
-create or replace function user_load_stores_by_user_id(p_user_id varchar, p_cursor refcursor) returns refcursor as $$
-declare
-    idh integer;
-begin
-
-    select id into idh from adm_user where user_id = p_user_id;
-    if not found then
-        idh = -1;
-    end if;
-    open p_cursor for
-        select distinct store_code, store_init, store_name from adm_user_store inner join mst_site on branch_code = store_init where id_hdr = idh order by store_init;
-    
     return p_cursor;
 end;
 $$ language plpgsql;
@@ -463,6 +530,16 @@ begin
 			insert into adm_user_store (id_hdr, branch_code) values (p_id, p_detail[idx]);
 		end if;	    	    
 	end loop;
+end;
+$$ language plpgsql;
+
+create or replace function adm_budget_count(p_month integer, p_year integer, p_store_init varchar, p_account varchar) returns integer as $$
+declare 
+	cnt integer;
+begin
+    select count(id) into cnt from adm_budget where pmonth = p_month and pyear = p_year and store_init = p_store_init and account = p_account;
+    
+    return cnt;
 end;
 $$ language plpgsql;
 

@@ -89,9 +89,18 @@ $route['admin/contact/(:any)/(:num)'] = 'AdminController/contact/$1/$2';
 $route['admin/expense'] = 'AdminController/expense';
 $route['admin/expense/(:any)'] = 'AdminController/expense/$1';
 $route['admin/expense/(:any)/(:num)'] = 'AdminController/expense/$1/$2';
+$route['admin/budget'] = 'AdminController/budget';
+$route['admin/budget/(:any)'] = 'AdminController/budget/$1';
+$route['admin/budget/(:any)/(:num)'] = 'AdminController/budget/$1/$2';
 $route['admin/stores/(:num)'] = 'AdminController/stores/$1';
 $route['admin/menus/(:num)'] = 'AdminController/menus/$1';
 $route['admin/accounts/(:num)'] = 'AdminController/accounts/$1';
+
+$route['admin/isUserExist'] = 'AdminController/isUserExist';
+$route['admin/isRoleExist'] = 'AdminController/isRoleExist';
+$route['admin/isContactExist'] = 'AdminController/isContactExist';
+$route['admin/isExpenseExist'] = 'AdminController/isExpenseExist';
+$route['admin/isBudgetExist'] = 'AdminController/isBudgetExist';
 
 # Login
 $route['login'] = 'LoginController';

@@ -36,6 +36,7 @@ $(document).ready(function() {
 	
 	$(".confirmOk").click(function() {
 		var id = $(".modal-body #idToDelete").val();
+		$("#deleteConfirm").modal('hide');
 		location.href=baseUrl+"admin/role/delete/"+id;
 	});
 	
